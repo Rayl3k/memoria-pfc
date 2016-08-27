@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.11)  27 AUG 2016 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.11)  27 AUG 2016 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2595,11 +2595,11 @@ Overfull \hbox (31.51494pt too wide) in paragraph at lines 10--11
 []\T1/cmr/m/n/10.95 La in-for-ma-ció que es mostra a l'usuari en aque-sta fun-cional-i-tat és el ti-pus d'esdeveniment
  []
 
-[208 <./images/11/04_factsSearcher/01_yearsEvolution.jpg>] <images/11/04_factsSearcher/02_midSearch.jpg, id=3265, 1092.08pt x 214.8025pt>
+[208 <./images/11/04_factsSearcher/01_yearsEvolution.jpg>] <images/11/04_factsSearcher/02_midSearch.jpg, id=3265, 1350.04375pt x 211.79124pt>
 File: images/11/04_factsSearcher/02_midSearch.jpg Graphic file (type jpg)
  <use images/11/04_factsSearcher/02_midSearch.jpg>
 Package pdftex.def Info: images/11/04_factsSearcher/02_midSearch.jpg used on input line 19.
-(pdftex.def)             Requested size: 398.33858pt x 78.34818pt.
+(pdftex.def)             Requested size: 398.33858pt x 62.48756pt.
  <images/11/04_factsSearcher/03_completeSearch.jpg, id=3266, 1092.08pt x 216.81pt>
 File: images/11/04_factsSearcher/03_completeSearch.jpg Graphic file (type jpg)
  <use images/11/04_factsSearcher/03_completeSearch.jpg>
@@ -2702,7 +2702,7 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfit0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2016/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on C:\Users\Sergi\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.pdf (214 pages, 4367851 bytes).
+Output written on C:\Users\Sergi\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.pdf (214 pages, 4377836 bytes).
 PDF statistics:
  3813 PDF objects out of 4296 (max. 8388607)
  3488 compressed objects within 35 object streams
