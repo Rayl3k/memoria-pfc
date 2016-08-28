@@ -978,240 +978,242 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.7.3}Proc\IeC {\'e}s de certificaci\IeC {\'o}}{169}{subsection.10.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.8}Google Analytics}{169}{section.10.8}
-\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{169}{section*.276}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.9}Optimitizaci\IeC {\'o} d'imatges}{171}{section.10.9}
+\contentsline {section}{\numberline {10.8}Google Analytics}{171}{section.10.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{171}{section*.277}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.10}Hosting de l'aplicaci\IeC {\'o}}{172}{section.10.10}
+\contentsline {section}{\numberline {10.9}Optimitizaci\IeC {\'o} d'imatges}{173}{section.10.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{172}{section*.278}
+\contentsline {paragraph}{}{173}{section*.278}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.10.1}F\IeC {\`a}cil configuraci\IeC {\'o}}{172}{subsection.10.10.1}
+\contentsline {section}{\numberline {10.10}Hosting de l'aplicaci\IeC {\'o}}{173}{section.10.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{172}{section*.279}
+\contentsline {paragraph}{}{173}{section*.279}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.10.2}F\IeC {\`a}cil desplegament al n\IeC {\'u}vol}{173}{subsection.10.10.2}
+\contentsline {subsection}{\numberline {10.10.1}F\IeC {\`a}cil configuraci\IeC {\'o}}{174}{subsection.10.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{173}{section*.280}
+\contentsline {paragraph}{}{174}{section*.280}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.10.3}Entorn de proves local}{173}{subsection.10.10.3}
+\contentsline {subsection}{\numberline {10.10.2}F\IeC {\`a}cil desplegament al n\IeC {\'u}vol}{174}{subsection.10.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{173}{section*.281}
+\contentsline {paragraph}{}{174}{section*.281}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.10.4}Decent versi\IeC {\'o} gratuita}{173}{subsection.10.10.4}
+\contentsline {subsection}{\numberline {10.10.3}Entorn de proves local}{174}{subsection.10.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{173}{section*.282}
+\contentsline {paragraph}{}{174}{section*.282}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.10.5}F\IeC {\`a}cil escalatge de l'aplicaci\IeC {\'o}}{174}{subsection.10.10.5}
+\contentsline {subsection}{\numberline {10.10.4}Decent versi\IeC {\'o} gratuita}{175}{subsection.10.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{174}{section*.283}
+\contentsline {paragraph}{}{175}{section*.283}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Funcionalitats d'exemple amb FamilySearch}{175}{chapter.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Introducci\IeC {\'o} a les funcionalitats implementades}{175}{section.11.1}
+\contentsline {subsection}{\numberline {10.10.5}F\IeC {\`a}cil escalatge de l'aplicaci\IeC {\'o}}{175}{subsection.10.10.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{175}{section*.284}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Identificaci\IeC {\'o} i desconnexi\IeC {\'o} a l'API de FamilySearch}{175}{section.11.2}
+\contentsline {chapter}{\numberline {11}Funcionalitats d'exemple amb FamilySearch}{177}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Descripci\IeC {\'o} de les funcionalitats}{175}{subsection.11.2.1}
+\contentsline {section}{\numberline {11.1}Introducci\IeC {\'o} a les funcionalitats implementades}{177}{section.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{175}{section*.285}
+\contentsline {paragraph}{}{177}{section*.285}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}Detalls d'implementaci\IeC {\'o}}{176}{subsection.11.2.2}
+\contentsline {section}{\numberline {11.2}Identificaci\IeC {\'o} i desconnexi\IeC {\'o} a l'API de FamilySearch}{177}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{El client de FamilySearch}{176}{section*.286}
+\contentsline {subsection}{\numberline {11.2.1}Descripci\IeC {\'o} de les funcionalitats}{177}{subsection.11.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{176}{section*.287}
+\contentsline {paragraph}{}{177}{section*.286}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{La funci\IeC {\'o} d'identificaci\IeC {\'o} amb FamilySearch}{178}{section*.288}
+\contentsline {subsection}{\numberline {11.2.2}Detalls d'implementaci\IeC {\'o}}{178}{subsection.11.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{178}{section*.289}
+\contentsline {subsubsection}{El client de FamilySearch}{178}{section*.287}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{La funci\IeC {\'o} de desconnexi\IeC {\'o} amb FamilySearch}{179}{section*.290}
+\contentsline {paragraph}{}{178}{section*.288}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{179}{section*.291}
+\contentsline {subsubsection}{La funci\IeC {\'o} d'identificaci\IeC {\'o} amb FamilySearch}{180}{section*.289}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.3}Aspectes d'usabilitat considerats}{180}{subsection.11.2.3}
+\contentsline {paragraph}{}{180}{section*.290}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{180}{section*.292}
+\contentsline {subsubsection}{La funci\IeC {\'o} de desconnexi\IeC {\'o} amb FamilySearch}{181}{section*.291}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Cerca de persones a l'arbre familiar}{181}{section.11.3}
+\contentsline {paragraph}{}{181}{section*.292}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.1}Descripci\IeC {\'o} de la funcionalitat}{181}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.2.3}Aspectes d'usabilitat considerats}{182}{subsection.11.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{181}{section*.293}
+\contentsline {paragraph}{}{182}{section*.293}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.2}Recomenacions d'utilitzaci\IeC {\'o}}{181}{subsection.11.3.2}
+\contentsline {section}{\numberline {11.3}Cerca de persones a l'arbre familiar}{183}{section.11.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{181}{section*.294}
+\contentsline {subsection}{\numberline {11.3.1}Descripci\IeC {\'o} de la funcionalitat}{183}{subsection.11.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.3}Detalls d'implementaci\IeC {\'o}}{182}{subsection.11.3.3}
+\contentsline {paragraph}{}{183}{section*.294}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{182}{section*.295}
+\contentsline {subsection}{\numberline {11.3.2}Recomenacions d'utilitzaci\IeC {\'o}}{183}{subsection.11.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Iniciant la cerca de persones}{182}{section*.296}
+\contentsline {paragraph}{}{183}{section*.295}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{182}{section*.297}
+\contentsline {subsection}{\numberline {11.3.3}Detalls d'implementaci\IeC {\'o}}{184}{subsection.11.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{La funci\IeC {\'o} printPersonsToTable()}{183}{section*.298}
+\contentsline {paragraph}{}{184}{section*.296}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{183}{section*.299}
+\contentsline {subsubsection}{Iniciant la cerca de persones}{184}{section*.297}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mostrant els detalls d'una persona}{184}{section*.300}
+\contentsline {paragraph}{}{184}{section*.298}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{184}{section*.301}
+\contentsline {subsubsection}{La funci\IeC {\'o} printPersonsToTable()}{185}{section*.299}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Generaci\IeC {\'o} de taules din\IeC {\`a}miques amb informaci\IeC {\'o} sobre un recurs}{186}{section*.302}
+\contentsline {paragraph}{}{185}{section*.300}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{186}{section*.303}
+\contentsline {subsubsection}{Mostrant els detalls d'una persona}{186}{section*.301}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.4}Aspectes d'usabilitat considerats}{187}{subsection.11.3.4}
+\contentsline {paragraph}{}{186}{section*.302}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Llargada del formulari}{187}{section*.304}
+\contentsline {subsubsection}{Generaci\IeC {\'o} de taules din\IeC {\`a}miques amb informaci\IeC {\'o} sobre un recurs}{188}{section*.303}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{187}{section*.305}
+\contentsline {paragraph}{}{188}{section*.304}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari}{188}{section*.306}
+\contentsline {subsection}{\numberline {11.3.4}Aspectes d'usabilitat considerats}{189}{subsection.11.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{188}{section*.307}
+\contentsline {subsubsection}{Llargada del formulari}{189}{section*.305}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Animaci\IeC {\'o} de cerca mentre s'espera la resposta del SDK}{188}{section*.308}
+\contentsline {paragraph}{}{189}{section*.306}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{188}{section*.309}
+\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari}{190}{section*.307}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Missatges d'error del SDK}{189}{section*.310}
+\contentsline {paragraph}{}{190}{section*.308}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{189}{section*.311}
+\contentsline {subsubsection}{Animaci\IeC {\'o} de cerca mentre s'espera la resposta del SDK}{190}{section*.309}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Fletxes d'exploraci\IeC {\'o} pels resultats de cerca}{189}{section*.312}
+\contentsline {paragraph}{}{190}{section*.310}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{189}{section*.313}
+\contentsline {subsubsection}{Missatges d'error del SDK}{191}{section*.311}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Fletxes de retorn a l'inici dels detalls d'una persona}{190}{section*.314}
+\contentsline {paragraph}{}{191}{section*.312}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{190}{section*.315}
+\contentsline {subsubsection}{Fletxes d'exploraci\IeC {\'o} pels resultats de cerca}{191}{section*.313}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Navegaci\IeC {\'o} vertical animada}{190}{section*.316}
+\contentsline {paragraph}{}{191}{section*.314}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{190}{section*.317}
+\contentsline {subsubsection}{Fletxes de retorn a l'inici dels detalls d'una persona}{192}{section*.315}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{190}{section*.318}
+\contentsline {paragraph}{}{192}{section*.316}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{190}{section*.319}
+\contentsline {subsubsection}{Navegaci\IeC {\'o} vertical animada}{192}{section*.317}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{191}{subsection.11.3.5}
+\contentsline {paragraph}{}{192}{section*.318}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{191}{section*.320}
+\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{192}{section*.319}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}Evoluci\IeC {\'o} geogr\IeC {\`a}fica d'un cognom}{191}{section.11.4}
+\contentsline {paragraph}{}{192}{section*.320}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.1}Descripci\IeC {\'o} de la funcionalitat}{191}{subsection.11.4.1}
+\contentsline {subsection}{\numberline {11.3.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{193}{subsection.11.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{191}{section*.321}
+\contentsline {paragraph}{}{193}{section*.321}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.2}Recomanacions d'utilitzaci\IeC {\'o}}{193}{subsection.11.4.2}
+\contentsline {section}{\numberline {11.4}Evoluci\IeC {\'o} geogr\IeC {\`a}fica d'un cognom}{193}{section.11.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4.1}Descripci\IeC {\'o} de la funcionalitat}{193}{subsection.11.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{193}{section*.322}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.3}Detalls d'implementaci\IeC {\'o}}{194}{subsection.11.4.3}
+\contentsline {subsection}{\numberline {11.4.2}Recomanacions d'utilitzaci\IeC {\'o}}{195}{subsection.11.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{194}{section*.323}
+\contentsline {paragraph}{}{195}{section*.323}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{194}{section*.324}
+\contentsline {subsection}{\numberline {11.4.3}Detalls d'implementaci\IeC {\'o}}{196}{subsection.11.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{194}{section*.325}
+\contentsline {paragraph}{}{196}{section*.324}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{196}{section*.326}
+\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{196}{section*.325}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{196}{section*.327}
+\contentsline {paragraph}{}{196}{section*.326}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{197}{section*.328}
+\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{198}{section*.327}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{197}{section*.329}
+\contentsline {paragraph}{}{198}{section*.328}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Creaci\IeC {\'o} de les caselles de selecci\IeC {\'o} per cada continent}{199}{section*.330}
+\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{199}{section*.329}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{199}{section*.331}
+\contentsline {paragraph}{}{199}{section*.330}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.4}Aspectes d'usabilitat considerats}{200}{subsection.11.4.4}
+\contentsline {subsubsection}{Creaci\IeC {\'o} de les caselles de selecci\IeC {\'o} per cada continent}{201}{section*.331}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{200}{section*.332}
+\contentsline {paragraph}{}{201}{section*.332}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{200}{section*.333}
+\contentsline {subsection}{\numberline {11.4.4}Aspectes d'usabilitat considerats}{202}{subsection.11.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{200}{section*.334}
+\contentsline {paragraph}{}{202}{section*.333}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{201}{section*.335}
+\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{202}{section*.334}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{201}{section*.336}
+\contentsline {paragraph}{}{202}{section*.335}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{202}{section*.337}
+\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{203}{section*.336}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{202}{section*.338}
+\contentsline {paragraph}{}{203}{section*.337}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{204}{subsection.11.4.5}
+\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{204}{section*.338}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{204}{section*.339}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.5}Evoluci\IeC {\'o} temporal d'esdeveniments}{204}{section.11.5}
+\contentsline {subsection}{\numberline {11.4.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{206}{subsection.11.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.1}Descripci\IeC {\'o} de la funcionalitat}{204}{subsection.11.5.1}
+\contentsline {paragraph}{}{206}{section*.340}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{204}{section*.340}
+\contentsline {section}{\numberline {11.5}Evoluci\IeC {\'o} temporal d'esdeveniments}{206}{section.11.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.2}Recomanacions d'utilitzaci\IeC {\'o}}{205}{subsection.11.5.2}
+\contentsline {subsection}{\numberline {11.5.1}Descripci\IeC {\'o} de la funcionalitat}{206}{subsection.11.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{205}{section*.341}
+\contentsline {paragraph}{}{206}{section*.341}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.3}Detalls d'implementaci\IeC {\'o}}{205}{subsection.11.5.3}
+\contentsline {subsection}{\numberline {11.5.2}Recomanacions d'utilitzaci\IeC {\'o}}{207}{subsection.11.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{205}{section*.342}
+\contentsline {paragraph}{}{207}{section*.342}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{205}{section*.343}
+\contentsline {subsection}{\numberline {11.5.3}Detalls d'implementaci\IeC {\'o}}{207}{subsection.11.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{205}{section*.344}
+\contentsline {paragraph}{}{207}{section*.343}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{206}{section*.345}
+\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{207}{section*.344}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{206}{section*.346}
+\contentsline {paragraph}{}{207}{section*.345}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impressi\IeC {\'o} del gr\IeC {\`a}fic}{207}{section*.347}
+\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{208}{section*.346}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{207}{section*.348}
+\contentsline {paragraph}{}{208}{section*.347}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.4}Aspectes d'usabilitat considerats}{207}{subsection.11.5.4}
+\contentsline {subsubsection}{Impressi\IeC {\'o} del gr\IeC {\`a}fic}{209}{section*.348}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{207}{section*.349}
+\contentsline {paragraph}{}{209}{section*.349}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{208}{section*.350}
+\contentsline {subsection}{\numberline {11.5.4}Aspectes d'usabilitat considerats}{209}{subsection.11.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{208}{section*.351}
+\contentsline {paragraph}{}{209}{section*.350}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{209}{section*.352}
+\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{210}{section*.351}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{209}{section*.353}
+\contentsline {paragraph}{}{210}{section*.352}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{209}{subsection.11.5.5}
+\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{211}{section*.353}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{209}{section*.354}
+\contentsline {paragraph}{}{211}{section*.354}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Conclusions}{211}{chapter.12}
+\contentsline {subsection}{\numberline {11.5.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{211}{subsection.11.5.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{211}{section*.355}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Conclusions sobre el bloc te\IeC {\`o}ric}{211}{section.12.1}
+\contentsline {chapter}{\numberline {12}Conclusions}{213}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{211}{section*.356}
+\contentsline {paragraph}{}{213}{section*.356}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Conclusions sobre el bloc pr\IeC {\`a}ctic}{213}{section.12.2}
+\contentsline {section}{\numberline {12.1}Conclusions sobre el bloc te\IeC {\`o}ric}{213}{section.12.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{213}{section*.357}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.3}\IeC {\'U}ltimes consideracions}{215}{section.12.3}
+\contentsline {section}{\numberline {12.2}Conclusions sobre el bloc pr\IeC {\`a}ctic}{215}{section.12.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{215}{section*.358}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.3}\IeC {\'U}ltimes consideracions}{217}{section.12.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{217}{section*.359}

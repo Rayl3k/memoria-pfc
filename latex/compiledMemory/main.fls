@@ -825,6 +825,12 @@ INPUT ./sections/10/06_details/13_style.tex
 INPUT ./sections/10/06_details/13_style.tex
 INPUT ./sections/10/07_certification.tex
 INPUT ./sections/10/07_certification.tex
+INPUT images/10/05_certification_error.jpg
+INPUT ./images/10/05_certification_error.jpg
+INPUT ./images/10/05_certification_error.jpg
+INPUT images/10/06_emailGordon.png
+INPUT ./images/10/06_emailGordon.png
+INPUT ./images/10/06_emailGordon.png
 INPUT ./sections/10/08_googleAnalytics.tex
 INPUT ./sections/10/08_googleAnalytics.tex
 INPUT images/10/04_factsEvents.jpg
