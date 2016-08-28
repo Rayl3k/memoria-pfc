@@ -990,6 +990,14 @@ INPUT ./sections/11/05_facts/03_extraFiles/05_stateRepresentation.tex
 INPUT ./sections/11/05_facts/03_extraFiles/05_stateRepresentation.tex
 INPUT ./sections/11/05_facts/05_mainUsage.tex
 INPUT ./sections/11/05_facts/05_mainUsage.tex
+INPUT ./sections/12/_conclusions.tex
+INPUT ./sections/12/_conclusions.tex
+INPUT ./sections/12/01_conclusionsTheory.tex
+INPUT ./sections/12/01_conclusionsTheory.tex
+INPUT ./sections/12/02_conclusionsWeb.tex
+INPUT ./sections/12/02_conclusionsWeb.tex
+INPUT ./sections/12/03_finalThoughts.tex
+INPUT ./sections/12/03_finalThoughts.tex
 INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm
 INPUT C:\Users\Sergi\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.aux
 INPUT c:/Users/Sergi/Documents/GitHub/memoria-pfc/latex/compiledMemory/main.out

@@ -1199,3 +1199,19 @@
 \contentsline {subsection}{\numberline {11.5.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{209}{subsection.11.5.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{209}{section*.354}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {12}Conclusions}{211}{chapter.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{211}{section*.355}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.1}Conclusions sobre el bloc te\IeC {\`o}ric}{211}{section.12.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{211}{section*.356}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.2}Conclusions sobre el bloc pr\IeC {\`a}ctic}{213}{section.12.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{213}{section*.357}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.3}\IeC {\'U}ltimes consideracions}{215}{section.12.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{215}{section*.358}
