@@ -644,7 +644,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{113}{section*.193}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.13}La gran recessi\IeC {\'o} o altres esdeveniments hist\IeC {\`o}rics}{113}{section.7.13}
+\contentsline {section}{\numberline {7.13}La gran depressi\IeC {\'o} o altres esdeveniments hist\IeC {\`o}rics}{113}{section.7.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{113}{section*.194}
 \defcounter {refsection}{0}\relax 
@@ -1082,9 +1082,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{190}{section*.308}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Animaci\IeC {\'o} de cerca mentre s'espera la resposta del SDK}{190}{section*.309}
+\contentsline {subsubsection}{Animaci\IeC {\'o} de cerca mentre s'espera la resposta del SDK}{191}{section*.309}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{190}{section*.310}
+\contentsline {paragraph}{}{191}{section*.310}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Missatges d'error del SDK}{191}{section*.311}
 \defcounter {refsection}{0}\relax 
@@ -1116,9 +1116,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{193}{section*.322}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.2}Recomanacions d'utilitzaci\IeC {\'o}}{195}{subsection.11.4.2}
+\contentsline {subsection}{\numberline {11.4.2}Recomanacions d'utilitzaci\IeC {\'o}}{196}{subsection.11.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{195}{section*.323}
+\contentsline {paragraph}{}{196}{section*.323}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {11.4.3}Detalls d'implementaci\IeC {\'o}}{196}{subsection.11.4.3}
 \defcounter {refsection}{0}\relax 
@@ -1144,17 +1144,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{202}{section*.333}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{202}{section*.334}
+\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{203}{section*.334}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{202}{section*.335}
+\contentsline {paragraph}{}{203}{section*.335}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{203}{section*.336}
+\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{204}{section*.336}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{203}{section*.337}
+\contentsline {paragraph}{}{204}{section*.337}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{204}{section*.338}
+\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{205}{section*.338}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{204}{section*.339}
+\contentsline {paragraph}{}{205}{section*.339}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {11.4.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{206}{subsection.11.4.5}
 \defcounter {refsection}{0}\relax 
@@ -1174,9 +1174,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{207}{section*.343}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{207}{section*.344}
+\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{208}{section*.344}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{207}{section*.345}
+\contentsline {paragraph}{}{208}{section*.345}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{208}{section*.346}
 \defcounter {refsection}{0}\relax 
@@ -1186,21 +1186,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{209}{section*.349}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.4}Aspectes d'usabilitat considerats}{209}{subsection.11.5.4}
+\contentsline {subsection}{\numberline {11.5.4}Aspectes d'usabilitat considerats}{210}{subsection.11.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{209}{section*.350}
+\contentsline {paragraph}{}{210}{section*.350}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{210}{section*.351}
+\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{211}{section*.351}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{210}{section*.352}
+\contentsline {paragraph}{}{211}{section*.352}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{211}{section*.353}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{211}{section*.354}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{211}{subsection.11.5.5}
+\contentsline {subsection}{\numberline {11.5.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{212}{subsection.11.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{211}{section*.355}
+\contentsline {paragraph}{}{212}{section*.355}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {12}Conclusions}{213}{chapter.12}
 \defcounter {refsection}{0}\relax 
