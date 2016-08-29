@@ -19,6 +19,7 @@ var client = new FamilySearch({
     access_token: token,
     auto_expire: true,
     auto_signin: true,
+    maxHttpRequestRetries: 2,
     expire_callback: function(data) { ... },
     environment: `sandbox'
 });
@@ -33,6 +34,7 @@ Els paràmetres inclosos en la creació de la instància del client, compleixen 
     \item \textbf{test\_token:} En cas que l'usuari ja es trobi identificat amb FamilySearch, li passem el `token' emmagatzemant de forma automàtica. Això ens permet no haver de demanar a l'usuari que s'identifiqui a cada una de les pàgines de l'aplicació web.
     \item \textbf{auto\_expire:} Booleà que indica si volem que el sistema netegi el `token' de forma automàtica en cas que aquest quedi invalidat.
     \item \textbf{auto\_signin:} Booleà que indica si volem que es demani a l'usuari que s'identifiqui cada cop que intenta realitzar una operació contra l'API sense trobar-se connectat a FamilySearch. En la nostra aplicació, li passem el paràmetre true, de totes maneres, no s'hauria de poder donar el cas en què un usuari pogués llençar una crida contra l'API sense trobar-se identificat. L'utilitzem, simplement, com a mesura de seguretat.
+    \item \textbf{maxHttpRequestRetries:} Nombre màxim de vegades que s'intentarà rellançar una petició.
     \item \textbf{expire\_callback:} Funció a executar quan el `token' expira. Conté quasi el mateix codi que la funció de desconnexió implementada, així que veurem el seu compartament més endavant.
     \item \textbf{environment:} Entorn de l'API de FamilySearch en el que ens volem connectar: `production', `sandbox', `beta', etcètera.
 \end{itemize}
