@@ -1,0 +1,31 @@
+Hi everyone,
+
+The other day I got granted a limited access to production on my web application. I've been playing a little bit with the data and I'm trying to figure out why I see some differences on the search results performed by my application (through the Javascript SDK) and the accessible data through familysearch.org
+
+For example, if I launch a search for the surname smith (non exact matches)
+
+On my web app through the javascript SDK:
+- Query: https://familysearch.org/platform/tree/search?q=surname%3Asmith~&start=0&access_token=...
+- Number of returned results through the getResultsCount() function of the Javascript SDK: 4.881.867
+
+On the Familysearch website:
+- Query: https://familysearch.org/search/record/results?count=20&query=%2Bsurname%3Asmith~
+- Number of returned results: 48.983.848
+
+Another example, looking for registers that match the condition: Birthplace = United States
+
+On my web app:
+- Query: search?q=birthPlace%3A%22United%20States%22&start=0&access_token=...
+- Number of returned results: 168.387
+
+On the Familysearch website:
+- Query: /results?count=20&query=%2Bbirth_place%3A%22United%20States%22
+- Number of returned results: 91.7065.543
+
+What am I missing here? Any help would be much appreciated.
+
+
+
+
+
+
