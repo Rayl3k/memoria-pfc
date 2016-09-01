@@ -1,0 +1,47 @@
+======================================================
+SON
+======================================================
+Name: Mary Jane / Julia Ann / James / Nancy Elizabeth / Henry Thomas / Sarah Elizabeth / Columbus / James / Jennie/ Margaret Jane / Sherrod Absolum
+Surname: Smith / Smith / Smith / Smith / Smith                       / Williams / Williams / Williams / Williams / Williams / Williams
+
+BIRTH
+-----
+Place: Cookeville, Putnam, Tennessee, United States
+Year: 25 October 1830
+
+DEATH
+-----
+Place: Booneville, Logan, Arkansas, United States
+Year: 1912
+
+PARENTS
+-------
+Name: Absolum Williams
+Lifespan: 1780-1850
+
+Name: Ruth Wilson
+Lifespan: 1780-1850
+
+======================================================
+FATHER
+======================================================
+Name: Absalom
+Surname: Williams
+
+BIRTH
+Place: Franklin, Tennessee, Estados Unidos de América	
+Year: 18 MAY 1814
+
+DEATH
+Place: Franklin Co, Tennessee
+Year: 27 FEB 1857
+
+======================================================
+MOTHER
+======================================================
+Name: Susannah
+Surname: Holland
+
+BIRTH
+Place: Franklin, Tennessee, United States
+Year: 1818
