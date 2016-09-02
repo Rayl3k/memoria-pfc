@@ -95,6 +95,7 @@ app.use(bodyParser.json());
     \begin{lstlisting}[style=rawOwn,caption={Respota del servidor davant la petició del recurs `/'}]
 app.get(`/', function(req, res){
     var params = pageTitlesIns.getTitle(`index');
+    var logged = isLogged(req);
     res.render(`index.html', {
         backgroundImage: params[0],
         highlight: params[1],
@@ -103,20 +104,22 @@ app.get(`/', function(req, res){
         subtitleDesktop: params[4],
         subtitleTablet: params[5],
         button: params[6],
-        buttonHref: `'
+        buttonHref: `',
+        logged
     });
 });
     \end{lstlisting}
 
     El codi anterior representa la resposta a la petició d'accés a la pàgina inicial de l'aplicació (/).
 
-    Un cop es captura la petició GET, denotada per l'URL `/',  es demana a l'objecte Javascript \emph{pageTitlesIns}, carregat a l'inici del servidor, els paràmetres a utilitzar per pintar el fitxer \emph{pageTitle.html}. Un cop rebuts aquests paràmetres, es processa el fitxer, \emph{index.html}, amb els paràmetres desitjats i s'envia al client.
+    Un cop es captura la petició GET, denotada per l'URL `/',  es demana a l'objecte Javascript \emph{pageTitlesIns}, carregat a l'inici del servidor, els paràmetres a utilitzar per pintar el fitxer \emph{pageTitle.html}. Seguidament, es demana si l’usuari es troba identificat amb FamilySearch mitjançant la funció  \emph{isLogged(req)}, que servirà per decidir si cal mostrar o no el botó de desconnexió de la barra de navegació i un cop es reben tots aquests paràmetres, es processa el fitxer, \emph{index.html}, amb els paràmetres desitjats i s'envia al client.
 
     Altres peticions GET més complexes, com per exemple, la de pintar els detalls d'una proposta de projecte específica, funcionen de forma similar però carregant més paràmetres a part dels de l'objecte \emph{pageTitleIns}. Aquest cas, conté una excepcionalitat més i és que es captura part de l'URL, tal com s'indica en el següent bloc de codi, per utilitzar-la com a paràmetre.
 
     \begin{lstlisting}[style=rawOwn,caption={Exemple d'utilització com a paràmetre, d'una part de l'URL}]
 app.get(`/proposals/:project', function(req, res) {
     var params = pageTitlesIns.getTitle(`index');
+    var logged = isLogged(req);
     var proposal = projectProposalsIns.getExample(req.params.project);
 });
     \end{lstlisting}
@@ -156,6 +159,16 @@ app.get(`/examples', isAuthenticated, function(req, res) { ... });
 function isAuthenticated(req, res, next) {
     if(req.session.isPopulated) next();
     else res.redirect('/login');
+}
+    \end{lstlisting}
+
+    \paragraph{}
+    Al mateix temps, existeix també la funció \emph{isLogged(req)}, que s’utilitza en les crides d’accés a cada pàgina del domini web per comprovar si l’usuari es troba identificat o no amb FamilySearch i retorna un paràmetre que serà utilitzat per decidir si cal mostrar el botó de desconnexió a la barra de navegació.
+
+    \begin{lstlisting}[style=rawOwn,caption={Funció per decidir si cal mostrar el botó de desconnexió}]
+function isLogged(req) {
+    if(req.session.isPopulated) return 'visible';
+    else return 'hidden';
 }
     \end{lstlisting}
 

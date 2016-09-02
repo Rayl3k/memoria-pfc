@@ -422,6 +422,9 @@ INPUT ./sections/03/06_searchTools.tex
 INPUT images/03/searchForm.jpg
 INPUT ./images/03/searchForm.jpg
 INPUT ./images/03/searchForm.jpg
+INPUT images/03/treeSearchForm.jpg
+INPUT ./images/03/treeSearchForm.jpg
+INPUT ./images/03/treeSearchForm.jpg
 INPUT ./sections/03/07_indexing.tex
 INPUT ./sections/03/07_indexing.tex
 INPUT ./sections/03/08_conclusions.tex
