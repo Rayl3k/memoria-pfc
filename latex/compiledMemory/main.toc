@@ -1219,3 +1219,15 @@
 \contentsline {section}{\numberline {12.3}\IeC {\'U}ltimes consideracions}{219}{section.12.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{219}{section*.360}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{221}{section*.361}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Comptes de prova FamilySearch}{223}{Appendix.1.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{223}{section*.362}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}President del tribunal}{223}{section.1.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Vocal}{223}{section.1.A.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Tutor i secretari}{223}{section.1.A.3}

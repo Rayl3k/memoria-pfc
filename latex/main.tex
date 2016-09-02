@@ -5,6 +5,7 @@
 \usepackage[style=numeric,backend=biber]{biblatex}
 \addbibresource{./mybib.bib}
 \usepackage[hidelinks]{hyperref}
+\usepackage[toc,page]{appendix}
 \usepackage{geometry}
     \geometry{
      a4paper,
@@ -113,6 +114,12 @@
     % ending memory sections
     %\clearpage
 	%\printglossaries{}
+
+    % APPENDICES
+    \begin{appendices}
+    \input{./sections/13/01_fsAccounts}
+    \end{appendices}
+    \clearpage
 
     % PRINT BIBLIOGRAPHY
     \printbibliography[title=Bibliografia]
