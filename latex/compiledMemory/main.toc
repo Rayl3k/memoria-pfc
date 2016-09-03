@@ -590,9 +590,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{106}{section*.180}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}Conclusi\IeC {\'o}}{106}{section.6.7}
+\contentsline {section}{\numberline {6.7}Conclusi\IeC {\'o}}{107}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{106}{section*.181}
+\contentsline {paragraph}{}{107}{section*.181}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Llista de propostes de projecte}{109}{chapter.7}
 \defcounter {refsection}{0}\relax 
