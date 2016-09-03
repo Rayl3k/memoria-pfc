@@ -22,6 +22,7 @@
 \usepackage{emptypage}
 \usepackage{csquotes}
 \usepackage{listings}
+\usepackage{pdfpages}
 \usepackage{longtable, array, booktabs}
 \usepackage{csvsimple}
 
@@ -51,6 +52,9 @@
 \renewcommand{\figurename}{Figura}
 \renewcommand{\tablename}{Taula}
 \renewcommand{\lstlistingname}{Codi}
+\renewcommand\appendixname{Annex}
+\renewcommand\appendixpagename{Annexos}
+\renewcommand\appendixtocname{Annexos}
 
 %languages
 \lstdefinestyle{rawOwn}
@@ -117,7 +121,8 @@
 
     % APPENDICES
     \begin{appendices}
-    \input{./sections/13/01_fsAccounts}
+        \input{./sections/13/01_fsAccounts}
+        \input{./sections/13/02_limitedUse}
     \end{appendices}
     \clearpage
 
