@@ -3,7 +3,9 @@
     \paragraph{}
     La funcionalitat d'exemple de cerca, permet buscar instàncies de persones per tot l'arbre familiar de FamilySearch.
 
-    La funcionalitat ha estat habilitada per permetre la utilització de tots els paràmetres de cerca disponibles per l'API i el SDK i que han estat descrits a la secció cinc de la memòria. De totes maneres, per alguna raó desconeguda, sembla que la cerca d'esdeveniments relacionats a familiars de la persona cercada, no acaba de funcionar i de fet, FamilySearch no ofereix aquesta possibilitat de cerca des de la seva pàgina web. En conseqüència, hem decidit desactivar aquests camps fins a comprendre que està passant exactament.
+    La funcionalitat ha estat habilitada per permetre la utilització de tots els paràmetres de cerca disponibles per l'API i el SDK que han estat descrits a la secció cinc de la memòria. De totes maneres, per alguna raó desconeguda, sembla que la cerca d'esdeveniments relacionats a familiars de la persona cercada, no acaba de funcionar.
+
+    En concret, cercar pels llocs o dates concretes de naixement, defunció o casament dels relatius més propers, acostuma a traduir-se amb l'obtenció de zero resultats. Curiosament, FamilySearch tampoc ofereix aquests paràmetres de cerca en la seva pàgina web. Per tant, tot i conèixer els problemes amb aquests camps, hem decidit deixar-los actius perquè els usuaris puguin experimentar amb ells i observar-ne les limitacions.
 
     La cerca es realitza amb el paràmetre \emph{count}, que indica el nombre de resultats a retornar, sense especificar. En aquesta situació, l'API retorna quinze persones per defecte i un cop retornats els resultats, el controlador pinta la informació d'aquestes quinze persones en una taula. Aquesta taula recull, per cada persona, informació sobre el seu identificador, nom, data de naixement i data de defunció.
 

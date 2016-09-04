@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.11)  3 SEP 2016 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.11)  4 SEP 2016 12:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2493,7 +2493,7 @@ File: images/11/01_loginLogout/02_waitingLogin.jpg Graphic file (type jpg)
  <use images/11/01_loginLogout/02_waitingLogin.jpg>
 Package pdftex.def Info: images/11/01_loginLogout/02_waitingLogin.jpg used on input line 9.
 (pdftex.def)             Requested size: 303.13176pt x 130.48718pt.
-)) (./sections/11/03_personSearch.tex [184 <./images/11/01_loginLogout/02_waitingLogin.jpg>] (./sections/11/03_psearch/01_description.tex) (./sections/11/03_psearch/02_recomendations.tex) (./sections/11/03_psearch/03_implDetails.tex [185] (./sections/11/03_psearch/03_extraFiles/01_iniSearch.tex [186]) (./sections/11/03_psearch/03_extraFiles/02_personsToTable.tex <images/11/02_searchPersons/01_resultsTable.jpg, id=2980, 1171.37625pt x 474.77374pt>
+)) (./sections/11/03_personSearch.tex [184 <./images/11/01_loginLogout/02_waitingLogin.jpg>] (./sections/11/03_psearch/01_description.tex) (./sections/11/03_psearch/02_recomendations.tex [185]) (./sections/11/03_psearch/03_implDetails.tex (./sections/11/03_psearch/03_extraFiles/01_iniSearch.tex [186]) (./sections/11/03_psearch/03_extraFiles/02_personsToTable.tex <images/11/02_searchPersons/01_resultsTable.jpg, id=2978, 1171.37625pt x 474.77374pt>
 File: images/11/02_searchPersons/01_resultsTable.jpg Graphic file (type jpg)
  <use images/11/02_searchPersons/01_resultsTable.jpg>
 Package pdftex.def Info: images/11/02_searchPersons/01_resultsTable.jpg used on input line 26.
@@ -2507,25 +2507,22 @@ Overfull \hbox (3.82535pt too wide) in paragraph at lines 4--5
 \T1/cmr/m/n/10.95 una seg-ona crida al SDK de Fam-il-y-Search en la que s'obté tota la in-for-ma-ció disponible
  []
 
-<images/11/02_searchPersons/02_personDetails.jpg, id=2999, 1182.4175pt x 656.4525pt>
+[188 <./images/11/02_searchPersons/01_resultsTable.jpg>] <images/11/02_searchPersons/02_personDetails.jpg, id=3021, 1182.4175pt x 656.4525pt>
 File: images/11/02_searchPersons/02_personDetails.jpg Graphic file (type jpg)
  <use images/11/02_searchPersons/02_personDetails.jpg>
 Package pdftex.def Info: images/11/02_searchPersons/02_personDetails.jpg used on input line 11.
 (pdftex.def)             Requested size: 398.33858pt x 221.14749pt.
- [188 <./images/11/02_searchPersons/01_resultsTable.jpg>]
+ [189 <./images/11/02_searchPersons/02_personDetails.jpg>]
 Overfull \hbox (18.26295pt too wide) in paragraph at lines 36--37
 []\T1/cmr/m/n/10.95 La nomen-clatura `An-hentafel', atorga a la per-sona so-bre la qual se cerca l'ascendència,
  []
 
-[189 <./images/11/02_searchPersons/02_personDetails.jpg>]) (./sections/11/03_psearch/03_extraFiles/04_dynamicTables.tex [190])) (./sections/11/03_psearch/04_usability.tex (./sections/11/03_psearch/03_extraFiles/05_formLength.tex <images/11/02_searchPersons/03_formBars.jpg, id=3061, 975.645pt x 260.975pt>
+) (./sections/11/03_psearch/03_extraFiles/04_dynamicTables.tex [190])) (./sections/11/03_psearch/04_usability.tex (./sections/11/03_psearch/03_extraFiles/05_formLength.tex [191] <images/11/02_searchPersons/03_formBars.jpg, id=3074, 975.645pt x 260.975pt>
 File: images/11/02_searchPersons/03_formBars.jpg Graphic file (type jpg)
  <use images/11/02_searchPersons/03_formBars.jpg>
 Package pdftex.def Info: images/11/02_searchPersons/03_formBars.jpg used on input line 17.
 (pdftex.def)             Requested size: 398.33858pt x 106.55046pt.
- [191]) (./sections/11/03_psearch/03_extraFiles/06_formValidation.tex) (./sections/11/03_psearch/03_extraFiles/07_loadingAnimation.tex
-Underfull \vbox (badness 7168) has occurred while \output is active []
-
- [192 <./images/11/02_searchPersons/03_formBars.jpg>] <images/11/02_searchPersons/04_searching.jpg, id=3098, 1173.38374pt x 223.83624pt>
+) (./sections/11/03_psearch/03_extraFiles/06_formValidation.tex) (./sections/11/03_psearch/03_extraFiles/07_loadingAnimation.tex [192 <./images/11/02_searchPersons/03_formBars.jpg>] <images/11/02_searchPersons/04_searching.jpg, id=3098, 1173.38374pt x 223.83624pt>
 File: images/11/02_searchPersons/04_searching.jpg Graphic file (type jpg)
  <use images/11/02_searchPersons/04_searching.jpg>
 Package pdftex.def Info: images/11/02_searchPersons/04_searching.jpg used on input line 11.
@@ -2813,7 +2810,7 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfit0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2016/texmf-dist/fon
 ts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on C:\Users\Sergi\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.pdf (230 pages, 5092020 bytes).
+Output written on C:\Users\Sergi\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.pdf (230 pages, 5092279 bytes).
 PDF statistics:
  3981 PDF objects out of 4296 (max. 8388607)
  3628 compressed objects within 37 object streams
