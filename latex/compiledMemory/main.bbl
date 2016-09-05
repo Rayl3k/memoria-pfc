@@ -143,6 +143,29 @@
       \verb https://css-tricks.com/snippets/jquery/smooth-scrolling/
       \endverb
     \endentry
+    \entry{lopd}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80d3369c1498dc395b4a7da53988fba8}{%
+           prefix={de\bibnamedelima protecció\bibnamedelima de},
+           prefix_i={d\bibinitperiod\bibinitdelim p\bibinitperiod\bibinitdelim d\bibinitperiod},
+           family={dades},
+           family_i={d\bibinitperiod},
+           given={Agència\bibnamedelima Espanyola},
+           given_i={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{80d3369c1498dc395b4a7da53988fba8}
+      \strng{fullhash}{80d3369c1498dc395b4a7da53988fba8}
+      \field{sortinit}{d}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{Reglament de la LOPD}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.agpd.es/portalwebAGPD/canaldocumentacion/informes_juridicos/reglamento_lopd/index-ides-idphp.php
+      \endverb
+    \endentry
     \entry{ejs}{misc}{}
       \name{author}{1}{}{%
         {{hash=06bcabab75a59334de6b7d7aee99e887}{%
@@ -663,6 +686,27 @@
       \verb http://www.genealogiahispana.com/archivos/el-registro-civil-de-espana-1871/
       \endverb
     \endentry
+    \entry{therapistShot}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4319585406f3563b123aa4e58082cd7e}{%
+           family={Rothwell},
+           family_i={R\bibinitperiod},
+           given={James},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4319585406f3563b123aa4e58082cd7e}
+      \strng{fullhash}{4319585406f3563b123aa4e58082cd7e}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{Florida police officer shoots black man caring for autistic patient}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://www.telegraph.co.uk/news/2016/07/21/florida-police-officer-shoots-at-man-caring-for-autistic-patient/
+      \endverb
+    \endentry
     \entry{expressParams}{misc}{}
       \name{author}{1}{}{%
         {{hash=213275fabc3ea2ba50825b571943c9ff}{%
@@ -682,6 +726,27 @@
       \field{year}{2015}
       \verb{url}
       \verb https://scotch.io/tutorials/use-expressjs-to-get-url-and-post-parameters
+      \endverb
+    \endentry
+    \entry{husbandShot}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d815f991b818fb1486eaad1b887383bf}{%
+           family={Steinbuch},
+           family_i={S\bibinitperiod},
+           given={Yaron},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d815f991b818fb1486eaad1b887383bf}
+      \strng{fullhash}{d815f991b818fb1486eaad1b887383bf}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{Woman records horrific scene after boyfriend is fatally shot by police}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://nypost.com/2016/07/07/woman-live-streams-bloody-aftermath-of-police-involved-shooting/
       \endverb
     \endentry
     \entry{twig}{misc}{}
