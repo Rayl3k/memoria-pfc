@@ -2104,7 +2104,11 @@
     <bcf:citekey order="4">spainCivilRegistry</bcf:citekey>
     <bcf:citekey order="5">moralRights</bcf:citekey>
     <bcf:citekey order="5">wiki:fsEthics</bcf:citekey>
+    <bcf:citekey order="5">understandingSources</bcf:citekey>
     <bcf:citekey order="6">wiki:fsResearchProcess</bcf:citekey>
+    <bcf:citekey order="7">familysearchPortal</bcf:citekey>
+    <bcf:citekey order="8">wiki:mormons</bcf:citekey>
+    <bcf:citekey order="9">mormonsFamily</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
