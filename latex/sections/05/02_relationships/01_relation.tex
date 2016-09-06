@@ -1,9 +1,9 @@
 \subsection{El recurs Relació (Relationship)}
 
     \paragraph{}
-    Aquest recurs s'utilitza en l'actualitat per representar només les relacions de parella. En el passat, també va ser utilitzat per representar relacions entre pares i fills, mitjançant l'ús del paràmetre \emph{type} i l'enumeració \emph{relationshipType}. Tanmateix, aquest ha caigut en el desús des de la incorporació del recurs Relacions Pares i Fill.
+    Aquest recurs s'utilitza en l'actualitat per representar només les relacions de pa\-re\-lla. En el passat, també va ser utilitzat per representar relacions entre pares i fills, mitjançant l'ús del paràmetre \emph{type} i l'enumeració \emph{relationshipType}. Tanmateix, aquest ha caigut en el desús des de la incorporació del recurs Relacions Pares i Fill.
 
-    Aquest recurs emmagatzema informació sobre les persones que conformen la relació i els esdeveniments relacionats a aquesta. Les dades pròpies del recurs es mostren a la taula~\ref{res:relationship} i també hereta les dels recursos Subjecte, Conclusió, Enllaços Hypermedia i Dades Extensibles que poden ser trobats a l'apartat `Altres recursos interessants'.
+    Aquest recurs emmagatzema informació sobre les persones que conformen la relació de parella i els esdeveniments relacionats a aquesta. Les dades pròpies del recurs es mostren a la taula~\ref{res:relationship} i també hereta les dades dels recursos Subjecte, Conclusió, Enllaços Hypermedia i Dades Extensibles que poden ser trobats a l'apartat `Altres recursos interessants'.
 
     \begin{center}
              \csvreader[
@@ -26,7 +26,9 @@
     \subsubsection{L'enumeració relationshipType}
 
     \paragraph{}
-    L'enumeració relationshipType segueix l'estructura de definició GEDCOMX. Com a tal, els valors possibles per l'enumeració segueixen la pauta:\\\verb|http://gedcomx.org/ + `relationshipType'|
+    L'enumeració relationshipType segueix l'estructura de definició GEDCOMX. Com a tal, els valors possibles per l'enumeració segueixen la pauta:
+
+    http://gedcomx.org/ + `relationshipType'
 
     La següent taula mostra els possibles valors per l'enumeració relationshipType, però com ja hem comentat, l'ús del valor ParentChild, ja no s'utilitza en favor del nou recurs Relació Pares i Fill.
 
