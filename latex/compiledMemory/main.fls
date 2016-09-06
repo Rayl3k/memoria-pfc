@@ -460,7 +460,6 @@ INPUT ./sections/04/01_devsPortal.tex
 INPUT ./sections/04/01_devsPortal.tex
 INPUT ./sections/04/02_architecture.tex
 INPUT ./sections/04/02_architecture.tex
-INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT ./sections/04/03_dataFormats.tex
 INPUT ./sections/04/03_dataFormats.tex
 INPUT c:/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
@@ -470,7 +469,6 @@ INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecss1000.tfm
 INPUT c:/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecsx1000.tfm
 INPUT ./tables/04/personGedcom.csv
-INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT ./tables/04/genderGedcom.csv
 INPUT ./tables/04/genderTypes.csv
 INPUT ./sections/04/04_temporalEvolution.tex
@@ -515,9 +513,11 @@ INPUT ./images/05/03_personsCore.png
 INPUT ./sections/05/01_persons/01_persona.tex
 INPUT ./sections/05/01_persons/01_persona.tex
 INPUT ./tables/05/01_persons/person.csv
+INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT ./sections/05/01_persons/02_gender.tex
 INPUT ./sections/05/01_persons/02_gender.tex
 INPUT ./tables/05/01_persons/gender.csv
+INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT ./tables/05/01_persons/genderType.csv
 INPUT ./sections/05/01_persons/03_names.tex
 INPUT ./sections/05/01_persons/03_names.tex

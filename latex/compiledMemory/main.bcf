@@ -2109,6 +2109,15 @@
     <bcf:citekey order="7">familysearchPortal</bcf:citekey>
     <bcf:citekey order="8">wiki:mormons</bcf:citekey>
     <bcf:citekey order="9">mormonsFamily</bcf:citekey>
+    <bcf:citekey order="10">fsDevelopers</bcf:citekey>
+    <bcf:citekey order="11">wiki:api</bcf:citekey>
+    <bcf:citekey order="12">wiki:restful</bcf:citekey>
+    <bcf:citekey order="13">whatIsRest</bcf:citekey>
+    <bcf:citekey order="14">wiki:gedcom</bcf:citekey>
+    <bcf:citekey order="15">fs:gedcomx</bcf:citekey>
+    <bcf:citekey order="16">wiki:xml</bcf:citekey>
+    <bcf:citekey order="17">wiki:json</bcf:citekey>
+    <bcf:citekey order="18">fs:apiChangeLog</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

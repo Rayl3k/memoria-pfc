@@ -59,7 +59,7 @@
       \verb https://www.youtube.com/watch?v=h5zplKrc9-0
       \endverb
     \endentry
-    \entry{worldPopulatio}{misc}{}
+    \entry{worldPopulation}{misc}{}
       \name{author}{1}{}{%
         {{hash=49e1a12eceffafe303a0bbd71f8ed7e5}{%
            family={Bureau},
@@ -202,6 +202,27 @@
       \field{year}{2016}
       \verb{url}
       \verb https://expressjs.com/
+      \endverb
+    \endentry
+    \entry{whatIsRest}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{%
+           family={Fielding},
+           family_i={F\bibinitperiod},
+           given={Roy},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{fullhash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{What Is REST?}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.restapitutorial.com/lessons/whatisrest.html
       \endverb
     \endentry
     \entry{moralRights}{misc}{}
@@ -663,6 +684,48 @@
       \verb https://github.com/FamilySearch/javascript-sdk-sample-app/blob/master/assets/helpers.js#L241
       \endverb
     \endentry
+    \entry{fs:apiChangeLog}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d8bc168ac6b5eeac83de09e032a9e3db}{%
+           family={organization},
+           family_i={o\bibinitperiod},
+           given={FamilySearch},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8bc168ac6b5eeac83de09e032a9e3db}
+      \strng{fullhash}{d8bc168ac6b5eeac83de09e032a9e3db}
+      \field{sortinit}{o}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{API Change Log}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://familysearch.org/developers/docs/change-log
+      \endverb
+    \endentry
+    \entry{fs:gedcomx}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d8bc168ac6b5eeac83de09e032a9e3db}{%
+           family={organization},
+           family_i={o\bibinitperiod},
+           given={FamilySearch},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8bc168ac6b5eeac83de09e032a9e3db}
+      \strng{fullhash}{d8bc168ac6b5eeac83de09e032a9e3db}
+      \field{sortinit}{o}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{GEDCOMX}
+      \field{year}{2012}
+      \verb{url}
+      \verb https://familysearch.org/developers/docs/guides/gedcom-x
+      \endverb
+    \endentry
     \entry{spainCivilRegistry}{misc}{}
       \name{author}{1}{}{%
         {{hash=5e4736b7e679ec31f0a9102f664befa8}{%
@@ -827,6 +890,25 @@
       \field{year}{2016}
       \verb{url}
       \verb https://familysearch.org/wiki/en/index.php?title=Research_Process&oldid=2567582
+      \endverb
+    \endentry
+    \entry{wiki:api}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 6-September-2016]}
+      \field{title}{Application programming interface --- Wikipedia{,} The Free Encyclopedia}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Application_programming_interface&oldid=737224491
       \endverb
     \endentry
     \entry{wiki:css}{misc}{}
