@@ -1,15 +1,15 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
-[1] Config.pm:346> INFO - Logfile is 'compiledMemory\main.blg'
-[110] biber-MSWIN32:290> INFO - === 
-[228] Biber.pm:351> INFO - Reading 'compiledMemory\main.bcf'
-[499] Biber.pm:773> INFO - Using all citekeys in bib section 0
-[552] Biber.pm:3493> INFO - Processing section 0
-[726] Biber.pm:3657> INFO - Looking for bibtex format file './mybib.bib' for section 0
-[744] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[756] bibtex.pm:1048> INFO - Found BibTeX data source './mybib.bib'
-[1162] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1163] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1163] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[1163] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[1397] bbl.pm:526> INFO - Writing 'compiledMemory\main.bbl' with encoding 'UTF-8'
-[1419] bbl.pm:619> INFO - Output to compiledMemory\main.bbl
+[0] Config.pm:346> INFO - Logfile is 'compiledMemory\main.blg'
+[60] biber-MSWIN32:290> INFO - === 
+[97] Biber.pm:351> INFO - Reading 'compiledMemory\main.bcf'
+[280] Biber.pm:773> INFO - Using all citekeys in bib section 0
+[303] Biber.pm:3493> INFO - Processing section 0
+[330] Biber.pm:3657> INFO - Looking for bibtex format file './mybib.bib' for section 0
+[344] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[350] bibtex.pm:1048> INFO - Found BibTeX data source './mybib.bib'
+[485] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[485] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[485] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[485] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[589] bbl.pm:526> INFO - Writing 'compiledMemory\main.bbl' with encoding 'UTF-8'
+[598] bbl.pm:619> INFO - Output to compiledMemory\main.bbl

@@ -602,7 +602,6 @@ INPUT ./tables/05/05_sources/attribution.csv
 INPUT ./sections/05/05_sources/04_sourceDescription.tex
 INPUT ./sections/05/05_sources/04_sourceDescription.tex
 INPUT ./tables/05/05_sources/sourceDescription.csv
-INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT ./tables/05/05_sources/resourceType.csv
 INPUT ./sections/05/05_sources/05_sourceReference.tex
 INPUT ./sections/05/05_sources/05_sourceReference.tex
@@ -1029,6 +1028,7 @@ INPUT images/13/limitedUse.png
 INPUT ./images/13/limitedUse.png
 INPUT ./images/13/limitedUse.png
 INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm
+INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm
 INPUT C:\Users\Sergi\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.aux
 INPUT c:/Users/Sergi/Documents/GitHub/memoria-pfc/latex/compiledMemory/main.out
 INPUT c:/Users/Sergi/Documents/GitHub/memoria-pfc/latex/compiledMemory/main.out

@@ -6,8 +6,8 @@ version,string,Versió del recurs.
 sortKey,string,Clau per identificar la posició relativa de la font de dades dins de la col·lecció.
 resource\-Type,[resourceType],El tipus de recurs descrit.
 citations,[array of SourceCitation],Les citacions bibliogràfiques de la font de dades.
-mediator,[ResourceReference],Referència a l'entitat que fa de mediadora entre FamilySearch i les dades.
-sources,[array of Source\-Reference],Referències a altres fonts de dades relacionades. Generalment aplicable quan una font de dades forma part de la categoria secundària d'una altra font de dades.
+mediator,[ResourceReference],Referència a l'entitat que fa de mediadora entre Family\-Search i les dades.
+sources,[array of Source\-Reference],Referències a altres fonts de dades relacionades. Ge\-ne\-ral\-ment aplicable quan una font de dades forma part de la categoria secundària d'una altra font de dades.
 analysis,[Resource\-Reference],Referència al document d'anàlisis realitzat per descriure la font de dades.
 component\-Of,[Source\-Reference],Referència a la font de dades de la que forma part el recurs (si existeix).
 titles,[array of TextValue],Llista de títols per la font de dades.
