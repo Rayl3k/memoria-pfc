@@ -1,4 +1,4 @@
 \section{Intentar de nou peticions GET fallides}
 
     \paragraph{}
-    Els errors de connexió amb l’API són fàcilment tractables gràcies a la naturalesa de les crides asíncrones implementades pel SDK. Només cal afegir la clàusula `.catch' al codi de la petició, tal com es mostra en el següent bloc de codi. La variable error és un altre objecte Javascript que conté informació sobre l’error.
+    El SDK disposa de l'opció, en cas que una crida contra l'API no acabi de forma satisfactòria, de rellançar-la automàticament sense que l'usuari s'hagi de preocupar per fer-ho manualment.
