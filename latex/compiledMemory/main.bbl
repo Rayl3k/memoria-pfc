@@ -505,6 +505,25 @@
       \verb http://www.genealogy.com/articles/twigs/rhonda011702.html
       \endverb
     \endentry
+    \entry{momondoCampaign}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ea0f77da993114d8d895e5b43fa4a808}{%
+           family={Momondo},
+           family_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea0f77da993114d8d895e5b43fa4a808}
+      \strng{fullhash}{ea0f77da993114d8d895e5b43fa4a808}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{The DNA Journey}
+      \field{year}{216}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=tyaEQEmt5ls
+      \endverb
+    \endentry
     \entry{injection}{misc}{}
       \name{author}{1}{}{%
         {{hash=f28e68a47e6dbf7aefbb27d0cb6ed959}{%
@@ -579,6 +598,27 @@
       \field{year}{2016}
       \verb{url}
       \verb https://www.npmjs.com/
+      \endverb
+    \endentry
+    \entry{randalOlson}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5965bf385f3670ee14c0ee77cdd592dc}{%
+           family={Olson},
+           family_i={O\bibinitperiod},
+           given={Randal\bibnamedelima S.},
+           given_i={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5965bf385f3670ee14c0ee77cdd592dc}
+      \strng{fullhash}{5965bf385f3670ee14c0ee77cdd592dc}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{144 years of marriage and divorce in 1 chart}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://www.randalolson.com/2015/06/15/144-years-of-marriage-and-divorce-in-1-chart/
       \endverb
     \endentry
     \entry{optimizilla}{misc}{}
@@ -747,6 +787,27 @@
       \field{year}{2015}
       \verb{url}
       \verb http://www.genealogiahispana.com/archivos/el-registro-civil-de-espana-1871/
+      \endverb
+    \endentry
+    \entry{populationPyramids}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e84b41d3aca5b1c03d12d9d84de967e0}{%
+           family={Preshoff},
+           family_i={P\bibinitperiod},
+           given={Kim},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e84b41d3aca5b1c03d12d9d84de967e0}
+      \strng{fullhash}{e84b41d3aca5b1c03d12d9d84de967e0}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-August-2016]}
+      \field{title}{Population pyramids: Powerful predictors of the future}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=RLmKfXwWQtE
       \endverb
     \endentry
     \entry{therapistShot}{misc}{}
