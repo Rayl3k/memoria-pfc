@@ -10,16 +10,16 @@ views/\-index.html,Fitxer HTML utilitzat per pintar la pàgina inicial de l'apli
 views/\-login.html,Fitxer HTML utilitzat per pintar la pàgina d'identificació amb FamilySearch.
 views/\-proposals.html,Fitxer HTML utilitzat per pintar la pàgina que recull el conjunt de propostes de projecte per futurs estudiants.
 views/\-proposalsTemplate.html,Fitxer HTML utilitzat per pintar els detalls d'una proposta en concret. El contingut és variable segons la proposta seleccionada per l'usuari.
-views/\-search.html,Fitxer HTML utilitzat per pintar la funcionalitat de funcionalitat de cerca.
+views/\-search.html,Fitxer HTML utilitzat per pintar la funcionalitat de cerca.
 views/\-surnames.html,Fitxer HTML utilitzat per pintar la funcionalitat d'expansió geogràfica d'un cognom.
 views/\-globals/\-footer.html,Fitxer HTML encarregat de pintar el footer de la pàgina (per aquelles pàgines que el contenen).
 views/\-globals/\-future-proposals.html,Fitxer HTML encarregat de pintar les propostes de projecte per futurs estudiants a la pàgina de propostes.
 views/\-globals/\-header.html,Fitxer HTML encarregat de pintar l'encapçalament de la web en totes les pàgines.
 views/\-globals/\-implemented-proposals.html,Fitxer HTML encarregat de pintar les caixes dels exemples implementats en les pàgines de recopilació de propostes i exemples.
-views/\-globals/\-javascripts.html,Fitxer HTML encarregat d’inserir els Javascripts comuns a totes les pàgines a cada pàgina.
+views/\-globals/\-javascripts.html,Fitxer HTML encarregat d’inserir els Javascripts comuns a totes les pàgines.
 views/\-globals/\-navbar.html,Fitxer HTML encarregat de pintar la barra de navegació a cada pàgina en què vol ser mostrada.
 views/\-globals/\-pageTitle.html,Fitxer HTML encarregat de pintar la capçalera de secció de cada pàgina. Els continguts d'aquesta varien segons la pàgina seleccionada\, mitjançant els paràmetres enviats pel servidor.
-views/\-globals/\-searchFather.html,Fitxer HTML encarregat de pintar el formulari de cerca, pels camps del pare\, a l'exemple de cerca.
+views/\-globals/\-searchFather.html,Fitxer HTML encarregat de pintar el formulari de cerca\, pels camps del pare\, a l'exemple de cerca.
 views/\-globals/\-searchMainPerson.html,Fitxer HTML encarregat de pintar el formulari de cerca\, pels camps de l’usuari principal\, a l'exemple de cerca.
 views/\-globals/\-searchMother.html,Fitxer HTML encarregat de pintar el formulari de cerca\, pels camps de la mare\, a l'exemple de cerca.
 views/\-globals/\-searchSpouse.html,Fitxer HTML encarregat de pintar el formulari de cerca\, pels camps de la parella\, a l'exemple de cerca.

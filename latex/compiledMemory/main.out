@@ -1,112 +1,14 @@
-\BOOKMARK [0][-]{chapter.1}{Introducci\363 al projecte}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Introducci\363}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Motivaci\363 i context}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Objectius}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{Planificaci\363}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{La genealogia}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Qu\350 \351s la genealogia?}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{El paper de la genealogia en el transcurs de la hist\362ria}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Les lleis reguladores}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{Els codis \350tics en la genealogia}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.5}{El proc\351s de recerca geneal\362gica}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.6}{Conclusi\363}{chapter.2}% 12
-\BOOKMARK [0][-]{chapter.3}{L'organitzaci\363 FamilySearch}{}% 13
-\BOOKMARK [1][-]{section.3.1}{Qu\350 \351s FamilySearch?}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.2}{La hist\362ria de FamilySearch}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.3}{L'esgl\351sia mormona i la fam\355lia}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.4}{Serveis per organitzacions amb arxius geneal\362gics}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.5}{Serveis per particulars i aficionats a la genealogia}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.6}{Recerca geneal\362gica}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.7}{Projectes d'indexaci\363}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.8}{Conclusi\363 sobre les eines per particulars}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.4}{Introducci\363 a l'API de FamilySearch}{}% 22
-\BOOKMARK [1][-]{section.4.1}{El portal de desenvolupadors}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.2}{L'arquitectura de l'API}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.3}{Formats de dades utilitzats pel Sistema}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.4}{Evoluci\363 temporal de l'API}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.5}{Serveis extres oferts per l'API}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.6}{Eines de desenvolupament}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.7}{Proc\351s de certificaci\363}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.8}{Diferents entorns de treball}{chapter.4}% 30
-\BOOKMARK [0][-]{chapter.5}{Estudi en profunditat de l'API de FamilySearch}{}% 31
-\BOOKMARK [1][-]{section.5.1}{Els recursos de FamilySearch}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.2}{Enlla\347os hypermedia, la navegaci\363 entre recursos}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.3}{L'arbre geneal\362gic de FamilySearch}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.4}{Recursos principals del bloc Persones}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.5}{Recursos principals del bloc Relacions Familiars}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.6}{Recursos principals del bloc Discussions}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.7}{Recursos principals del bloc Mem\362ries}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.8}{Recursos principals del bloc Fonts de Dades}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.9}{Altres recursos interessants}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.10}{Camins d'acc\351s a l'arbre familiar i operacions de cerca}{chapter.5}% 41
-\BOOKMARK [0][-]{chapter.6}{Valoraci\363 final sobre la potencialitat de l'API}{}% 42
-\BOOKMARK [1][-]{section.6.1}{Introducci\363}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.2}{Distribuci\363 geogr\340fica de les dades}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.3}{Dades contempor\340nies}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.4}{Recursos i funcionalitats}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.5}{Naturalesa de l'API}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.6}{Utilitzaci\363 de l'API en el marc d'un PFC}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.7}{Conclusi\363}{chapter.6}% 49
-\BOOKMARK [0][-]{chapter.7}{Llista de propostes de projecte}{}% 50
-\BOOKMARK [1][-]{section.7.1}{Introducci\363}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.2}{Comparaci\363 sobre la popularitat de noms}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.3}{Estudis estad\355stics sobre els noms i cognoms}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.4}{Portal de cerca localitzat al Catal\340}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.5}{Geolocalitzaci\363 d'un cognom en diferents nivells}{chapter.7}% 55
-\BOOKMARK [1][-]{section.7.6}{La recerca geneal\362gica i l'her\340ldica}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.7}{Projectes d'indexaci\363}{chapter.7}% 57
-\BOOKMARK [1][-]{section.7.8}{La hist\362ria de l'esgl\351sia mormona a trav\351s de FamilySearch}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.9}{Diversitat geogr\340fica d'un cognom: Els nostres avantpassats}{chapter.7}% 59
-\BOOKMARK [1][-]{section.7.10}{Les col\267leccions de dades de FamilySearch}{chapter.7}% 60
-\BOOKMARK [1][-]{section.7.11}{FamilySearch i la segona guerra mundial: Natalitat i Defuncions}{chapter.7}% 61
-\BOOKMARK [1][-]{section.7.12}{FamilySearch i la segona guerra mundial: Increment en els casaments}{chapter.7}% 62
-\BOOKMARK [1][-]{section.7.13}{FamilySearch i la segona guerra mundial: La llista de Schindler}{chapter.7}% 63
-\BOOKMARK [1][-]{section.7.14}{La gran depressi\363 o altres esdeveniments hist\362rics}{chapter.7}% 64
-\BOOKMARK [1][-]{section.7.15}{Comparacions amb els amics o seguidors de Facebook i Twitter}{chapter.7}% 65
-\BOOKMARK [1][-]{section.7.16}{Comparaci\363 de dades geneal\362giques reals amb FamilySearch}{chapter.7}% 66
-\BOOKMARK [1][-]{section.7.17}{Estudi de profunditat dels arbres familiars}{chapter.7}% 67
-\BOOKMARK [1][-]{section.7.18}{Algoritme de marcatge de duplicats}{chapter.7}% 68
-\BOOKMARK [0][-]{chapter.8}{Estudi t\350cnic de l'aplicaci\363 web}{}% 69
-\BOOKMARK [1][-]{section.8.1}{Decisi\363 del tipus d'aplicaci\363 a implementar}{chapter.8}% 70
-\BOOKMARK [1][-]{section.8.2}{Tecnologies i patrons de l'aplicaci\363 web}{chapter.8}% 71
-\BOOKMARK [1][-]{section.8.3}{Tecnologies pel desenvolupament de l'aplicaci\363}{chapter.8}% 72
-\BOOKMARK [0][-]{chapter.9}{Javascript SDK Oficial de FamilySearch}{}% 73
-\BOOKMARK [1][-]{section.9.1}{Introducci\363 al Javascript SDK}{chapter.9}% 74
-\BOOKMARK [1][-]{section.9.2}{Emmascarant les crides REST a l'API de FamilySearch}{chapter.9}% 75
-\BOOKMARK [1][-]{section.9.3}{Implementaci\363 basada en Promeses}{chapter.9}% 76
-\BOOKMARK [1][-]{section.9.4}{Implementaci\363 orientada a objectes}{chapter.9}% 77
-\BOOKMARK [1][-]{section.9.5}{Model de dades quasi id\350ntic a FamilySearch}{chapter.9}% 78
-\BOOKMARK [1][-]{section.9.6}{Captura d'errors}{chapter.9}% 79
-\BOOKMARK [1][-]{section.9.7}{Intentar de nou peticions GET fallides}{chapter.9}% 80
-\BOOKMARK [1][-]{section.9.8}{Gesti\363 autom\340tica del Throttling}{chapter.9}% 81
-\BOOKMARK [1][-]{section.9.9}{Autentificaci\363 mitjan\347ant un pop-up}{chapter.9}% 82
-\BOOKMARK [1][-]{section.9.10}{Autentificaci\363 autom\340tica}{chapter.9}% 83
-\BOOKMARK [1][-]{section.9.11}{Emmagatzematge del Token en una cookie}{chapter.9}% 84
-\BOOKMARK [1][-]{section.9.12}{Disparador autom\340tic de la funci\363 d'expiraci\363}{chapter.9}% 85
-\BOOKMARK [1][-]{section.9.13}{Utilitzable des de diferents plataformes o capes}{chapter.9}% 86
-\BOOKMARK [1][-]{section.9.14}{Suport en el desenvolupament}{chapter.9}% 87
-\BOOKMARK [1][-]{section.9.15}{Conclusi\363 sobre el SDK}{chapter.9}% 88
-\BOOKMARK [0][-]{chapter.10}{Introducci\363 a l'aplicaci\363 web}{}% 89
-\BOOKMARK [1][-]{section.10.1}{Acc\351s a l'aplicaci\363 web i codi de l'aplicaci\363}{chapter.10}% 90
-\BOOKMARK [1][-]{section.10.2}{Requisits de l'aplicaci\363 web}{chapter.10}% 91
-\BOOKMARK [1][-]{section.10.3}{Estructura de l'aplicaci\363 web}{chapter.10}% 92
-\BOOKMARK [1][-]{section.10.4}{Fitxers de l'aplicaci\363 web i la seva funcionalitat}{chapter.10}% 93
-\BOOKMARK [1][-]{section.10.5}{Funcionament general de l'aplicaci\363 web}{chapter.10}% 94
-\BOOKMARK [1][-]{section.10.6}{Detalls espec\355fics de la implementaci\363}{chapter.10}% 95
-\BOOKMARK [1][-]{section.10.7}{Certificant l'aplicaci\363 amb FamilySearch}{chapter.10}% 96
-\BOOKMARK [1][-]{section.10.8}{Google Analytics}{chapter.10}% 97
-\BOOKMARK [1][-]{section.10.9}{Optimitizaci\363 d'imatges}{chapter.10}% 98
-\BOOKMARK [1][-]{section.10.10}{Hosting de l'aplicaci\363}{chapter.10}% 99
-\BOOKMARK [0][-]{chapter.11}{Funcionalitats d'exemple amb FamilySearch}{}% 100
-\BOOKMARK [1][-]{section.11.1}{Introducci\363 a les funcionalitats implementades}{chapter.11}% 101
-\BOOKMARK [1][-]{section.11.2}{Identificaci\363 i desconnexi\363 a l'API de FamilySearch}{chapter.11}% 102
-\BOOKMARK [1][-]{section.11.3}{Cerca de persones a l'arbre familiar}{chapter.11}% 103
-\BOOKMARK [1][-]{section.11.4}{Evoluci\363 geogr\340fica d'un cognom}{chapter.11}% 104
-\BOOKMARK [1][-]{section.11.5}{Evoluci\363 temporal d'esdeveniments}{chapter.11}% 105
-\BOOKMARK [0][-]{chapter.12}{Conclusions}{}% 106
-\BOOKMARK [1][-]{section.12.1}{Conclusions sobre el bloc te\362ric}{chapter.12}% 107
-\BOOKMARK [1][-]{section.12.2}{Conclusions sobre el bloc pr\340ctic}{chapter.12}% 108
-\BOOKMARK [1][-]{section.12.3}{\332ltimes consideracions}{chapter.12}% 109
-\BOOKMARK [0][-]{section*.364}{Annexos}{}% 110
-\BOOKMARK [0][-]{Annex.1.A}{Comptes de prova FamilySearch}{}% 111
-\BOOKMARK [0][-]{Annex.1.B}{Acord d'\372s limiat}{}% 112
+\BOOKMARK [0][-]{chapter.1}{Introducci\363 a l'aplicaci\363 web}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Acc\351s i codi de l'aplicaci\363 web}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Requisits de l'aplicaci\363 web}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Estructura de l'aplicaci\363 web}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Fitxers de l'aplicaci\363 i la seva funcionalitat}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Funcionament general de l'aplicaci\363 web}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.6}{Detalls espec\355fics de la implementaci\363}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.7}{Certificant l'aplicaci\363 amb FamilySearch}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.8}{Google Analytics}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.9}{Optimitizaci\363 d'imatges}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.10}{Hosting de l'aplicaci\363}{chapter.1}% 11
+\BOOKMARK [0][-]{section*.62}{Annexos}{}% 12
+\BOOKMARK [0][-]{Annex.1.A}{Comptes de prova FamilySearch}{}% 13
+\BOOKMARK [0][-]{Annex.1.B}{Acord d'\372s limiat}{}% 14
