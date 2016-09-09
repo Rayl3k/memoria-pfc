@@ -130,9 +130,9 @@ app.get(`/proposals/:project', function(req, res) {
     \paragraph{}
     Les dues úniques peticions POST que l'aplicació està preparada per acceptar i respondre, són les crides AJAX que serveixen per indicar al servidor que l'usuari s'ha identificat o desconnectat de l'API de FamilySearch.
 
-    Quan es rep una d'aquestes peticions, s'actualitza la galeta de sessió amb el token retornat per l'API de FamilySearch o se n'esborra el contingut, segons la petició tractada. Un cop processada la informació, s'envia un paràmetre \emph{redirect} cap al navegador, que indica a la capa del controlador, a quina pàgina s'ha de redirigir a l'usuari.
+    Quan es rep una d'aquestes peticions, s'actualitza la galeta de sessió amb el token retornat per l'API de FamilySearch o se n'esborra el contingut, segons la petició tractada. Un cop processada la informació, s'envia un paràmetre \emph{redirect} cap al navegador, que indica a la capa del controlador a quina pàgina ha de redirigir a l'usuari.
 
-    És mostra a continuació, com a exemple, el processament de la petició POST d'identificació.
+    És mostra a continuació, com a exemple, el processament de la petició POST d'identificació, en la que es configura la galeta \emph{req.session.logged} amb el valor del token de FamilySearch.
 
     \begin{lstlisting}[style=rawOwn,caption={Resposta a la petició AJAX d'identificació}]
 app.post(`/token/login', function(req, res) {
@@ -147,7 +147,7 @@ app.post(`/token/login', function(req, res) {
     \paragraph{}
     La validació d'identificació és una funció que s'utilitza per comprovar si un usuari disposa dels permisos suficients per visitar les pàgines d'exemples implementats.
 
-    Quan el servidor rep la petició de mostrar la pàgina d'exemples o un exemple en concret, realitza una crida a aquesta funció, que resoldrà si la petició ha de ser processada o no. Aquesta funció (\emph{isAuthenticated}), s'insereix com a \emph{middleware} a la capçalera de la petició de la forma seguent:
+    Quan el servidor rep la petició de mostrar la pàgina d'exemples o un exemple en concret, realitza una crida a aquesta funció, que resoldrà si la petició ha de ser processada o no. Aquesta funció (\emph{isAuthenticated}), s'insereix com a \emph{middleware} a la capçalera de les peticions de la forma seguent:
 
     \begin{lstlisting}[style=rawOwn,caption={Inserció de \emph{middleware} en una petició del client}]
 app.get(`/examples', isAuthenticated, function(req, res) { ... });
@@ -158,17 +158,17 @@ app.get(`/examples', isAuthenticated, function(req, res) { ... });
     \begin{lstlisting}[style=rawOwn,caption={Comprovació de la galeta \emph{session}}]
 function isAuthenticated(req, res, next) {
     if(req.session.isPopulated) next();
-    else res.redirect('/login');
+    else res.redirect(`/login');
 }
     \end{lstlisting}
 
     \paragraph{}
-    Al mateix temps, existeix també la funció \emph{isLogged(req)}, que s’utilitza en les crides d’accés a cada pàgina del domini web per comprovar si l’usuari es troba identificat o no amb FamilySearch i retorna un paràmetre que serà utilitzat per decidir si cal mostrar el botó de desconnexió a la barra de navegació.
+    Al mateix temps, existeix també la funció \emph{isLogged(req)}, que s’utilitza en les crides d’accés a cada pàgina del domini web per comprovar si l’usuari es troba identificat o no amb FamilySearch i retorna un paràmetre que serà utilitzat per decidir si cal mostrar o no, el botó de desconnexió a la barra de navegació.
 
     \begin{lstlisting}[style=rawOwn,caption={Funció per decidir si cal mostrar el botó de desconnexió}]
 function isLogged(req) {
-    if(req.session.isPopulated) return 'visible';
-    else return 'hidden';
+    if(req.session.isPopulated) return `visible';
+    else return `hidden';
 }
     \end{lstlisting}
 
@@ -176,7 +176,7 @@ function isLogged(req) {
     \subsubsection{Configuració del servidor}
 
     \paragraph{}
-    La part de configuració del servidor consisteix, principalment, a indicar quin port ha de ser escoltat. La línia de codi utilitzada, permet alternar entre un valor per defecte o l'especificat en els paràmetres de configuració de l'entorn que desplegui el servidor.
+    La part de configuració del servidor consisteix, principalment, a indicar quin port ha de ser escoltat. La línia de codi utilitzada permet alternar entre un valor per defecte o l'especificat en els paràmetres de configuració, de l'entorn que desplegui el servidor.
 
     \begin{lstlisting}[style=rawOwn,caption={Configuració del servidor}]
 var server = app.listen(process.env.PORT || 8080, process.env.IP, function () { ... });
