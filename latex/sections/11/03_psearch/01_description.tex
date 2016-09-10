@@ -3,12 +3,12 @@
     \paragraph{}
     La funcionalitat d'exemple de cerca, permet buscar instàncies de persones per tot l'arbre familiar de FamilySearch.
 
-    La funcionalitat ha estat habilitada per permetre la utilització de tots els paràmetres de cerca disponibles per l'API i el SDK que han estat descrits a la secció cinc de la memòria. De totes maneres, per alguna raó desconeguda, sembla que la cerca d'esdeveniments relacionats a familiars de la persona cercada, no acaba de funcionar.
+    La funcionalitat ha estat habilitada per permetre la utilització de tots els paràmetres de cerca disponibles per l'API i el SDK, descrits a la cinquena secció de la memòria. De totes maneres, per alguna raó desconeguda, sembla que la cerca d'esdeveniments, relacionats a familiars de la persona cercada, no funciona.
 
-    En concret, cercar pels llocs o dates concretes de naixement, defunció o casament dels relatius més propers, acostuma a traduir-se amb l'obtenció de zero resultats. Curiosament, FamilySearch tampoc ofereix aquests paràmetres de cerca en la seva pàgina web. Per tant, tot i conèixer els problemes amb aquests camps, hem decidit deixar-los actius perquè els usuaris puguin experimentar amb ells i observar-ne les limitacions.
+    En concret, cercar pels llocs o dates concretes de naixement, defunció o casament, dels relatius més propers, acostuma a traduir-se amb l'obtenció de zero resultats. Curiosament, FamilySearch tampoc ofereix aquests paràmetres de cerca en la seva pàgina web. Per tant, tot i conèixer els problemes amb aquests camps, hem decidit deixar-los actius perquè els usuaris puguin experimentar amb ells i observar-ne les limitacions.
 
-    La cerca es realitza amb el paràmetre \emph{count}, que indica el nombre de resultats a retornar, sense especificar. En aquesta situació, l'API retorna quinze persones per defecte i un cop retornats els resultats, el controlador pinta la informació d'aquestes quinze persones en una taula. Aquesta taula recull, per cada persona, informació sobre el seu identificador, nom, data de naixement i data de defunció.
+    La cerca de persones es realitzada amb el paràmetre \emph{count}, que indica el nombre de resultats a retornar, sense especificar. En aquesta situació, l'API retorna quinze persones per defecte i un cop retornats els resultats, el controlador pinta la informació d'aquestes quinze persones en una taula. Aquesta taula recull, per cada persona, informació sobre el seu identificador, nom, data de naixement i data de defunció.
 
     La taula de resultats permet la navegació entre totes les persones que complien les condicions de cerca, carregant-les en blocs de quinze persones. Cal tenir en compte, que per cada acció de paginació, el client ha de realitzar una crida a l'API de FamilySearch i que per tant, pot tardar alguns segons a recarregar-se amb nova informació.
 
-    Finalment, la taula de resultats permet la selecció d'una de les persones, per tal de desplegar tota la informació principal que es disposa sobre ella, els seus relatius més propers i informació s'obre l'ascendència i descendència de la persona.
+    Finalment, la taula de resultats, permet la selecció d'una de les persones, per tal de desplegar tota la informació principal que es disposa sobre ella, els seus relatius més propers i informació s'obre l'ascendència i descendència de la persona.

@@ -703,7 +703,7 @@
       \verb https://familysearch.org
       \endverb
     \endentry
-    \entry{craetePanel}{misc}{}
+    \entry{createPanel}{misc}{}
       \name{author}{1}{}{%
         {{hash=3faf33d8252c98ce4e08f8949d1c9a5f}{%
            family={Organization},
