@@ -1,199 +1,1235 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Funcionalitats d'exemple amb FamilySearch}{7}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o} al projecte}{9}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o} a les funcionalitats implementades}{7}{section.1.1}
+\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}}{9}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{7}{section*.2}
+\contentsline {paragraph}{}{9}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Identificaci\IeC {\'o} i desconnexi\IeC {\'o} a l'API de FamilySearch}{7}{section.1.2}
+\contentsline {section}{\numberline {1.2}Motivaci\IeC {\'o} i context}{10}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Descripci\IeC {\'o} de les funcionalitats}{7}{subsection.1.2.1}
+\contentsline {paragraph}{}{10}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{7}{section*.3}
+\contentsline {section}{\numberline {1.3}Objectius}{11}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Detalls d'implementaci\IeC {\'o}}{8}{subsection.1.2.2}
+\contentsline {paragraph}{}{11}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{El client de FamilySearch}{8}{section*.4}
+\contentsline {paragraph}{}{11}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{8}{section*.5}
+\contentsline {section}{\numberline {1.4}Planificaci\IeC {\'o}}{12}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{La funci\IeC {\'o} d'identificaci\IeC {\'o} amb FamilySearch}{11}{section*.6}
+\contentsline {paragraph}{}{12}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}{section*.7}
+\contentsline {subsection}{\numberline {1.4.1}Planificaci\IeC {\'o} Febrer del 2014 -\ Juliol 2014}{12}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{La funci\IeC {\'o} de desconnexi\IeC {\'o} amb FamilySearch}{12}{section*.8}
+\contentsline {paragraph}{}{12}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{12}{section*.9}
+\contentsline {subsection}{\numberline {1.4.2}Planificaci\IeC {\'o} Febrer del 2016 -\ Setembre 2016}{13}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Aspectes d'usabilitat considerats}{12}{subsection.1.2.3}
+\contentsline {paragraph}{}{13}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{12}{section*.10}
+\contentsline {subsubsection}{Segona quinzena de mar\IeC {\c c}}{13}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Cerca de persones a l'arbre familiar}{13}{section.1.3}
+\contentsline {paragraph}{}{13}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Descripci\IeC {\'o} de la funcionalitat}{13}{subsection.1.3.1}
+\contentsline {subsubsection}{Primera quinzena d'abril}{13}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{13}{section*.11}
+\contentsline {paragraph}{}{13}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Recomenacions d'utilitzaci\IeC {\'o}}{14}{subsection.1.3.2}
+\contentsline {subsubsection}{Segona quinzena d'abril -\ Finals de maig}{14}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}{section*.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Detalls d'implementaci\IeC {\'o}}{14}{subsection.1.3.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}{section*.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Iniciant la cerca de persones}{14}{section*.14}
+\contentsline {paragraph}{}{14}{section*.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{14}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{La funci\IeC {\'o} printPersonsToTable()}{15}{section*.16}
+\contentsline {subsubsection}{Mesos de juny i juliol}{14}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{15}{section*.17}
+\contentsline {paragraph}{}{14}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Mostrant els detalls d'una persona}{16}{section*.18}
+\contentsline {subsubsection}{Mes d'agost}{15}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{16}{section*.19}
+\contentsline {paragraph}{}{15}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Generaci\IeC {\'o} de taules din\IeC {\`a}miques amb informaci\IeC {\'o} sobre un recurs}{18}{section*.20}
+\contentsline {subsubsection}{Mes de setembre}{15}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{18}{section*.21}
+\contentsline {paragraph}{}{15}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Aspectes d'usabilitat considerats}{19}{subsection.1.3.4}
+\contentsline {chapter}{\numberline {2}La genealogia}{17}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Llargada del formulari}{19}{section*.22}
+\contentsline {paragraph}{}{17}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{19}{section*.23}
+\contentsline {section}{\numberline {2.1}Qu\IeC {\`e} \IeC {\'e}s la genealogia?}{17}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari}{21}{section*.24}
+\contentsline {paragraph}{}{17}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{21}{section*.25}
+\contentsline {section}{\numberline {2.2}El paper de la genealogia en el transcurs de la hist\IeC {\`o}ria}{18}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Animaci\IeC {\'o} de cerca mentre s'espera la resposta del SDK}{21}{section*.26}
+\contentsline {paragraph}{}{18}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{21}{section*.27}
+\contentsline {section}{\numberline {2.3}Les lleis reguladores}{19}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Missatges d'error del SDK}{21}{section*.28}
+\contentsline {paragraph}{}{19}{section*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{21}{section*.29}
+\contentsline {section}{\numberline {2.4}Els codis \IeC {\`e}tics en la genealogia}{20}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Fletxes d'exploraci\IeC {\'o} pels resultats de cerca}{22}{section*.30}
+\contentsline {paragraph}{}{20}{section*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{22}{section*.31}
+\contentsline {section}{\numberline {2.5}El proc\IeC {\'e}s de recerca geneal\IeC {\`o}gica}{22}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Fletxes de retorn a l'inici dels detalls d'una persona}{22}{section*.32}
+\contentsline {paragraph}{}{22}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{22}{section*.33}
+\contentsline {paragraph}{}{22}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Navegaci\IeC {\'o} vertical animada}{23}{section*.34}
+\contentsline {section}{\numberline {2.6}Conclusi\IeC {\'o}}{22}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{23}{section*.35}
+\contentsline {paragraph}{}{22}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{23}{section*.36}
+\contentsline {chapter}{\numberline {3}L'organitzaci\IeC {\'o} FamilySearch}{25}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{23}{section*.37}
+\contentsline {paragraph}{}{25}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{24}{subsection.1.3.5}
+\contentsline {section}{\numberline {3.1}Qu\IeC {\`e} \IeC {\'e}s FamilySearch?}{25}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{24}{section*.38}
+\contentsline {paragraph}{}{25}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Evoluci\IeC {\'o} geogr\IeC {\`a}fica d'un cognom}{24}{section.1.4}
+\contentsline {section}{\numberline {3.2}La hist\IeC {\`o}ria de FamilySearch}{26}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Descripci\IeC {\'o} de la funcionalitat}{24}{subsection.1.4.1}
+\contentsline {paragraph}{}{26}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{24}{section*.39}
+\contentsline {section}{\numberline {3.3}L'esgl\IeC {\'e}sia mormona i la fam\IeC {\'\i }lia}{27}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Recomanacions d'utilitzaci\IeC {\'o}}{26}{subsection.1.4.2}
+\contentsline {paragraph}{}{27}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{26}{section*.40}
+\contentsline {section}{\numberline {3.4}Serveis per organitzacions amb arxius geneal\IeC {\`o}gics}{29}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Detalls d'implementaci\IeC {\'o}}{27}{subsection.1.4.3}
+\contentsline {paragraph}{}{29}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{27}{section*.41}
+\contentsline {subsection}{\numberline {3.4.1}Captura d'imatges}{29}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{27}{section*.42}
+\contentsline {paragraph}{}{29}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{27}{section*.43}
+\contentsline {subsection}{\numberline {3.4.2}Conversi\IeC {\'o} de formats digital}{30}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{28}{section*.44}
+\contentsline {paragraph}{}{30}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{28}{section*.45}
+\contentsline {subsection}{\numberline {3.4.3}Indexaci\IeC {\'o} en l\IeC {\'\i }nia}{30}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{30}{section*.46}
+\contentsline {paragraph}{}{30}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{30}{section*.47}
+\contentsline {subsection}{\numberline {3.4.4}Acc\IeC {\'e}s en l\IeC {\'\i }nia}{30}{subsection.3.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Creaci\IeC {\'o} de les caselles de selecci\IeC {\'o} per cada continent}{31}{section*.48}
+\contentsline {paragraph}{}{30}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{31}{section*.49}
+\contentsline {subsection}{\numberline {3.4.5}Preservaci\IeC {\'o} dels registres i fitxers f\IeC {\'\i }sics}{30}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Aspectes d'usabilitat considerats}{32}{subsection.1.4.4}
+\contentsline {paragraph}{}{30}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{32}{section*.50}
+\contentsline {subsection}{\numberline {3.4.6}Conclusions sobre els serveis professionals}{31}{subsection.3.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{33}{section*.51}
+\contentsline {paragraph}{}{31}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{33}{section*.52}
+\contentsline {section}{\numberline {3.5}Serveis per particulars i aficionats a la genealogia}{31}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{34}{section*.53}
+\contentsline {paragraph}{}{31}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{34}{section*.54}
+\contentsline {subsection}{\numberline {3.5.1}Eines geneal\IeC {\`o}giques}{32}{subsection.3.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{35}{section*.55}
+\contentsline {paragraph}{}{32}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{35}{section*.56}
+\contentsline {subsubsection}{Arbre familiar}{32}{section*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{36}{subsection.1.4.5}
+\contentsline {paragraph}{}{32}{section*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{36}{section*.57}
+\contentsline {subsubsection}{Fan chart}{33}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Evoluci\IeC {\'o} temporal d'esdeveniments}{37}{section.1.5}
+\contentsline {paragraph}{}{33}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.1}Descripci\IeC {\'o} de la funcionalitat}{37}{subsection.1.5.1}
+\contentsline {subsubsection}{Detalls personals}{33}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{37}{section*.58}
+\contentsline {paragraph}{}{33}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.2}Recomanacions d'utilitzaci\IeC {\'o}}{37}{subsection.1.5.2}
+\contentsline {subsubsection}{Mem\IeC {\`o}ries}{34}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{37}{section*.59}
+\contentsline {paragraph}{}{34}{section*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.3}Detalls d'implementaci\IeC {\'o}}{38}{subsection.1.5.3}
+\contentsline {subsubsection}{Family Booklet}{35}{section*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{38}{section*.60}
+\contentsline {paragraph}{}{35}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{38}{section*.61}
+\contentsline {section}{\numberline {3.6}Recerca geneal\IeC {\`o}gica}{35}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{38}{section*.62}
+\contentsline {paragraph}{}{35}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{39}{section*.63}
+\contentsline {subsection}{\numberline {3.6.1}Cerca de registres}{35}{subsection.3.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{35}{section*.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.2}Cerca de genealogies}{36}{subsection.3.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{36}{section*.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.3}Cerca per cat\IeC {\`a}leg}{37}{subsection.3.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{37}{section*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.4}Cerca en llibres d'hist\IeC {\`o}ria geneal\IeC {\`o}gica}{38}{subsection.3.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{38}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.5}Wiki de FamilySearch}{38}{subsection.3.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{38}{section*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Projectes d'indexaci\IeC {\'o}}{38}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{38}{section*.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Proc\IeC {\'e}s d'indexaci\IeC {\'o}}{38}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{38}{section*.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{39}{section*.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Qu\IeC {\`e} pot indexar un voluntari?}{39}{section*.63}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{39}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Impressi\IeC {\'o} del gr\IeC {\`a}fic}{40}{section*.65}
+\contentsline {section}{\numberline {3.8}Conclusi\IeC {\'o} sobre les eines per particulars}{39}{section.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{40}{section*.66}
+\contentsline {paragraph}{}{39}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.4}Aspectes d'usabilitat considerats}{40}{subsection.1.5.4}
+\contentsline {chapter}{\numberline {4}Introducci\IeC {\'o} a l'API de FamilySearch}{41}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{40}{section*.67}
+\contentsline {section}{\numberline {4.1}El portal de desenvolupadors}{41}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{41}{section*.68}
+\contentsline {paragraph}{}{41}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{41}{section*.69}
+\contentsline {section}{\numberline {4.2}L'arquitectura de l'\gls {API}}{42}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{42}{section*.70}
+\contentsline {subsection}{\numberline {4.2.1}Qu\IeC {\`e} \IeC {\'e}s una \gls {API}?}{42}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{42}{section*.71}
+\contentsline {paragraph}{}{42}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{42}{subsection.1.5.5}
+\contentsline {subsection}{\numberline {4.2.2}L'arquitectura REST}{42}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{42}{section*.72}
+\contentsline {paragraph}{}{42}{section*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Annexos}{45}{section*.73}
+\contentsline {paragraph}{}{43}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Comptes de prova FamilySearch}{47}{Annex.1.A}
+\contentsline {subsubsection}{Interf\IeC {\'\i }cie uniforme (uniform interface)}{43}{section*.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{47}{section*.74}
+\contentsline {paragraph}{}{43}{section*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Acord d'\IeC {\'u}s limiat}{49}{Annex.1.B}
+\contentsline {subsubsection}{Sense estat (stateless)}{44}{section*.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{44}{section*.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Client-servidor (client-server)}{44}{section*.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{44}{section*.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Emmagatzematge en el client (cacheable)}{44}{section*.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{44}{section*.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sistema per capes (layered system)}{45}{section*.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{45}{section*.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Codi sota petici\IeC {\'o} (code on demand)}{45}{section*.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{45}{section*.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Formats de dades utilitzats pel Sistema}{45}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{45}{section*.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}El format de dades GEDCOM i GEDCOM X}{45}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{45}{section*.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{46}{section*.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Format de dades FamilySearch}{47}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{47}{section*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Format de dades Atom (o At\IeC {\`o}mic)}{48}{subsection.4.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{48}{section*.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.4}Codificacions dels formats de dades}{48}{subsection.4.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{48}{section*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{El llenguatge XML}{48}{section*.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{48}{section*.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{49}{section*.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{El llenguatge JSON}{49}{section*.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{49}{section*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Evoluci\IeC {\'o} temporal de l'API}{50}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Evolucions al llarg del temps}{50}{subsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{50}{section*.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Tree Foundation}{50}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{50}{section*.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Serveis extres oferts per l'API}{53}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{53}{section*.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Caching}{53}{subsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{53}{section*.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Throttling}{53}{subsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{53}{section*.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}Sincronitzaci\IeC {\'o}}{54}{subsection.4.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{54}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}Internacionaltizaci\IeC {\'o}}{54}{subsection.4.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{54}{section*.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.5}Transfer\IeC {\`e}ncia de registres en grans quantitats}{54}{subsection.4.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{54}{section*.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Eines de desenvolupament}{55}{section.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{55}{section*.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.1}Els SDK de FamilySearch}{55}{subsection.4.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{55}{section*.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.2}Les aplicacions d'exemple}{56}{subsection.4.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{56}{section*.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.3}Altres eines intressants}{56}{subsection.4.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{56}{section*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Proc\IeC {\'e}s de certificaci\IeC {\'o}}{56}{section.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{56}{section*.106}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}Diferents entorns de treball}{57}{section.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{57}{section*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Estudi en profunditat de l'API de FamilySearch}{59}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{59}{section*.108}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Els recursos de FamilySearch}{59}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{59}{section*.109}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Enlla\IeC {\c c}os hypermedia, la navegaci\IeC {\'o} entre recursos}{60}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{60}{section*.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}L'arbre geneal\IeC {\`o}gic de FamilySearch}{61}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{61}{section*.111}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Recursos principals del bloc Persones}{63}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{63}{section*.112}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}El recurs Persona (Person)}{64}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{64}{section*.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}El recurs G\IeC {\`e}nere (Gender)}{65}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{65}{section*.114}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} genderType}{66}{section*.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{66}{section*.116}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Els recursos Nom, Forma del Nom i Part del Nom (Name, NameForm, NamePart)}{66}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{66}{section*.117}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} nameType}{67}{section*.118}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{67}{section*.119}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} namePartType}{68}{section*.120}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{68}{section*.121}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}El recurs Esdeveniment (Fact)}{68}{subsection.5.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{68}{section*.122}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} factType}{69}{section*.123}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{69}{section*.124}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.5}El recurs Data (Date)}{70}{subsection.5.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{70}{section*.125}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.6}El recurs Refer\IeC {\`e}ncia de localitzaci\IeC {\'o} (PlaceReference)}{70}{subsection.5.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{70}{section*.126}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.7}El recurs Descripci\IeC {\'o} de Localitzaci\IeC {\'o} (PlaceDescription)}{71}{subsection.5.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{71}{section*.127}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.8}El recurs Camps B\IeC {\`a}sics (DisplayProperties)}{71}{subsection.5.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{71}{section*.128}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.9}El recurs Vista de Fam\IeC {\'\i }lia (FamilyView)}{72}{subsection.5.4.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{72}{section*.129}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Recursos principals del bloc Relacions Familiars}{73}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{73}{section*.130}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.1}El recurs Relaci\IeC {\'o} (Relationship)}{74}{subsection.5.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{74}{section*.131}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} relationshipType}{74}{section*.132}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{74}{section*.133}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.2}El recurs Relaci\IeC {\'o} Pares i Fill (ChildAndParentsRelationship)}{75}{subsection.5.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{75}{section*.134}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Recursos principals del bloc Discussions}{75}{section.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{75}{section*.135}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.1}El recurs Refer\IeC {\`e}ncia a la Discussi\IeC {\'o} (DiscussionsReference)}{76}{subsection.5.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{76}{section*.136}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.2}El recurs Discussi\IeC {\'o} (Discussion)}{77}{subsection.5.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{77}{section*.137}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6.3}El recurs Comentari (Comment)}{77}{subsection.5.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{77}{section*.138}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.7}Recursos principals del bloc Mem\IeC {\`o}ries}{78}{section.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{78}{section*.139}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7.1}El recurs Refer\IeC {\`e}ncia a la Mem\IeC {\`o}ria d'una Persona (Person Memory Reference)}{79}{subsection.5.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{79}{section*.140}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7.2}El recurs Persones en una Mem\IeC {\`o}ria (MemoryPersona)}{79}{subsection.5.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{79}{section*.141}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7.3}El recurs Mem\IeC {\`o}ria (Memory)}{80}{subsection.5.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{80}{section*.142}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.8}Recursos principals del bloc Fonts de Dades}{80}{section.5.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{80}{section*.143}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.1}El recurs Col\IeC {\textperiodcentered }lecci\IeC {\'o} (Collection)}{81}{subsection.5.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{81}{section*.144}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.2}El recurs Contingut de la Col\IeC {\textperiodcentered }lecci\IeC {\'o} (CollectionContent)}{82}{subsection.5.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{82}{section*.145}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.3}El recurs Atribuci\IeC {\'o} (Attribution)}{82}{subsection.5.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{82}{section*.146}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.4}El recurs Font de Dades (SourceDescription)}{83}{subsection.5.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{83}{section*.147}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} resourceType}{85}{section*.148}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8.5}El recurs Refer\IeC {\`e}ncia a la Font de Dades (SourceReference)}{85}{subsection.5.8.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{85}{section*.149}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.9}Altres recursos interessants}{86}{section.5.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{86}{section*.150}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.1}El recurs Subjecte (Subject)}{86}{subsection.5.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{86}{section*.151}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.2}El recurs Conclusi\IeC {\'o} (Conclusion)}{87}{subsection.5.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{87}{section*.152}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.3}El recurs Enlla\IeC {\c c}os Hypermedia (Hypermedia Enabled Data)}{88}{subsection.5.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{88}{section*.153}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.4}El recurs Enlla\IeC {\c c} (Link)}{88}{subsection.5.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{88}{section*.154}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.5}El recurs Dades Extensibles (Extensible Data)}{89}{subsection.5.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{89}{section*.155}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.6}El recurs Nota (Note)}{89}{subsection.5.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{89}{section*.156}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.7}El recurs Refer\IeC {\`e}ncia al Recurs (ResourceReference)}{90}{subsection.5.9.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{90}{section*.157}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.8}El recurs Usuari (User)}{90}{subsection.5.9.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{90}{section*.158}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.9}El recurs Canvi (Change)}{91}{subsection.5.9.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{91}{section*.159}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} changeObjectModifier}{92}{section*.160}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{92}{section*.161}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} changeOperation}{92}{section*.162}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{92}{section*.163}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{L'enumeraci\IeC {\'o} changeObjectType}{93}{section*.164}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{93}{section*.165}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9.10}El recurs Agent (Agent)}{93}{subsection.5.9.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{93}{section*.166}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.10}Camins d'acc\IeC {\'e}s a l'arbre familiar i operacions de cerca}{94}{section.5.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{94}{section*.167}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.10.1}L'acc\IeC {\'e}s directe a les dades}{94}{subsection.5.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{94}{section*.168}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.10.2}L'acc\IeC {\'e}s indirecte a les dades}{95}{subsection.5.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{95}{section*.169}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.10.3}Lectura de l'usuari identificat}{96}{subsection.5.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{96}{section*.170}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.10.4}Lectura de la persona relacionada a l'usuari identificat}{96}{subsection.5.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.10.5}Cerca de Persones a l'arbre familiar}{97}{subsection.5.10.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{97}{section*.171}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Cerca de persones duplicades}{99}{section*.172}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{99}{section*.173}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.10.6}Cerca de localitzacions}{99}{subsection.5.10.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{99}{section*.174}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Valoraci\IeC {\'o} final sobre la potencialitat de l'API}{101}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Introducci\IeC {\'o}}{101}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{101}{section*.175}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Distribuci\IeC {\'o} geogr\IeC {\`a}fica de les dades}{101}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{101}{section*.176}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Dades contempor\IeC {\`a}nies}{102}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{102}{section*.177}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Recursos i funcionalitats}{103}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{103}{section*.178}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Naturalesa de l'API}{104}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{104}{section*.179}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.6}Utilitzaci\IeC {\'o} de l'API en el marc d'un PFC}{104}{section.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{104}{section*.180}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.7}Conclusi\IeC {\'o}}{105}{section.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{105}{section*.181}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Llista de propostes de projecte}{107}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Introducci\IeC {\'o}}{107}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{107}{section*.182}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Comparaci\IeC {\'o} sobre la popularitat de noms}{108}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{108}{section*.183}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Estudis estad\IeC {\'\i }stics sobre els noms i cognoms}{108}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{108}{section*.184}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Portal de cerca localitzat al Catal\IeC {\`a}}{109}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{109}{section*.185}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Geolocalitzaci\IeC {\'o} d'un cognom en diferents nivells}{110}{section.7.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{110}{section*.186}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}La recerca geneal\IeC {\`o}gica i l'her\IeC {\`a}ldica}{110}{section.7.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{110}{section*.187}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.7}Projectes d'indexaci\IeC {\'o}}{111}{section.7.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{111}{section*.188}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.8}La hist\IeC {\`o}ria de l'esgl\IeC {\'e}sia mormona a trav\IeC {\'e}s de Family\discretionary {-}{}{}Search}{111}{section.7.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{111}{section*.189}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.9}Diversitat geogr\IeC {\`a}fica d'un cognom: Els nostres a\discretionary {-}{}{}vant\discretionary {-}{}{}pa\discretionary {-}{}{}ssats}{112}{section.7.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{112}{section*.190}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.10}Les col\IeC {\textperiodcentered }leccions de dades de FamilySearch}{113}{section.7.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{113}{section*.191}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.11}FamilySearch i la segona guerra mundial: Natalitat i Defuncions}{113}{section.7.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{113}{section*.192}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.12}FamilySearch i la segona guerra mundial: Increment en els casaments}{114}{section.7.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{114}{section*.193}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.13}FamilySearch i la segona guerra mundial: La llista de Schindler}{114}{section.7.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{114}{section*.194}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.14}La gran depressi\IeC {\'o} o altres esdeveniments hist\IeC {\`o}rics}{115}{section.7.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{115}{section*.195}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.15}Comparacions amb els amics o seguidors de Facebook i Twitter}{116}{section.7.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{116}{section*.196}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.16}Comparaci\IeC {\'o} de dades geneal\IeC {\`o}giques reals amb Family\discretionary {-}{}{}Search}{116}{section.7.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{116}{section*.197}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.17}Estudi de profunditat dels arbres familiars}{117}{section.7.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{117}{section*.198}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.18}Algoritme de marcatge de duplicats}{117}{section.7.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{117}{section*.199}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Estudi t\IeC {\`e}cnic de l'aplicaci\IeC {\'o} web}{119}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{119}{section*.200}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Decisi\IeC {\'o} del tipus d'aplicaci\IeC {\'o} a implementar}{119}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{119}{section*.201}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Tecnologies i patrons de l'aplicaci\IeC {\'o} web}{120}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{120}{section*.202}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}El model: Model Vista Controlador}{120}{subsection.8.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{120}{section*.203}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}Les tres capes del disseny web (Front-end)}{122}{subsection.8.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{122}{section*.204}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}La tecnologia HTML 5}{123}{subsection.8.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{123}{section*.205}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{124}{section*.206}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.4}La tecnologia CSS}{124}{subsection.8.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{124}{section*.207}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.5}La tecnologia de plantilles Mustache}{125}{subsection.8.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{125}{section*.208}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.6}Les tecnologies Javascript i jQuery}{127}{subsection.8.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{127}{section*.209}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.7}La tecnologia Bootstrap}{128}{subsection.8.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{128}{section*.210}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.8}El SDK Javascript oficial de FamilySearch}{130}{subsection.8.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{130}{section*.211}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.9}La tecnologia Node.js}{131}{subsection.8.2.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{131}{section*.212}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.10}La tecnologia Express o Express js}{132}{subsection.8.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{132}{section*.213}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.11}Recapitulaci\IeC {\'o} de les tecnologies pel desenvolupament web}{133}{subsection.8.2.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{133}{section*.214}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Tecnologies pel desenvolupament de l'aplicaci\IeC {\'o}}{134}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{134}{section*.215}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.1}La tecnologia GitHub}{134}{subsection.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{134}{section*.216}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.2}Node.js i Express en l'\IeC {\`a}mbit local}{135}{subsection.8.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{135}{section*.217}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.3}Tecnologia NPM}{136}{subsection.8.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{136}{section*.218}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.4}Paquet Nodemon}{136}{subsection.8.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{136}{section*.219}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Javascript SDK Oficial de FamilySearch}{137}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Introducci\IeC {\'o} al Javascript SDK}{137}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{137}{section*.220}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Emmascarant les crides REST a l'API de Family\discretionary {-}{}{}Search}{138}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{138}{section*.221}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Implementaci\IeC {\'o} basada en Promeses}{138}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{138}{section*.222}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Implementaci\IeC {\'o} orientada a objectes}{139}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{139}{section*.223}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.5}Model de dades quasi id\IeC {\`e}ntic a FamilySearch}{139}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{139}{section*.224}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.6}Captura d'errors}{139}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{139}{section*.225}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.7}Intentar de nou peticions GET fallides}{140}{section.9.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{140}{section*.226}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.8}Gesti\IeC {\'o} autom\IeC {\`a}tica del Throttling}{140}{section.9.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{140}{section*.227}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.9}Autentificaci\IeC {\'o} mitjan\IeC {\c c}ant un pop-up}{141}{section.9.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{141}{section*.228}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.10}Autentificaci\IeC {\'o} autom\IeC {\`a}tica}{141}{section.9.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{141}{section*.229}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.11}Emmagatzematge del Token en una cookie}{141}{section.9.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{141}{section*.230}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.12}Disparador autom\IeC {\`a}tic de la funci\IeC {\'o} d'expiraci\IeC {\'o}}{141}{section.9.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{141}{section*.231}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.13}Utilitzable des de diferents plataformes o capes}{142}{section.9.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{142}{section*.232}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.14}Suport en el desenvolupament}{142}{section.9.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{142}{section*.233}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.15}Conclusi\IeC {\'o} sobre el SDK}{142}{section.9.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{142}{section*.234}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Introducci\IeC {\'o} a l'aplicaci\IeC {\'o} web}{143}{chapter.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{143}{section*.235}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Acc\IeC {\'e}s i codi de l'aplicaci\IeC {\'o} web}{143}{section.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{143}{section*.236}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Requisits de l'aplicaci\IeC {\'o} web}{144}{section.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{144}{section*.237}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.1}Requisits funcionals}{144}{subsection.10.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.2}Requisits no funcionals}{145}{subsection.10.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.3}Estructura de l'aplicaci\IeC {\'o} web}{146}{section.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.1}Introducci\IeC {\'o} a l'estructura de l'aplicaci\IeC {\'o}}{146}{subsection.10.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{146}{section*.238}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.2}Home o p\IeC {\`a}gina principal}{147}{subsection.10.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{147}{section*.239}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.3}Rerefons}{147}{subsection.10.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{147}{section*.240}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.4}Propostes de projecte}{148}{subsection.10.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{148}{section*.241}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.5}Detalls espec\IeC {\'\i }fics d'una proposta de projecte}{149}{subsection.10.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{149}{section*.242}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.6}Identificaci\IeC {\'o} amb FamilySearch}{149}{subsection.10.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{149}{section*.243}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.7}Exemples implementats}{150}{subsection.10.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{150}{section*.244}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.8}Funcionalitats de cerca, expansi\IeC {\'o} geogr\IeC {\`a}fica d'un cognom i evoluci\IeC {\'o} d'esdeveniments}{150}{subsection.10.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{150}{section*.245}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.4}Fitxers de l'aplicaci\IeC {\'o} i la seva funcionalitat}{150}{section.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{150}{section*.246}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.5}Funcionament general de l'aplicaci\IeC {\'o} web}{153}{section.10.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{153}{section*.247}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.1}Creaci\IeC {\'o} del servidor}{153}{subsection.10.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{153}{section*.248}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.2}Acc\IeC {\'e}s a una p\IeC {\`a}gina del domini web}{155}{subsection.10.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{155}{section*.249}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.3}Interacci\IeC {\'o} amb l'API de FamilySearch}{155}{subsection.10.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{155}{section*.250}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.4}Interacci\IeC {\'o} amb elements del HTML}{155}{subsection.10.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{155}{section*.251}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.5.5}Conclusi\IeC {\'o}}{156}{subsection.10.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{156}{section*.252}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.6}Detalls espec\IeC {\'\i }fics de la implementaci\IeC {\'o}}{156}{section.10.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.1}Introducci\IeC {\'o} als detalls d'implementaci\IeC {\'o}}{156}{subsection.10.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{156}{section*.253}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.2}Estructura general d'una p\IeC {\`a}gina HTML: Mustache I}{157}{subsection.10.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{157}{section*.254}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.3}El fitxer header.html: Configuraci\IeC {\'o} de la p\IeC {\`a}gina}{157}{subsection.10.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{157}{section*.255}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.4}El fitxer navbar.html: La barra de navegaci\IeC {\'o} adaptativa}{158}{subsection.10.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{158}{section*.256}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.5}El fitxer pageTitle.html: Mustache II}{159}{subsection.10.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{159}{section*.257}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.6}El fitxer javascripts.html: C\IeC {\`a}rrega dels controladors}{160}{subsection.10.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{160}{section*.258}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.7}El fitxer index.html: El grid de Bootstrap I}{161}{subsection.10.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{161}{section*.259}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.8}El fitxer background.html: El grid de Bootstrap II}{162}{subsection.10.6.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{162}{section*.260}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.9}Els fitxers future-proposals.html i implemented-proposals.html: El grid de Bootstrap III i el component Thumbnail}{163}{subsection.10.6.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{163}{section*.261}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.10}El fitxer package.json: Complements de l'aplicaci\IeC {\'o}}{163}{subsection.10.6.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{163}{section*.262}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.11}El fitxer app.js: Funcionament del servidor}{164}{subsection.10.6.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{164}{section*.263}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Creaci\IeC {\'o} de variables}{164}{section*.264}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{164}{section*.265}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Configuraci\IeC {\'o} del motor d'impressi\IeC {\'o} i carpetes}{165}{section*.266}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{165}{section*.267}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{165}{section*.268}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Configuraci\IeC {\'o} dels complements}{165}{section*.269}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{165}{section*.270}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Funcions de redirecci\IeC {\'o}}{166}{section*.271}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{166}{section*.272}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Processament de peticions POST}{167}{section*.273}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{167}{section*.274}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Validaci\IeC {\'o} d'identificaci\IeC {\'o}}{167}{section*.275}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{167}{section*.276}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{168}{section*.277}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Configuraci\IeC {\'o} del servidor}{168}{section*.278}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{168}{section*.279}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.12}El fitxer gaTagging.js: Enviant esdeveniments}{168}{subsection.10.6.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{168}{section*.280}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6.13}El fitxer style.css: Configurant elements i classes pr\IeC {\`o}pies}{169}{subsection.10.6.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{169}{section*.281}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.7}Certificant l'aplicaci\IeC {\'o} amb FamilySearch}{170}{section.10.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{170}{section*.282}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.7.1}Certificat d'autentificaci\IeC {\'o}}{170}{subsection.10.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{170}{section*.283}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.7.2}Certificat de lectura}{171}{subsection.10.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{171}{section*.284}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.7.3}Proc\IeC {\'e}s de certificaci\IeC {\'o}}{172}{subsection.10.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{172}{section*.285}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.8}Google Analytics}{174}{section.10.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{174}{section*.286}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.9}Optimitizaci\IeC {\'o} d'imatges}{177}{section.10.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{177}{section*.287}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.10}Hosting de l'aplicaci\IeC {\'o}}{177}{section.10.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{177}{section*.288}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.10.1}F\IeC {\`a}cil configuraci\IeC {\'o}}{178}{subsection.10.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{178}{section*.289}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.10.2}F\IeC {\`a}cil desplegament al n\IeC {\'u}vol}{178}{subsection.10.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{178}{section*.290}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.10.3}Entorn de proves local}{179}{subsection.10.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{179}{section*.291}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.10.4}Decent versi\IeC {\'o} gratuita}{179}{subsection.10.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{179}{section*.292}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.10.5}F\IeC {\`a}cil escalatge de l'aplicaci\IeC {\'o}}{179}{subsection.10.10.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{179}{section*.293}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {11}Funcionalitats d'exemple amb FamilySearch}{181}{chapter.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.1}Introducci\IeC {\'o} a les funcionalitats implementades}{181}{section.11.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{181}{section*.294}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.2}Identificaci\IeC {\'o} i desconnexi\IeC {\'o} a l'API de FamilySearch}{181}{section.11.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.1}Descripci\IeC {\'o} de les funcionalitats}{181}{subsection.11.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{181}{section*.295}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.2}Detalls d'implementaci\IeC {\'o}}{182}{subsection.11.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{El client de FamilySearch}{182}{section*.296}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{182}{section*.297}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{La funci\IeC {\'o} d'identificaci\IeC {\'o} amb FamilySearch}{185}{section*.298}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{185}{section*.299}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{La funci\IeC {\'o} de desconnexi\IeC {\'o} amb FamilySearch}{186}{section*.300}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{186}{section*.301}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.2.3}Aspectes d'usabilitat considerats}{186}{subsection.11.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{186}{section*.302}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.3}Cerca de persones a l'arbre familiar}{187}{section.11.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.3.1}Descripci\IeC {\'o} de la funcionalitat}{187}{subsection.11.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{187}{section*.303}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.3.2}Recomenacions d'utilitzaci\IeC {\'o}}{188}{subsection.11.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{188}{section*.304}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.3.3}Detalls d'implementaci\IeC {\'o}}{188}{subsection.11.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{188}{section*.305}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Iniciant la cerca de persones}{188}{section*.306}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{188}{section*.307}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{La funci\IeC {\'o} printPersonsToTable()}{189}{section*.308}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{189}{section*.309}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Mostrant els detalls d'una persona}{190}{section*.310}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{190}{section*.311}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Generaci\IeC {\'o} de taules din\IeC {\`a}miques amb informaci\IeC {\'o} sobre un recurs}{192}{section*.312}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{192}{section*.313}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.3.4}Aspectes d'usabilitat considerats}{193}{subsection.11.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Llargada del formulari}{193}{section*.314}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{193}{section*.315}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari}{195}{section*.316}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{195}{section*.317}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Animaci\IeC {\'o} de cerca mentre s'espera la resposta del SDK}{195}{section*.318}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{195}{section*.319}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Missatges d'error del SDK}{195}{section*.320}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{195}{section*.321}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Fletxes d'exploraci\IeC {\'o} pels resultats de cerca}{196}{section*.322}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{196}{section*.323}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Fletxes de retorn a l'inici dels detalls d'una persona}{196}{section*.324}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{196}{section*.325}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Navegaci\IeC {\'o} vertical animada}{197}{section*.326}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{197}{section*.327}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{197}{section*.328}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{197}{section*.329}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.3.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{198}{subsection.11.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{198}{section*.330}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.4}Evoluci\IeC {\'o} geogr\IeC {\`a}fica d'un cognom}{198}{section.11.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4.1}Descripci\IeC {\'o} de la funcionalitat}{198}{subsection.11.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{198}{section*.331}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4.2}Recomanacions d'utilitzaci\IeC {\'o}}{200}{subsection.11.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{200}{section*.332}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4.3}Detalls d'implementaci\IeC {\'o}}{201}{subsection.11.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{201}{section*.333}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{201}{section*.334}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{201}{section*.335}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{202}{section*.336}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{202}{section*.337}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Impressi\IeC {\'o} dels gr\IeC {\`a}fics}{204}{section*.338}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{204}{section*.339}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Creaci\IeC {\'o} de les caselles de selecci\IeC {\'o} per cada continent}{205}{section*.340}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{205}{section*.341}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4.4}Aspectes d'usabilitat considerats}{207}{subsection.11.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{207}{section*.342}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Navegaci\IeC {\'o} pels resultats de diferents anys}{208}{section*.343}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{208}{section*.344}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{209}{section*.345}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{209}{section*.346}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{209}{section*.347}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{209}{section*.348}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.4.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{210}{subsection.11.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{210}{section*.349}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.5}Evoluci\IeC {\'o} temporal d'esdeveniments}{211}{section.11.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.5.1}Descripci\IeC {\'o} de la funcionalitat}{211}{subsection.11.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{211}{section*.350}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.5.2}Recomanacions d'utilitzaci\IeC {\'o}}{211}{subsection.11.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{211}{section*.351}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.5.3}Detalls d'implementaci\IeC {\'o}}{212}{subsection.11.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{212}{section*.352}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Validaci\IeC {\'o} del formulari de cerca}{212}{section*.353}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{212}{section*.354}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Regulaci\IeC {\'o} de les crides as\IeC {\'\i }ncrones}{213}{section*.355}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{213}{section*.356}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Impressi\IeC {\'o} del gr\IeC {\`a}fic}{214}{section*.357}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{214}{section*.358}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.5.4}Aspectes d'usabilitat considerats}{214}{subsection.11.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{214}{section*.359}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Progressi\IeC {\'o} de la cerca}{215}{section*.360}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{215}{section*.361}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Representaci\IeC {\'o} de l'estat}{216}{section*.362}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{216}{section*.363}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {11.5.5}Principal inter\IeC {\'e}s d'\IeC {\'u}s}{216}{subsection.11.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{216}{section*.364}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {12}Conclusions}{219}{chapter.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{219}{section*.365}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.1}Conclusions sobre el bloc te\IeC {\`o}ric}{219}{section.12.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{219}{section*.366}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.2}Conclusions sobre el bloc pr\IeC {\`a}ctic}{221}{section.12.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{221}{section*.367}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.3}\IeC {\'U}ltimes consideracions}{223}{section.12.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{223}{section*.368}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Annexos}{225}{section*.369}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Comptes de prova FamilySearch}{227}{Annex.1.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{227}{section*.370}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Acord d'\IeC {\'u}s limiat}{229}{Annex.1.B}

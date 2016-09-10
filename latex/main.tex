@@ -33,7 +33,8 @@
 
 % dedication environment
 \newenvironment{dedication}
-  {\cleardoublepage{}    % we want a new page
+  {
+   \cleardoublepage{}    % we want a new page
    \thispagestyle{empty} % no header and footer
    \vspace*{\stretch{1}} % some space at the top
    \raggedleft{}         % flush to the right margin
@@ -103,18 +104,18 @@
     \tableofcontents{}
 
     % MAIN MEMORY PART
-    %\input{./sections/01/_introduction}
-    %\input{./sections/02/_genealogy}
-    %\input{./sections/03/_fsOrganization}
-    %\input{./sections/04/_introAPI}
-    %\input{./sections/05/_deepDiveAPI}
-    %\input{./sections/06/_potential}
-    %\input{./sections/07/_proposals}
-    %\input{./sections/08/_technologies}
-    %\input{./sections/09/_sdk}
-    %\input{./sections/10/_webApp}
+    \input{./sections/01/_introduction}
+    \input{./sections/02/_genealogy}
+    \input{./sections/03/_fsOrganization}
+    \input{./sections/04/_introAPI}
+    \input{./sections/05/_deepDiveAPI}
+    \input{./sections/06/_potential}
+    \input{./sections/07/_proposals}
+    \input{./sections/08/_technologies}
+    \input{./sections/09/_sdk}
+    \input{./sections/10/_webApp}
     \input{./sections/11/_functionalities}
-    %\input{./sections/12/_conclusions}
+    \input{./sections/12/_conclusions}
 
     % ending memory sections
     %\clearpage

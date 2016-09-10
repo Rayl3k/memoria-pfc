@@ -1,21 +1,21 @@
 \subsubsection{Impressió dels gràfics}
 
 \paragraph{}
-A causa de la funcionalitat, resulta fàcil, que a la mínima que es realitza una cerca interessant, aquesta tardi més d'un minut en completar-se.
+A causa del funcionament de la funcionalitat, resulta fàcil, que a la mínima que es realitza una cerca mitjanment gran, aquesta tardi més d'un minut en completar-se.
 
-Per tal de transmetre la sensació de moviment i que el sistema està treballant, hem introduït a la funcionalitat la capacitat d'anar pintant els gràfics de cada any, a mesura que les dades van quedant disponibles. És a dir, que no cal esperar fins al final de la cerca per poder començar a veure resultats.
+Per tal de transmetre sensació de moviment i que el sistema està treballant, hem introduït a la funcionalitat la capacitat d'anar pintant els gràfics de cada any, a mesura que les dades van quedant disponibles. És a dir, que no cal esperar fins al final de la cerca, per poder començar a explorar elsresultats.
 
-Per aconseguir aquest efecte, disposem de variables globals que comptabilitzen el nombre de cerques que ja han retornat del SDK i cada cop que les dades d'un any són completades, es pinta el mapa geogràfic i el gràfic de barres relatiu a l'any. Un cop es completen les dades de tots els anys, es pinta el gràfic de línies.
+Per aconseguir aquest efecte, disposem de variables globals que comptabilitzen el nombre de cerques que ja han retornat del SDK i cada cop que les dades d'un any queden completades, es pinta el mapa geogràfic i el gràfic de barres, relatiu a l'any. Un cop es completen les dades de tots els anys, es pinta el gràfic de línies.
 
-Els gràfics es pinten mitjançant la crida a l'API de GoogleCharts. Per pintar qualsevol gràfic sempre se segueix un procés similar:
+Els gràfics es pinten mitjançant la crida a l'API de GoogleCharts. Per pintar qualsevol gràfic, sempre se segueix un procés similar:
 
 \begin{enumerate}
     \item Transformació de les dades a un format que Google utilitzarà després per crear el gràfic.
-    \item Creació del tipus de gràfic desitjat, mitjançant una crida a l'API de Google i selecció del contenidor HTML en el qual volem inserir el gràfic.
+    \item Creació del tipus de gràfic desitjat mitjançant una crida a l'API de Google i selecció del contenidor HTML en el qual volem inserir el gràfic.
     \item Renderització del gràfic en el HTML.
 \end{enumerate}
 
-Pel mapa geogràfic, gràcies a la forma en què s’han anat emmagatzemant les dades, el procés és relativament simple. Recordem que cada fila de la matriu \emph{geomapCountries}, representa els valors d’un any i cada columna, un país diferent.
+Pel mapa geogràfic, gràcies a la forma en què s’han anat emmagatzemant les dades, el procés és relativament simple. Recordem, que cada fila de la matriu \emph{geomap\-Countries}, representa els valors d’un any i cada columna, un país diferent.
 
 \begin{lstlisting}[style=rawOwn,caption={Creació del mapa geogràfic}]
 function printGeomap(i) {
@@ -25,7 +25,9 @@ function printGeomap(i) {
 }
 \end{lstlisting}
 
-Per representar el gràfic de barres, el procés és molt similar al del mapa geogràfic, però primer realitzem un petit tractament de les dades per tal d'ordenar els països de més a menys instàncies del cognom trobades i obtenir així, una representació més clara.
+Per pintar el gràfic de barres, el procés és molt similar al del mapa geogràfic, però primer realitzem un petit tractament de les dades, per tal d'ordenar els països de més a menys instàncies trobades i obtenir així, una representació més clara de la resposta.
+
+Per aconseguir-ho, es crea una funció de comparació dedicada (\emph{compare\-Countries}), que compararà els diferents elements de l'objecte \emph{barchartCountries}, a través de la funció \emph{sort} pròpia de Javascript.
 
 \begin{lstlisting}[style=rawOwn,caption={Creació del gràfic de barres}]
 function compareCountries(a, b) {
@@ -48,7 +50,7 @@ function printBarchart(i) {
 }
 \end{lstlisting}
 
-Finalment, el gràfic de línies també resulta bastant simple de pintar, ja que gràcies a la forma en què s’han emmagatzemat les dades, no fa falta realitzar cap tractament especial abans de pintar-les.
+En últim lloc, el gràfic de línies també resulta bastant fàcil de pintar, ja que gràcies a la forma en què s’han emmagatzemat les dades, no fa falta realitzar cap tractament especial sobre aquestes, abans de pintar-les.
 
 \begin{lstlisting}[style=rawOwn,caption={Creació del gràfic de línies}]
 function printLinechart() {
@@ -60,22 +62,22 @@ function printLinechart() {
 }
 \end{lstlisting}
 
-Las figures~\ref{fig:geomap}, \ref{fig:barchart} i \ref{fig:linechart}, mostren una visualització dels diferents gràfics disponibles.
+Les figures~\ref{fig:geomap}, \ref{fig:barchart} i \ref{fig:linechart}, ofereixen una visualització dels diferents gràfics disponibles.
 
 \begin{figure}[h]
-    \includegraphics[width=\linewidth]{11/03_surnamesSearch/02_geomapDesktop}
+    \includegraphics[width=\linewidth]{11/03_surnamesSearch/02_geomapDesktop2}
     \centering
     \caption{Mapa geogràfic}\label{fig:geomap}
 \end{figure}
 
 \begin{figure}[h]
-    \includegraphics[width=\linewidth]{11/03_surnamesSearch/03_barChartDesktop}
+    \includegraphics[width=\linewidth]{11/03_surnamesSearch/03_barChartDesktop2}
     \centering
     \caption{Gràfic de barres}\label{fig:barchart}
 \end{figure}
 
 \begin{figure}[h]
-    \includegraphics[width=\linewidth]{11/03_surnamesSearch/04_yearsEvolutionDesktop}
+    \includegraphics[width=\linewidth]{11/03_surnamesSearch/04_yearsEvolutionDesktop3}
     \centering
     \caption{Gràfic de línies}\label{fig:linechart}
 \end{figure}
