@@ -108,7 +108,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{31}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Conversi\IeC {\'o} de formats digital}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Conversi\IeC {\'o} de formats digitals}{32}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{32}{section*.36}
 \defcounter {refsection}{0}\relax 
@@ -160,7 +160,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{37}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Cerca de registres}{37}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.1}Cerca de registres i cerca a l'arbre familiar}{37}{subsection.3.6.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{37}{section*.54}
 \defcounter {refsection}{0}\relax 
@@ -172,9 +172,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{39}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.4}Cerca en llibres d'hist\IeC {\`o}ria geneal\IeC {\`o}gica}{40}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.4}Cerca en llibres d'hist\IeC {\`o}ria geneal\IeC {\`o}gica}{39}{subsection.3.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{40}{section*.57}
+\contentsline {paragraph}{}{39}{section*.57}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6.5}Wiki de FamilySearch}{40}{subsection.3.6.5}
 \defcounter {refsection}{0}\relax 
@@ -188,7 +188,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{40}{section*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{41}{section*.62}
+\contentsline {paragraph}{}{40}{section*.62}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Qu\IeC {\`e} pot indexar un voluntari?}{41}{section*.63}
 \defcounter {refsection}{0}\relax 
