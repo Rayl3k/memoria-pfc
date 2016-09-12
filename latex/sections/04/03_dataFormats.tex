@@ -17,9 +17,9 @@
         \paragraph{}
         El terme \gls{GEDCOM}\footfullcite{wiki:gedcom}, és un acrònim de l'anglès Genealogical Data Communications.
 
-        El format GEDCOM consisteix en un conjunt de regles d'aplicació per tal de transformar informació genealògica en un format comú per la comunicació en línia. Aquest format de dades, creat per FamilySearch l'any 1984, s'ha convertit en l'estàndard del sector.
+        El format GEDCOM consisteix en un conjunt de regles d'aplicació, per tal de transformar informació genealògica en un format comú per la comunicació en línia. Aquest format de dades, creat per FamilySearch l'any 1984, s'ha convertit en l'estàndard del sector.
 
-        Per simplificar-ho, podríem entendre un fitxer en format GEDCOM, com un fitxer de text que emmagatzema informació genealògica d’una persona i les metadades necessàries per poder enllaçar als diferents fitxers que contenen altra informació de la mateixa persona.
+        Per simplificar-ho, podríem entendre un fitxer en format GEDCOM, com un fitxer de text, que emmagatzema informació genealògica d’una persona i les metadades necessàries per enllaçar als diferents fitxers que contenen més informació de la mateixa persona.
 
         Tot i que l’última versió, datada del 1996, segueix sent molt utilitzada, Family\-Search va proposar durant l'any 2012 canviar aquest estàndard per la seva nova versió anomenada GEDCOM X.
 
@@ -31,7 +31,7 @@
 
         \begin{center}
                  \csvreader[
-                    separator=comma,
+                    separator=semicolon,
                     before table=\sffamily\small,
                     longtable={p{1.5cm-2\tabcolsep}p{4.5cm-2\tabcolsep}p{3.5cm-2\tabcolsep}p{4.5cm-2\tabcolsep}},
                     table head={\caption{Codificació GEDCOM X del recurs Persona}\label{ref:personGedcom}\\\toprule%
@@ -47,7 +47,6 @@
                  {\nom&\desc&\format&\rest}
          \end{center}
 
-         \paragraph{}
          Així doncs, podem veure com la instància del recurs Persona conté un camp booleà, que indica si aquesta pot ser utilitzada de forma pública o només en l'àmbit privat i tres camps que es troben codificats sota els estàndards del format GEDCOMX.
 
          Per exemple, el format de dades \emph{http://gedcomx.org/v1/Gender}, representaria un recurs amb l’estructura que s’exposa a la taula~\ref{ref:genderGedcom} i els valors possibles per \emph{l’enumeració gènere}, s’indiquen a la taula~\ref{ref:genderEnum}.
@@ -89,7 +88,7 @@
          \paragraph{}
          Com que l’objectiu del projecte no és estudiar la codificació GEDCOM o GEDCOM X, sinó comprendre quina informació es troba realment disponible a través de l'API de FamilySearch, no entrarem més en detall en aquests formats.
 
-         L’objectiu principal d’aquest apartat era només el d'explicar quin és l'estàndard de representació de dades genealògiques utilitzat per l'API i realitzar-ne una breu introducció. Per qualsevol informació extra que es vulgui consultar, s'ha adjuntat a la bibliografia del projecte, l’enllaç a la documentació del model conceptual.
+         L’objectiu principal d’aquest apartat era només el d'explicar quin és l'estàndard de representació de dades genealògiques utilitzat per l'API i realitzar-ne una breu introducció. Per qualsevol informació extra que vulgui ser consultada, s'ha adjuntat a la bibliografia del projecte l’enllaç a la documentació del model conceptual.
 
 
      \subsection{Format de dades FamilySearch}
@@ -97,13 +96,13 @@
         \paragraph{}
         El format de dades FamilySearch, defineix el format d'aquells objectes específics del model de dades propi de l'organització. Això implica que aquestes estructures no formen part de cap estàndard i manquen de sentit fora del context pel qual han estat definides.
 
-        L'estructura dels objectes específics de FamilySearch ha estat creada com una extensió de l'especificació GEDCOM X. Per tant, segueixen una estructura molt similar a aquests.
+        L'estructura dels objectes específics de FamilySearch ha estat creada com una extensió de l'especificació GEDCOM X i per tant, segueixen una estructura molt similar a aquests.
 
 
     \subsection{Format de dades Atom (o Atòmic)}
 
         \paragraph{}
-        Els formats de dades Atom, o atòmic, és utilitzat per proporcionar un format pel contingut web i les metadades.
+        Els format de dades Atom o atòmic, és utilitzat per proporcionar un format pel contingut web i les metadades.
 
         Aquest format és utilitzat, entre altres llocs, en les col·leccions ordenades de resultats, com podrien ser per exemple, les respostes a la funció de cerca de persones o l'obtenció de l'historial de canvis d’una persona.
 
@@ -111,19 +110,19 @@
     \subsection{Codificacions dels formats de dades}
 
         \paragraph{}
-        Els formats de dades que s’han exposat en els apartats anteriors no són més que unes convencions que marquen l'estructura a seguir per representar els diferents objectes o recursos, utilitzats per l'API de FamilySearch.
+        Els formats de dades que s’han exposat en els apartats anteriors, no són més que unes convencions, que marquen l'estructura a seguir per representar els diferents objectes o recursos, utilitzats per l'API de FamilySearch.
 
-        Tanmateix, aquestes estructures han de ser codificades per tal de poder ser transmeses a través del núvol i en concret, FamilySearch, proporciona suport a les dues codificacions més comunes i utilitzades per aquesta finalitat. Els llenguatges XML i JSON.
+        Tanmateix, aquestes estructures han de ser codificades per tal de poder ser transmeses a través del núvol i en concret, FamilySearch proporciona suport a les dues codificacions més comunes i utilitzades per aquesta finalitat. Els llenguatges XML i JSON.
 
 
         \subsubsection{El llenguatge XML}
 
         \paragraph{}
-        El \gls{XML}\footfullcite{wiki:xml}, és un llenguatge de marcatge que defineix un conjunt de regles a seguir per tal de codificar documents i informació, en un format llegible i processable tant per éssers humans, com màquines.
+        El \gls{XML}\footfullcite{wiki:xml}, és un llenguatge de marcatge que defineix un conjunt de regles a seguir per tal de codificar documents i informació, en un format llegible i processable, tant per éssers humans, com màquines.
 
         El llenguatge va ser definit pel Consorci World Wide Web i tracta d’emfatitzar la simplicitat, generalitat i usabilitat del model, per l'ús a través d'Internet.
 
-        Una versió reduïda de la representació en XML del recurs `Nota', amb camps: \emph{subjecte}, \emph{text} i \emph{atribució}, quedaria representat de la forma següent:
+        Una versió reduïda de la representació en XML del recurs Nota, amb camps: \emph{subjecte}, \emph{text} i \emph{atribució}, quedaria representat de la forma següent:
 
         \begin{lstlisting}[style=rawOwn,caption={Representació bàsica en XML d'una Nota}]
 <Note xmlns='...'>
@@ -140,19 +139,19 @@
         \end{lstlisting}
 
         \paragraph{}
-        Com es pot observar, cada camp, objecte o peça d'informació, es troba envoltada per dues etiquetes que en marquen l'inici i final. El text situat a l'interior d'aquestes etiquetes indica de quin camp es tracta. Per exemple, pel camp subjecte, tenim les etiquetes \emph{<subject>} i \emph{</subject>}.
+        Com es pot observar, cada camp, objecte o peça d'informació, es troba envoltada per dues etiquetes que en marquen l'inici i final. El text situat a l'interior d'aquestes etiquetes indica de quin camp es tracta. Per exemple, pel camp \emph{subjecte}, tenim les etiquetes \emph{<subject>} i \emph{</subject>}.
 
 
         \subsubsection{El llenguatge JSON}
 
         \paragraph{}
-        El llenguatge \gls{JSON}\footfullcite{wiki:json} és un estàndard de format obert que, de la mateixa forma que el llenguatge XML, pretén crear codificacions llegibles tant per éssers humans, com màquines i al mateix temps, poder transmetre aquestes dades a través del núvol de forma ordenada.
+        El llenguatge \gls{JSON}\footfullcite{wiki:json} és un estàndard de format obert, que de forma anàloga al XML, pretén crear codificacions llegibles tant per éssers humans, com màquines i al mateix temps, poder transmetre aquestes dades a través del núvol de forma ordenada.
 
-        Aquest format es basa en el concepte `clau -valor'. És a dir, cada camp d'un objecte a representar està format per una clau i un valor associat a aquesta clau.
+        Aquest format es basa en el concepte `clau -valor'. És a dir, cada camp d'un objecte a representar, estarà format per una clau i un valor associat a aquesta clau.
 
-        El llenguatge JSON deriva del JavaScript. En els seus començaments, només aquesta plataforma incorporava funcions per codificar i descodificar aquest llenguatge de marcatge.
+        El llenguatge JSON deriva del JavaScript i de fet, en els seus començaments, només aquesta plataforma incorporava funcions per codificar i descodificar aquest llenguatge de marcatge.
 
-        Durant els últims anys, el format JSON s'ha vist convertit en l'estàndard de la indústria per l'intercanvi de dades a través d'Internet i en conseqüència, ha provocat que molts altres llenguatges de programació hagin incorporat les seves pròpies funcions de codificació i descodificació.
+        No obstant, durant els últims anys, el format JSON s'ha anat convertit en l'estàndard del sector de l'intercanvi de dades a través d'Internet i en conseqüència, ha provocat que molts altres llenguatges de programació, hagin incorporat les seves pròpies funcions de codificació i descodificació.
 
         Una versió reduïda de la representació en JSON del recurs Nota, amb camps: \emph{subjecte}, \emph{text} i \emph{atribució}, quedaria representat de la forma següent:
 

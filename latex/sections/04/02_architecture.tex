@@ -4,9 +4,9 @@
     \subsection{Què és una \gls{API}?}
 
     \paragraph{}
-    Abans d'entrar en detall en com funciona una \gls{API}, estaria bé definir, amb una mica més de precisió, en què consisteix exactament.
+    Abans d'entrar en el detall de com funciona l'\gls{API} de FamilySearch, estaria bé definir, amb una mica més de precisió, en què consisteix exactament una API.
 
-    Una \gls{API}\footfullcite{wiki:api}, de l'anglès `Application Programming Interface' o Interfície de programació d'aplicacions en català, representa el conjunt de subrutines, funcions i procediments que ofereix una biblioteca per tal de ser utilitzada en el software de tercers com una capa d'abstracció. Aquest conjunt de subrutines, funcions i procediments, acostumen a oferir accés a certs serveis o conjunts de dades d'un particular, de forma controlada.
+    Una \gls{API}\footfullcite{wiki:api}, de l'anglès `Application Programming Interface' o Interfície de programació d'aplicacions en català, representa el conjunt de subrutines, funcions i procediments, que ofereix una biblioteca, per tal de ser utilitzada en el software de tercers com una capa d'abstracció. Aquest conjunt de subrutines, funcions i procediments, acostumen a oferir accés a certs serveis o conjunts de dades d'un particular, de forma controlada.
 
 
     \subsection{L'arquitectura REST}
@@ -14,13 +14,13 @@
     \paragraph{}
     L’arquitectura sobre la qual està creada l’\gls{API} de FamilySearch és una arquitectura REST. Les sigles provenen de l’anglès i representen el concepte: \gls{REST}\footfullcite{wiki:restful}.
 
-    Les arquitectures \gls{REST} es caracteritzen per estar orientades en els recursos més que en les accions que es poden realitzar sobre ells i com a peculiaritat, es caracteritzen per sis regles o restriccions\footfullcite{whatIsRest}.
+    Les arquitectures \gls{REST} es caracteritzen per estar orientades en els recursos, més que en les accions que es poden realitzar sobre ells i com a peculiaritat, es carac\-te\-rit\-zen per sis regles o restriccions\footfullcite{whatIsRest}.
 
-    Aquestes són: \emph{interfície uniforme}, \emph{sense estat}, \emph{client-servidor}, \emph{emmagatzemables}, \emph{sistema per capes} i \emph{codi sota petició}. Aquests sis conceptes són doncs els que defineixen les bases de les arquitectures \gls{REST}.
+    Aquestes són: \emph{interfície uniforme}, \emph{sense estat}, \emph{client-servidor}, \emph{emmagatzemables}, \emph{sistema per capes} i \emph{codi sota petició}.
 
     Es diu que una arquitectura \gls{REST} és orientada als recursos perquè és cons\-tru\-ï\-da al voltant d’objectes i les relacions entre aquests i no pas en les diferents accions realitzables. Per exemple, a l’\gls{API} de FamilySearch, es parla de persones i esdeveniments, en comptes de llegir persones o crear esdeveniments i en canvi, aquestes operacions, passen a formar part dels objectes \emph{Persona} i \emph{Esdeveniment}.
 
-    L'intercanvi de dades es produeix mitjançant l'ús de diferents representacions. Aquestes, expliquen com els recursos són tractats per l’\gls{API} i de quina forma han de ser realitzades les comunicacions entre el servidor i el client. Els formats més freqüents són JSON i XML. FamilySearch ofereix suport per ambdós formats.
+    L'intercanvi de dades es produeix mitjançant l'ús de diferents representacions. Aquestes, expliquen com els recursos són tractats per l’\gls{API} i de quina forma han de ser realitzades les comunicacions entre el servidor i el client. Els formats més freqüents són JSON i XML. FamilySearch, ofereix suport per ambdós formats.
 
     Per posar un exemple reduït, que il·lustri el que estem explicant fins ara, podem descriure de la següent forma el que podria ser una operació contra l'\gls{API} de Family\-Search, especificant quin element seria considerat el Recurs, quin el Servei i quin la Representació:
 
@@ -39,7 +39,7 @@
     \paragraph{}
     Aquesta restricció s'encarrega de definir la interfície de comunicació entre el client i el servidor.
 
-    En una arquitectura REST, s'utilitzen els protocols de comunicació \gls{HTTP} i \gls{HTTPS} de forma conjunta amb els \gls{URI}, per aconseguir accés als diferents recursos i operacions proporcionades per l'\gls{API}.
+    En una arquitectura REST, s'utilitzen els protocols de comunicació \gls{HTTP} i \gls{HTTPS}, de forma conjunta amb els \gls{URI}, per aconseguir accés als diferents recursos i operacions proporcionades per l'\gls{API}.
 
     Els verbs permesos pels protocols de comunicació web són els coneguts: \emph{GET}, \emph{PUT}, \emph{POST}, \emph{DELETE}, \emph{OPTIONS} and \emph{HEAD}.
 
@@ -52,7 +52,7 @@
     \subsubsection{Sense estat (stateless)}
 
     \paragraph{}
-    Aquesta restricció implica que el servidor no emmagatzema la informació del client. Això implica que cada petició d'aquest cap a l’\gls{API}, ha de contenir tota la informació necessària perquè el servidor l'identifiqui i es defineixin les regles de comunicació adequades per processar la petició.
+    Aquesta restricció implica que el servidor no emmagatzema la informació del client. Això implica que cada petició d'aquest, cap a l’\gls{API}, ha de contenir tota la informació necessària perquè el servidor l'identifiqui i es defineixin les regles de comunicació adequades per processar la petició.
 
     Hi ha exemples d'operacions a l'\gls{API} de FamilySearch, com per exemple el procés d'identificació Oauth V2, que no són realment RESTful, doncs aquestes sí guarden informació del client durant les diferents parts de la comunicació.
 
@@ -70,7 +70,7 @@
     \subsubsection{Emmagatzematge en el client (cacheable)}\label{section:42caching}
 
     \paragraph{}
-    Aquesta restricció fa referència a si les respostes retornades, del servidor cap al client, poden ser emmagatzemades per aquest i durant quant de temps les pot guardar. Existeixen tres nivells de configuració diferents:
+    Aquesta restricció fa referència a si les respostes retornades des del servidor cap al client, poden ser emmagatzemades per aquest i durant quant de temps les pot guardar. Existeixen tres nivells de configuració diferents:
 
     \begin{itemize}
         \item \textbf{Emmagatzematge implícit:} Si és el client el que decideix quant de temps seran guardades les dades o informació retornada.
@@ -84,7 +84,7 @@
     \paragraph{}
     Aquest principi, o restricció, es basa en el fet que el client ha d'assumir que mai disposarà de connexió directa amb el servidor. És a dir, que sempre existiran diferents intermediaris en forma de hardware i software entre el client i servidor.
 
-    Aquesta restricció facilita l’escalabilitat i persistència del sistema gràcies al fet que el client es pot despreocupar totalment dels canvis produïts en el servidor. Així doncs, el servidor es pot veure subjecte a canvis sense la necessitat que els clients realitzin canvis en la seva banda.
+    Aquesta restricció facilita l’escalabilitat i persistència del sistema, gràcies al fet que el client es pot despreocupar totalment dels canvis produïts en el servidor. Així doncs, el servidor es pot veure subjecte a canvis sense la necessitat que els clients realitzin canvis en la seva banda.
 
 
     \subsubsection{Codi sota petició (code on demand)}
