@@ -1,19 +1,19 @@
 \subsection{Les tres capes del disseny web (Front-end)}
 
     \paragraph{}
-    Abans d'entrar en les tecnologies que utilitzarem per crear l’aplicació web, volem destacar una peculiaritat del front-end. En general, el front-end és dividit en tres capes, també conegudes com les capes d’Estructura, Estil i Comportament\footfullcite{layersWebDesign}.
+    Abans d'entrar en les tecnologies que utilitzarem per crear l’aplicació web, volem destacar una peculiaritat del front-end. En general, el front-end és dividit en tres capes, també conegudes com les capes Estructura, Estil i Comportament\footfullcite{layersWebDesign}.
 
-    La capa d'estructures és generalment coneguda com la capa del contingut. A\-ques\-ta, representa l'estructura sobre la qual el contingut de la pàgina web serà pintat. Es podria entendre també, com la creació de diferents caixes sobre les que es pintarà el contingut.
+    La capa d'estructures és generalment coneguda com la capa del contingut. Aques\-ta, representa l'estructura sobre la qual el contingut de la pàgina web serà pintat. Es podria entendre també, com la creació de diferents caixes, sobre les quals es pintarà el contingut.
 
     La capa d'estil, defineix com les diferents estructures han de ser situades en el navegador de l’usuari, així com l'estil dels diferents elements que seran pintats en aquestes estructures. Per exemple, controla el color de la font o les imatges de fons.
 
-    Finalment, la capa de comportament, s'encarrega de respondre a les diferents accions realitzades per l'usuari i a modificar l’estat de les capes estructures i estil. Aquesta capa del front-end és el que hem anomenat en l'apartat anterior, `el back end del front end’ i com ja hem comentat, jugarà el paper de Controlador en el model MVC.
+    Finalment, la capa del comportament, s'encarrega de respondre a les diferents accions realitzades per l'usuari i a modificar l’estat de les capes estructures i estil. Aquesta capa del front-end és el que hem anomenat en l'apartat anterior, `el back end del front end’ i com ja hem comentat, jugarà el paper de Controlador en el model MVC.
 
     Ara bé, però per què és important diferenciar aquestes tres capes i perquè les hem reflectit en la memòria? Les raons són diverses:
 
     \begin{itemize}
         \item \textbf{Recursos compartits:} Moltes vegades, certs aspectes de les capes d'estil i comportament, podran ser reutilitzats en diverses pàgines de l’aplicació web i per tant, no té cap sentit haver de duplicar el contingut d’aquests a cada pàgina de l’aplicació, com s'hauria de fer en cas de no voler diferenciar les capes.
         \item \textbf{Descàrregues més ràpides:} Un cop un d'aquests recursos compartits ha estat descarregat, aquest s’emmagatzema en el navegador de l’usuari i ja no cal tornar-lo a descarregar. En cas no voler utilitzar aquesta arquitectura per capes, cada pàgina hauria de descarregar tot el codi necessari per funcionar.
-        \item \textbf{Treball en equip:} Permet que diferents desenvolupadors treballin a la vegada sobre la mateixa pàgina de l’aplicació web, en apartats diferents, sense superposició.
+        \item \textbf{Treball en equip:} Permet que diferents desenvolupadors treballin a la vegada, en apartats diferents de la mateixa pàgina de l'aplicació web, sense superposició.
         \item \textbf{User-friendly:} Permet crear aplicacions més fàcils d’interpretar pels motors d’optimització de cerca, així com proporcionar una accessibilitat i com\-pa\-ti\-bi\-li\-tat amb diferents navegadors, més elevada.
     \end{itemize}

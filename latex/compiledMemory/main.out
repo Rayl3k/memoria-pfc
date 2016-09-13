@@ -1,22 +1,7 @@
-\BOOKMARK [0][-]{chapter.1}{Llista de propostes de projecte}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Introducci\363}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Comparaci\363 sobre la popularitat de noms}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Estudis estad\355stics sobre els noms i cognoms}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{Portal de cerca localitzat al Catal\340}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.5}{Geolocalitzaci\363 d'un cognom en diferents nivells}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.6}{La recerca geneal\362gica i l'her\340ldica}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.7}{Projectes d'indexaci\363}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.8}{La hist\362ria de l'esgl\351sia mormona a trav\351s de FamilySearch}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.9}{Diversitat geogr\340fica d'un cognom: Els nostres avantpassats}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.10}{Les col\267leccions de dades de FamilySearch}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.11}{FamilySearch i la segona guerra mundial: Natalitat i Defuncions}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.12}{FamilySearch i la segona guerra mundial: Increment en els casaments}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.13}{FamilySearch i la segona guerra mundial: La llista de Schindler}{chapter.1}% 14
-\BOOKMARK [1][-]{section.1.14}{La gran depressi\363 o altres esdeveniments hist\362rics}{chapter.1}% 15
-\BOOKMARK [1][-]{section.1.15}{Comparacions amb els amics o seguidors de Facebook i Twitter}{chapter.1}% 16
-\BOOKMARK [1][-]{section.1.16}{Comparaci\363 de dades geneal\362giques reals amb FamilySearch}{chapter.1}% 17
-\BOOKMARK [1][-]{section.1.17}{Estudi de profunditat dels arbres familiars}{chapter.1}% 18
-\BOOKMARK [1][-]{section.1.18}{Algoritme de marcatge de duplicats}{chapter.1}% 19
-\BOOKMARK [0][-]{section*.20}{Annexos}{}% 20
-\BOOKMARK [0][-]{Annex.1.A}{Comptes de prova FamilySearch}{}% 21
-\BOOKMARK [0][-]{Annex.1.B}{Acord d'\372s limiat}{}% 22
+\BOOKMARK [0][-]{chapter.1}{Estudi t\350cnic de l'aplicaci\363 web}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Decisi\363 del tipus d'aplicaci\363 a implementar}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Tecnologies i patrons de l'aplicaci\363 web}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Tecnologies pel desenvolupament de l'aplicaci\363}{chapter.1}% 4
+\BOOKMARK [0][-]{section*.22}{Annexos}{}% 5
+\BOOKMARK [0][-]{Annex.1.A}{Comptes de prova FamilySearch}{}% 6
+\BOOKMARK [0][-]{Annex.1.B}{Acord d'\372s limiat}{}% 7

@@ -1,83 +1,87 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Llista de propostes de projecte}{7}{chapter.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}}{7}{section.1.1}
+\contentsline {chapter}{\numberline {1}Estudi t\IeC {\`e}cnic de l'aplicaci\IeC {\'o} web}{7}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{7}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Comparaci\IeC {\'o} sobre la popularitat de noms}{8}{section.1.2}
+\contentsline {section}{\numberline {1.1}Decisi\IeC {\'o} del tipus d'aplicaci\IeC {\'o} a implementar}{7}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{8}{section*.3}
+\contentsline {paragraph}{}{7}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Estudis estad\IeC {\'\i }stics sobre els noms i cognoms}{8}{section.1.3}
+\contentsline {section}{\numberline {1.2}Tecnologies i patrons de l'aplicaci\IeC {\'o} web}{8}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{8}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Portal de cerca localitzat al Catal\IeC {\`a}}{9}{section.1.4}
+\contentsline {subsection}{\numberline {1.2.1}El model: Model Vista Controlador}{8}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{9}{section*.5}
+\contentsline {paragraph}{}{8}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Geolocalitzaci\IeC {\'o} d'un cognom en diferents nivells}{10}{section.1.5}
+\contentsline {subsection}{\numberline {1.2.2}Les tres capes del disseny web (Front-end)}{10}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{10}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}La recerca geneal\IeC {\`o}gica i l'her\IeC {\`a}ldica}{10}{section.1.6}
+\contentsline {subsection}{\numberline {1.2.3}La tecnologia HTML 5}{11}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{10}{section*.7}
+\contentsline {paragraph}{}{11}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Projectes d'indexaci\IeC {\'o}}{11}{section.1.7}
+\contentsline {paragraph}{}{12}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}{section*.8}
+\contentsline {subsection}{\numberline {1.2.4}La tecnologia CSS}{12}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.8}La hist\IeC {\`o}ria de l'esgl\IeC {\'e}sia mormona a trav\IeC {\'e}s de Family\discretionary {-}{}{}Search}{11}{section.1.8}
+\contentsline {paragraph}{}{12}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}{section*.9}
+\contentsline {subsection}{\numberline {1.2.5}La tecnologia de plantilles Mustache}{13}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.9}Diversitat geogr\IeC {\`a}fica d'un cognom: Els nostres a\discretionary {-}{}{}vant\discretionary {-}{}{}pa\discretionary {-}{}{}ssats}{12}{section.1.9}
+\contentsline {paragraph}{}{13}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{12}{section*.10}
+\contentsline {subsection}{\numberline {1.2.6}Les tecnologies Javascript i jQuery}{15}{subsection.1.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.10}Les col\IeC {\textperiodcentered }leccions de dades de FamilySearch}{13}{section.1.10}
+\contentsline {paragraph}{}{15}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{13}{section*.11}
+\contentsline {subsection}{\numberline {1.2.7}La tecnologia Bootstrap}{16}{subsection.1.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.11}FamilySearch i la segona guerra mundial: Natalitat i Defuncions}{13}{section.1.11}
+\contentsline {paragraph}{}{16}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{13}{section*.12}
+\contentsline {subsection}{\numberline {1.2.8}El SDK Javascript oficial de FamilySearch}{18}{subsection.1.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.12}FamilySearch i la segona guerra mundial: Increment en els casaments}{14}{section.1.12}
+\contentsline {paragraph}{}{18}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}{section*.13}
+\contentsline {subsection}{\numberline {1.2.9}La tecnologia Node.js}{19}{subsection.1.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.13}FamilySearch i la segona guerra mundial: La llista de Schindler}{14}{section.1.13}
+\contentsline {paragraph}{}{19}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}{section*.14}
+\contentsline {subsection}{\numberline {1.2.10}La tecnologia Express o Express js}{20}{subsection.1.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.14}La gran depressi\IeC {\'o} o altres esdeveniments hist\IeC {\`o}rics}{15}{section.1.14}
+\contentsline {paragraph}{}{20}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{15}{section*.15}
+\contentsline {subsection}{\numberline {1.2.11}Recapitulaci\IeC {\'o} de les tecnologies pel desenvolupament web}{21}{subsection.1.2.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.15}Comparacions amb els amics o seguidors de Facebook i Twitter}{16}{section.1.15}
+\contentsline {paragraph}{}{21}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{16}{section*.16}
+\contentsline {section}{\numberline {1.3}Tecnologies pel desenvolupament de l'aplicaci\IeC {\'o}}{22}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.16}Comparaci\IeC {\'o} de dades geneal\IeC {\`o}giques reals amb Family\discretionary {-}{}{}Search}{16}{section.1.16}
+\contentsline {paragraph}{}{22}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{16}{section*.17}
+\contentsline {subsection}{\numberline {1.3.1}La tecnologia GitHub}{22}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.17}Estudi de profunditat dels arbres familiars}{17}{section.1.17}
+\contentsline {paragraph}{}{22}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{17}{section*.18}
+\contentsline {subsection}{\numberline {1.3.2}Node.js i Express en l'\IeC {\`a}mbit local}{23}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.18}Algoritme de marcatge de duplicats}{17}{section.1.18}
+\contentsline {paragraph}{}{23}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{17}{section*.19}
+\contentsline {subsection}{\numberline {1.3.3}Tecnologia NPM}{24}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Annexos}{19}{section*.20}
+\contentsline {paragraph}{}{24}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Comptes de prova FamilySearch}{21}{Annex.1.A}
+\contentsline {subsection}{\numberline {1.3.4}Paquet Nodemon}{24}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{21}{section*.21}
+\contentsline {paragraph}{}{24}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Acord d'\IeC {\'u}s limiat}{23}{Annex.1.B}
+\contentsline {chapter}{Annexos}{25}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Comptes de prova FamilySearch}{27}{Annex.1.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{27}{section*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Acord d'\IeC {\'u}s limiat}{29}{Annex.1.B}
