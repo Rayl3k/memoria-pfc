@@ -1,24 +1,24 @@
 \section{Tecnologies pel desenvolupament de l'aplicació}
 
     \paragraph{}
-    Apart de les tecnologies que permeten la creació i funcionament de l'aplicació web, hi ha un altre conjunt de tecnologies o eines que s'han utilitzat per facilitar el desenvolupament d'aquesta.
+    A part de les tecnologies que permeten la creació i funcionament de l'aplicació web, hi ha un altre conjunt de tecnologies o eines, que han estat utilitzades per facilitar el desenvolupament d'aquesta.
 
     \subsection{La tecnologia GitHub}
 
     \paragraph{}
-    A causa de les complicacions resultants de compaginar una jornada laboral a temps complet amb l'elaboració del projecte, el desenvolupament d’aquest ha estat re\-a\-lit\-zat des de diverses localitzacions diferents. En concret, han estat tres els principals ordinadors o localitzacions des de les que s’ha treballat: Casa, Portàtil i oficina de l'empresa.
+    A causa de les complicacions resultants de compaginar una jornada laboral a temps complet, amb l'elaboració del projecte, el desenvolupament d’aquest ha estat re\-a\-lit\-zat des de diverses localitzacions diferents. En concret, han estat tres els principals ordinadors o localitzacions, des de les quals s’ha treballat: Casa, Portàtil i oficina de l'empresa.
 
     Per tal de facilitar la sincronització d'arxius entre les diferents estacions de treball, es va decidir utilitzar la tecnologia GitHub\footfullcite{github}.
 
-    GitHub és un repositori Git hostejat al núvol. Ofereix totes les funcionalitats pròpies de Git destinades al control de revisions distribuïdes i control del codi font, afegint-ne algunes de noves.
+    GitHub és un repositori Git hostejat al núvol. Ofereix totes les funcionalitats pròpies de Git, destinades al control de revisions distribuïdes i control del codi font, afegint-ne algunes de noves.
 
-    Un cop creat el repositori on tot el projecte queda emmagatzemat, els servidors de GitHub s’encarreguen de què aquest sigui disponible des de tot arreu. D’aquesta forma, cada estació de treball diferent pot descarregar-se el codi per primera vegada, mitjançant la instrucció:
+    Un cop creat el repositori on tot el projecte queda emmagatzemat, els servidors de GitHub s’encarreguen de què aquest sigui accessible a través del núvol. D’aquesta forma, cada estació de treball pot descarregar-se el codi del projecte per primera vegada, mitjançant la instrucció:
 
     \begin{displayquote}
-        > git clone https://github.com/sinh15/pfc-family-search.git pfc-family-search
+        > git clone https://github.com/sinh15/pfc-family-search.git
     \end{displayquote}
 
-    És important evitar treballar en dues estacions de treball diferents, a menys que entre sessions de treball s’actualitzin els canvis en el repositori emmagatzemat al núvol, per tal d’evitar superposicions i conflictes entre les versions dels arxius.
+    És important evitar treballar en dues estacions de treball diferents, a menys que entre sessions de treball, s’actualitzin els canvis en el repositori emmagatzemat al núvol, per tal d’evitar superposicions i conflictes entre les versions dels arxius.
 
     GitHub disposa d'eines per fer front a aquestes situacions, ja que en realitat és una eina pensada per treballar en equip sobre els mateixos arxius de codi. No obstant això, com que aquest projecte ha estat realitzat per una sola persona, s'ha prescindit de la utilització de branques i tots els canvis s'han aplicat sobre la branca mestra del projecte.
 
@@ -48,15 +48,15 @@
 
     Per tant, el nostre sistema local necessitava ser capaç d'emular les tecnologies que formarien part del servidor. A recordar, Node.js i Express.
 
-    No entrarem a descriure la tecnologia Node.js ni Express un altre cop, ja que ja ho hem fet en apartats anteriors. El que sí que volíem fer, era exposar que aquestes tecnologies havien estat instal·lades en l’àmbit local per tal de fer funcionar l'aplicació des dels ordinadors de desenvolupament.
+    No entrarem a descriure la tecnologia Node.js ni Express un altre cop, ja que ja ho hem fet en apartats anteriors. El que sí que volíem fer, era exposar que aquestes tecnologies havien estat instal·lades en l’àmbit local, per tal de fer funcionar l'aplicació des dels ordinadors de desenvolupament.
 
 
     \subsection{Tecnologia NPM}
 
     \paragraph{}
-    Com s'ha indicat en un apartat anterior, NPM\footfullcite{npm} és un contenidor de paquets orientats a la plataforma Node.js. Aquesta tecnologia pot ser instal·lada en l'àmbit local i d'aquesta forma, descarregar extensions per les aplicacions Node.js que volem provar.
+    Com s'ha indicat en un apartat anterior, NPM\footfullcite{npm} és un contenidor de paquets orientats a la plataforma Node.js. Aquesta tecnologia pot ser instal·lada en l'àmbit local i d'aquesta forma, descarregar extensions per les aplicacions Node.js que vulguem utilitzar.
 
-    Per instal·lar un conjunt de paquets, podem fer-ho introduint la instrucció: \emph{npm install}, que s’encarrega d’instal·lar en l’àmbit local, totes aquelles dependències que hagin estat declarades en el servidor de l’aplicació web o introduir la instrucció: \emph{npm install `package name’}, per instal·lar un paquet en concret.
+    Per instal·lar un conjunt de paquets, podem fer-ho introduint la instrucció: \emph{npm install}, que s’encarrega d’instal·lar en l’àmbit local totes aquelles dependències que hagin estat declarades en el servidor de l’aplicació web o introduir la instrucció: \emph{npm install `package name’}, per instal·lar un paquet en concret.
 
 
     \subsection{Paquet Nodemon}
