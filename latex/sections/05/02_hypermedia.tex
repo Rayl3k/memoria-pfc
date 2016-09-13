@@ -5,7 +5,7 @@
 
     Per posar un exemple, imaginem-nos el recurs Persona d'un individu en concret. Aquest, conté enllaços hypermedia que apunten als recursos que conformen el concepte Parella, Pares, Fills, Fonts d'informació, Ascendència, Descendència i Memòries, de la persona en concret. Com es de suposar, cada un d'aquets rescursos enllaçats, conté informació d'interès sobre la persona consultada.
 
-    La figura~\ref{fig:hypermedia} reflecteix com el recurs Persona és accessible a través de l'Arbre Familiar de FamilySearch i com les diferents relacions i recursos, associats a una persona, són connectats a través dels enllaços hypermedia d'aquesta.
+    La figura~\ref{fig:hypermedia} reflecteix com el recurs Persona és accessible a través de l'Arbre Familiar de FamilySearch i com les diferents relacions i recursos associats a aquest són connectats a través dels enllaços hypermedia.
 
     \begin{figure}[h]
         \includegraphics[scale=0.8]{05/01_hypermedia}
@@ -21,4 +21,4 @@
 
     El primer gran avantatge d’utilitzar aquests enllaços és que no cal implementar en el codi, de forma específica, les URI d'accés a cada recurs. D'aquesta forma, s'aconsegueix evitar que en cas de canvi en les URI dels recursos, sigui necessari realitzar modificacions en el codi de les nostres aplicacions.
 
-    El segon, és que si es coneix un sol punt d’entrada al sistema, les aplicacions ja no requeriran més informació per tal de navegar entre els diferents recursos de l'arbre familiar. D'aquesta forma, podríem descriure els enllaços hypermedia, com una espècie d'índexs que permeten navegar i explorar el conjunt de recursos relacionats, de les respostes retornades per l'API de FamilySearch.
+    El segon avantatge, és que si es coneix un sol punt d’entrada al sistema, les aplicacions ja no requeriran més informació per tal de navegar entre els diferents recursos de l'arbre familiar. D'aquesta forma, podríem descriure els enllaços hypermedia, com una espècie d'índexs que permeten navegar i explorar el conjunt de recursos relacionats, de les respostes retornades per l'API de FamilySearch.

@@ -1,16 +1,16 @@
-\section{Camins d'accés a l'arbre familiar i operacions de cerca}
+\section{Accés a l'arbre familiar i operacions de cerca}
 
     \paragraph{}
-    L'accés a les dades contingudes per l'API de FamilySearch es pot realitzar de forma diferent segons la informació coneguda en el moment d’iniciar la cerca.
+    L'accés a les dades contingudes per l'API de FamilySearch, pot ser realitzat de diferents formes segons la informació coneguda en el moment d’iniciar la cerca.
 
     Tot procés de cerca pot ser dividit en dues fases principals, on la segona, realment consisteix en un conjunt d'opcions diferents, que marcaran com les dades seran accedides. Les dues fases principals consisteixen en:
 
     \begin{enumerate}
         \item Accedir al sistema de FamilySearch mitjançant un usuari i contrasenya.
-        \item Accedir a les dades de forma directa o indirecta segons la informació coneguda.
+        \item Accedir a les dades de forma directa o indirecta, segons la informació coneguda.
     \end{enumerate}
 
-    La imatge~\ref{fig:dataAcessPath} ofereix una vista preliminar de les diferents opcions disponibles per tal d'accedir a les dades de FamilySearch, relacionades amb les persones de l'arbre familiar. En els següents apartats, s'exposarà el funcionament dels mètodes d'accés a les dades directes i indirectes.
+    La imatge~\ref{fig:dataAcessPath}, ofereix una vista preliminar de les diferents opcions disponibles, per tal d'accedir a les dades de FamilySearch, relacionades amb les persones de l'arbre familiar. En els següents apartats, s'exposarà el funcionament dels mètodes d'accés a les dades directes i indirectes.
 
     \begin{figure}[h]
         \includegraphics[width=\linewidth]{05/08_dataAccessPaths}
@@ -26,7 +26,7 @@
 
         Per exemple, si es coneix el PID de la persona a consultar, es pot codificar des de les aplicacions el diferent conjunt d'URIs necessàries per manipular els recursos i evitar així, la necessitat de passar pel sistema.
 
-        D'aquesta forma, es pot doncs accedir directament a la informació específica dels recursos Persona, Memòries, Discussions, Fills, Pares, Parelles, Avantpassats i Descendència; sempre i quan es conegui tota la informació necessària per codificar les URIs d'accés de la persona a consultar.
+        D'aquesta forma, es pot accedir directament a la informació específica dels recur\-sos Persona, Memòries, Discussions, Fills, Pares, Parelles, Avantpassats i Descen\-dència; sempre i quan es conegui tota la informació necessària per codificar les URIs d'accés, de la persona a consultar.
 
         Donat un identificador de persona conegut, un exemple d'ús, podria ser per exemple, accedir directament a les memòries de la persona mitjançant la codificació de la URI i evitar així, haver de passar primer per l'arbre familiar.
 
@@ -34,7 +34,7 @@
     \subsection{L'accés indirecte a les dades}
 
         \paragraph{}
-        A pesar que accedir directament a les dades pot semblar un procés ideal, el més normal és que ens trobem en una situació en què es desconeguin totes les dades necessàries per codificar les URIs i que per tant, sigui necessari realitzar un accés indirecte a les dades.
+        A pesar que accedir directament a les dades pot semblar un procés ideal, el més normal és que ens trobem en una situació en què desconeguem totes les dades necessàries per codificar les URIs i que per tant, sigui necessari realitzar un accés indirecte a les dades.
 
         En altres paraules, accedir en primera instància als recursos del sistema i des d'aquests, obtenir els diferents enllaços que ens condueixin cap a les operacions i informació desitjada.
 
@@ -48,7 +48,7 @@
 
         El procés descrit en el segon punt de les opcions de cerca indirecta, serà el més comú de cara a accedir a la informació de l'arbre familiar, ja que les altres opcions no permeten gaire filtratge de les dades, a menys que coneguem la col·lecció exacte sobre la qual volem realitzar una investigació genealògica o només vulguem consultar la informació de l'arbre familiar, relativa a l'usuari identificat.
 
-        Per tant, com hem comentat, són tres les principals opcions d'entrada indirecta a l'arbre familiar que permeten explorar el conjunt de dades genealògiques de les diferents persones i localitzacions.
+        Per tant, com hem comentat, són tres les principals opcions d'entrada indirecta a l'arbre familiar, que permeten explorar el conjunt de dades genealògiques de les diferents persones i localitzacions.
 
         En els següents apartats, s'explicarà en més detall com funcionen les principals operacions de lectura indirectes.
 
@@ -62,7 +62,7 @@
             \emph{/platform/users/current}
         \end{displayquote}
 
-        La crida retorna la informació específica del recurs Usuari descrita en l'apartat~\ref{sec:user} d'aquesta memòria. Des d'aquest, es pot accedir al recurs de la persona que re\-pre\-sen\-ta a l'usuari i des d’aquest, a qualsevol altre peça d'informació genealògica relacionada amb la persona.
+        La crida retorna la informació específica del recurs Usuari descrita en l'apar\-tat~\ref{sec:user} d'aquesta memòria. Des d'aquest, es pot accedir al recurs de la persona que re\-pre\-sen\-ta a l'usuari i des d’aquest, a qualsevol altre peça d'informació genealògica relacionada amb la persona.
 
 
     \subsection{Lectura de la persona relacionada a l'usuari identificat}
@@ -81,19 +81,19 @@
     \subsection{Cerca de Persones a l'arbre familiar}\label{sec:searchParams}
 
         \paragraph{}
-        L'operació cerca de persones a l'arbre familiar, és sense cap mena de dubte, la més interessant de totes les funcionalitats que ofereix l'API.
+        L'operació cerca de persones a l'arbre familiar és sense cap mena de dubte, la més interessant de totes les funcionalitats que ofereix l'API.
 
-        Aquesta operació es realitza mitjançant una petició a la URI \emph{/platform/tree/search}, que a més a més, pot ser configurada i personalitzada mitjançant la inclusió de di\-fe\-rents paràmetres.
+        Aquesta operació es realitza mitjançant una petició a la URI \emph{/platform/tree/\-search}, que a més a més, pot ser configurada i personalitzada mitjançant la inclusió de di\-fe\-rents paràmetres.
 
-        Un cop finalitzada la petició, aquesta retorna el conjunt de persones de l'arbre familiar, que compleixen amb les condicions imposades en la cerca. Des d'aquestes, l'usuari pot començar a navegar per la resposta, accedint a aquelles persones que li resultin de més interès i a tots els altres recursos disponibles, relacionats amb aquestes.
+        Un cop finalitzada la petició, aquesta retorna el conjunt de persones de l'arbre familiar que compleixen amb les condicions imposades en la cerca. Des d'aquestes, l'usuari pot començar a navegar per la resposta, accedint a aquelles persones que li resultin de més interès i a tots els altres recursos disponibles, relacionats amb aquestes.
 
-        Es pot entendre la funcionalitat de cerca a l'arbre familiar, com una porta a totes les dades emmagatzemades per FamilySearch.
+        Es pot entendre la funcionalitat de cerca de persones a l'arbre familiar, com una porta a totes les dades emmagatzemades per FamilySearch.
 
         La cerca pot ser controlada mitjançant tres paràmetres principals, un dels quals, accepta molts paràmetres secundaris. Els paràmetres principals són descrits a la taula~\ref{res:searchPersonMain}.
 
         \begin{center}
                  \csvreader[
-                    separator=comma,
+                    separator=semicolon,
                     before table=\sffamily\small,
                     respect tilde=true,
                     respect leftbrace=true,
@@ -110,7 +110,7 @@
                  {\var&\desc}
          \end{center}
 
-         Per altra banda, el paràmetre \emph{q}, descrit en la taula~\ref{res:searchPersonMain}, accepta com a paràmetres vàlids els camps exposats a la taula~\ref{res:searchPersonSec}. L'etiqueta \{relation\}, dels camps d'aquesta taula,  pot ser reemplaçada per qualsevol dels següents valors: \emph{father}, \emph{mother}, \emph{spouse} \emph{(pare, mare, parella)}.
+         Per altra banda, el paràmetre \emph{q} descrit en la taula~\ref{res:searchPersonMain}, accepta com a paràmetres vàlids els camps exposats a la taula~\ref{res:searchPersonSec}. L'etiqueta \emph{\{relation\}} dels camps d'aquesta taula, pot ser reemplaçada per qualsevol dels següents valors: \emph{father}, \emph{mother}, \emph{spouse} \emph{(pare, mare, parella)}.
 
          \begin{center}
                   \csvreader[
@@ -135,7 +135,7 @@
           \subsubsection{Cerca de persones duplicades}
 
           \paragraph{}
-          Una característica interessant de les respostes en la cerca de persones és que per cada persona de la resposta, es pot accedir al conjunt de persones de l'arbre familiar, que amb alta probabilitat, poden representar a la mateixa persona consultada. En altres paraules, persones que podrien tractar-se de possibles duplicats.
+          Una característica interessant de les respostes en la cerca de persones és que per cada persona de la resposta, es pot accedir al conjunt de persones de l'arbre familiar, que amb una alta probabilitat, poden representar a la mateixa persona consultada. En altres paraules, persones que podrien tractar-se de possibles duplicats.
 
           Aquesta funcionalitat de cerca de persones duplicades, també es troba accessible de forma directa, si es coneix l'identificador personal de la persona sobre la qual es volen cercar els possibles duplicats. Per exemple:
 
@@ -161,7 +161,7 @@
 
         \begin{center}
                  \csvreader[
-                    separator=comma,
+                    separator=semicolon,
                     before table=\sffamily\small,
                     respect tilde=true,
                     respect leftbrace=true,
@@ -178,11 +178,11 @@
                  {\var&\desc}
          \end{center}
 
-         En aquesta operació, el paràmetre \emph{q}, accepta com a vàlids el conjunt de paràmetres especificats a la taula~\ref{res:searchLocSec}.
+         En aquesta operació, el paràmetre \emph{q} accepta com a vàlids el conjunt de paràmetres especificats a la taula~\ref{res:searchLocSec}.
 
          \begin{center}
                   \csvreader[
-                     separator=comma,
+                     separator=semicolon,
                      before table=\sffamily\small,
                      respect tilde=true,
                      respect leftbrace=true,

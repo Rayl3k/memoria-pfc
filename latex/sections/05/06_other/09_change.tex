@@ -5,13 +5,13 @@
 
     Quan un usuari realitza alguna modificació de qualsevol mena, ja sigui sobre la informació d'una persona o sobre una relació de parella o parental, aquest canvi queda enregistrat per diversos motius.
 
-    El primer, poder veure com les dades s'han anat modificat al llarg del temps i veure'n la progressió. El segon, poder recuperar un estat anterior en cas d'error o problema en el sistema.
+    El primer, poder veure com les dades s'han anat modificat al llarg del temps i observar-ne la progressió. El segon, poder recuperar un estat anterior en cas d'error o problema en el sistema.
 
     El recurs Canvi està format pels paràmetres mostrats a la taula~\ref{res:change}.
 
     \begin{center}
              \csvreader[
-                separator=comma,
+                separator=semicolon,
                 before table=\sffamily\small,
                 longtable={p{2cm-2\tabcolsep}p{3.5cm-2\tabcolsep}p{8.5cm-2\tabcolsep}},
                 table head={\caption{Paràmetres del recurs Canvi}\label{res:change}\\\toprule%
@@ -34,7 +34,7 @@
 
      verb|http://gedcomx.org/ + `changeObjectModifier'
 
-     La taula~\ref{enum:changeObjectModifier} mostra els possible valors de l'enumeració changeOperation.
+     La taula~\ref{enum:changeObjectModifier} mostra els possible valors de l'enumeració changeObject\-Modifier.
 
      \begin{center}
          \csvreader[

@@ -532,7 +532,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{95}{section*.165}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.10}Camins d'acc\IeC {\'e}s a l'arbre familiar i operacions de cerca}{96}{section.5.10}
+\contentsline {section}{\numberline {5.10}Acc\IeC {\'e}s a l'arbre familiar i operacions de cerca}{96}{section.5.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{96}{section*.166}
 \defcounter {refsection}{0}\relax 

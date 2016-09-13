@@ -520,8 +520,8 @@ INPUT ./tables/05/01_persons/genderType.csv
 INPUT ./sections/05/01_persons/03_names.tex
 INPUT ./sections/05/01_persons/03_names.tex
 INPUT ./tables/05/01_persons/name.csv
-INPUT ./tables/05/01_persons/nameForm.csv
 INPUT c:/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT ./tables/05/01_persons/nameForm.csv
 INPUT ./tables/05/01_persons/namePart.csv
 INPUT ./tables/05/01_persons/nameType.csv
 INPUT ./tables/05/01_persons/namePartType.csv
