@@ -3,7 +3,7 @@
 \paragraph{}
 Aquesta funció, acaba de configurar els paràmetres necessaris per poder realitzar la cerca, la llença i en tracte la resposta.
 
-En concret, configura els paràmetres \emph{inici} i \emph{context} i tot seguit, llença la crida asíncrona cap al SDK. Aquests paràmetres, ja han estat descrits en seccions anteriors de la memòria, però recordem que s'encarreguen de delimitar el primer resultat a retornar i a quina cerca es fa referència, en cas que s'estiguin demanant més blocs de resultats, d'una cerca ja realitzada contra l'API de FamilySearch.
+En concret, configura els paràmetres \emph{inici} i \emph{context} i tot seguit, llença la crida asíncrona cap al SDK. Aquests paràmetres, ja han estat descrits en seccions anteriors de la memòria, però recordem, que s'encarreguen de delimitar el primer resultat a retornar i a quina cerca es fa referència, en cas que s'estiguin demanant més blocs de resultats, d'una cerca ja realitzada contra l'API de FamilySearch.
 
 Si no es produeix cap error, l'API retornarà els primers quinze resultats i aquests es pintaran sobre una taula. En cas contrari, l'aplicació ensenyarà l'error a l'usuari, tot indicant-ne el motiu de fallida.
 
@@ -18,7 +18,7 @@ client.getPersonSearch(params).then(function(searchResponse) {
 });
 \end{lstlisting}
 
-L'estructura de codi anterior, encarregada de llençar una petició al SDK i capturar possibles errors, és l'estàndard que segueixen totes les crides realitzades des de la nostra aplicació web, cap al el SDK de FamilySearch.
+L'estructura de codi anterior, encarregada de llençar una petició al SDK i capturar els possibles errors, és l'estàndard que segueixen totes les crides realitzades des de la nostra aplicació web, cap al el SDK de FamilySearch.
 
 La llista de resultats pintada en la nostra aplicació web, es mostra a la figura~\ref{fig:searchTableResults}.
 
