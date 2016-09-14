@@ -7,16 +7,16 @@
         https://pfc-fs-api-potential.herokuapp.com/
     \end{displayquote}
 
-    Hem escollit la plataforma Heroku per desplegar l'aplicació, ja que oferia un ampli ventall d'eines i documentació, que resultaven ideals per un desenvolupador novici de la plataforma Node.js.
+    Hem escollit la plataforma Heroku per desplegar l'aplicació, ja que oferia un ampli ventall d'eines i documentació, que resultaven ideals per un desenvolupador novici, de la plataforma Node.js.
 
     No obstant això, no van ser només aquestes facilitats i eines les que ens van portar a desplegar l'aplicació a Heroku, sinó també el fet que el seu pla de hosting gratuït, s'ajustava en gran mesura al que el projecte requeria i en cas d'acabar necessitant més, sempre existia la possibilitat d'augmentar la capacitat de processat necessària.
 
-    Les característiques que més ens van atreure de la plataforma Heroku es presenten d'una en una en els següents apartats.
+    Les característiques que més ens van atreure de la plataforma Heroku, es presenten d'una en una en els següents apartats.
 
     \subsection{Fàcil configuració}
 
     \paragraph{}
-    Per una aplicació simple com la desenvolupada per aquest projecte, no fa falta canviar res en el codi de la nostra aplicació per tal de desplegar-la a Heroku. Només hem d'incloure un nou fitxer, a la carpeta arrel del projecte, amb el nom \emph{Procfile}, que indica el tipus d'aplicació i la comanda que ha ser utilitzada per tal d'iniciar-la.
+    Per una aplicació simple com la desenvolupada per aquest projecte, no fa falta canviar res en el codi de la nostra aplicació, per tal de desplegar-la a Heroku. Només hem d'incloure un nou fitxer, a la carpeta arrel del projecte, amb el nom \emph{Procfile}, que indica el tipus d'aplicació i la comanda que ha ser utilitzada per tal d'iniciar-la.
 
     En el nostre cas, el fitxer \emph{Procfile} conte la següent línea de codi:
 
@@ -28,13 +28,13 @@
     \subsection{Fàcil desplegament al núvol}
 
     \paragraph{}
-    La plataforma Heroku es troba molt ben integrada amb Github, l'eina que hem utilitzat per mantenir sincronitzats els desenvolupaments entre les diferents estacions de treball. Gràcies a aquesta integració, Heroku disposa d'una comanda que ens permet afegir un remot, a la carpeta del nostre projecte.
+    La plataforma Heroku es troba molt ben integrada amb Github, l'eina que hem utilitzat per mantenir sincronitzats els desenvolupaments entre les diferents estacions de treball. Gràcies a aquesta integració, Heroku disposa d'una comanda que ens permet afegir de forma fàcil, un remot a la carpeta del nostre projecte.
 
     \begin{displayquote}
         > heroku git:remote -a pfc-family-search
     \end{displayquote}
 
-    Un cop tenim el remot de Heroku configurat, de la mateixa forma que podem enviar el codi de la nostra estació de treball al núvol, el podem enviar a Heroku per tal de desplegar la nostra aplicació web. Això és tan fàcil com llençar la següent instrucció.
+    Un cop tenim el remot de Heroku configurat, de la mateixa forma que podem enviar el codi de la nostra estació de treball al núvol, el podem enviar a Heroku, per tal de desplegar l'aplicació web. Això reslta tan fàcil, com llençar la següent instrucció.
 
     \begin{displayquote}
         > git push heroku master
@@ -75,7 +75,7 @@
     \paragraph{}
     En cas que es desitgi millorar la capacitat de concurrència de l'aplicació, per poder rebre i processar més peticions en paral·lel i realitzar més processos diferents al mateix temps, aquesta és fàcilment escalable mitjançant la inclusió de nous \emph{dynos}.
 
-    Els \emph{dynos} són els contenidors que executen les comandes dels usuaris. Per la nostra aplicació web, bàsicament es necessiten \emph{dynos} que processin el tràfic HTTP i HTTPS. Gràcies al fet que el nostre servidor és bastant simple (hem posat la lògica d'interacció amb l'API de FamilySearch a la capa del controlador) és probable que no faci falta augmentar el nombre de \emph{dynos} inicial.
+    Els \emph{dynos} són els contenidors que executen les comandes dels usuaris. Per la nostra aplicació web, bàsicament es necessiten \emph{dynos} que processin el tràfic HTTP i HTTPS. Gràcies al fet que el nostre servidor és bastant simple (hem posat la lògica d'interacció amb l'API de FamilySearch, a la capa del controlador) és probable que no faci falta augmentar el nombre de \emph{dynos} inicial.
 
     De totes maneres, aquest és fàcilment escalable mitjançant una simple comanda, sempre i quan el pla contractat amb Heroku no sigui el gratuït. Si volem augmentar, per exemple, a 2 el nombre de \emph{dynos} disponibles, executaríem la següent comanda:
 

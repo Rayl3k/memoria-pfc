@@ -1,11 +1,11 @@
 \section{Funcionament general de l'aplicació web}
 
     \paragraph{}
-    L'objectiu d'aquest apartat és explicar com els diferents components de la web interactuen entre ells per tal de crear l'aplicació web desplegada al núvol.
+    L'objectiu d'aquest apartat és explicar com els diferents components de la web interactuen entre ells, per tal de crear l'aplicació web desplegada al núvol.
 
     Com a suport a les explicacions que s'oferiran, la figura~\ref{img:appWorkflow} mostra un diagrama amb els components principals de l'aplicació, com interactuen entre ells i els principals formats de dades que intercanvien.
 
-    \begin{figure}
+    \begin{figure}[p]
         \includegraphics[scale=0.6, angle=90]{10/03_applicationWorkingFlow}
         \centering
         \caption{Comunicació entre els diferents components de l'aplicació web}\label{img:appWorkflow}
@@ -27,7 +27,7 @@
     \paragraph{}
     Quan un usuari demana carregar la pàgina inicial de la nostra aplicació, una petició HTTP o HTTPS és generada i enviada cap al servidor a través del navegador del client.
 
-    Quan el servidor la rep, l'avalua i en cas d'èxit, retorna al client els fitxers processats necessaris perquè el navegador pugui mostrar la pàgina demanada i carregar totes les funcionalitats o interaccions possibles d'aquesta al controlador.
+    Quan el servidor la rep, l'avalua i en cas d'èxit, retorna al client els fitxers processats necessaris, perquè el navegador pugui mostrar la pàgina demanada i carregar totes les funcionalitats o interaccions possibles d'aquesta al controlador.
 
 
     \subsection{Interacció amb l'API de FamilySearch}
@@ -35,7 +35,7 @@
     \paragraph{}
     El moment en què l'usuari vol interactuar amb l'API de FamilySearch, aquest es veu forçat a interactuar primer amb un element del codi HTML, per comunicar l’acció a realitzar. Per exemple, el botó de cerca de la funcionalitat d'evolució temporal d'esdeveniments.
 
-    Quan el controlador detecta que el botó de cerca ha estat pressionat, captura l'esdeveniment i avalua la petició. En cas que no es detecti cap problema ni error en els paràmetres introduïts, el controlador realitza una crida asíncrona al SDK de FamilySearch i n'espera la resposta.
+    Quan el controlador detecta que el botó de cerca ha estat pressionat, captura l'esdeveniment i avalua la petició. En cas que no es detecti cap problema, ni error en els paràmetres introduïts, el controlador realitza una crida asíncrona al SDK de FamilySearch i n'espera la resposta.
 
     De forma transparent a l'aplicació web, el SDK es comunica amb l’API de Family\-Search i si no hi ha cap problema en la comunicació i la petició és vàlida, aquesta retorna les dades demanades en format XML o JSON. Posteriorment, el SDK transforma la resposta de l’API en un objecte Javascript amb funcions de conveniència, que facilitaran l'accés a les dades de la resposta i el retorna al controlador.
 
@@ -45,9 +45,9 @@
     \subsection{Interacció amb elements del HTML}
 
     \paragraph{}
-    Quan els usuaris interactuen amb elements bàsics del HTML, per exemple, quan interactuen amb les caixes que permeten expandir o plegar seccions del formulari en les funcionalitats de cerca o evolució geogràfica de cognoms, la resposta a realitzar per part del controlador és bastant simple.
+    Quan els usuaris interactuen amb elements bàsics del HTML, per exemple, quan interactuen amb les caixes que permeten plegar o desplegar seccions del formulari, la resposta a realitzar per part del controlador és bastant simple.
 
-    En el moment que el controlador detecta que s'ha interactuat amb algun dels elements que escolta, captura l'esdeveniment, avalua com s'ha de procedir segons el context de l'acció (en el cas de l’exemple, plegar o desplegar contingut d'un formulari) i realitza de forma immediata els canvis a la vista del navegador.
+    En el moment que el controlador detecta que s'ha interactuat amb algun dels elements que escolta, captura l'esdeveniment, avalua com s'ha de procedir segons el context de l'acció (en el cas de l’exemple, plegar o desplegar el contingut d'un formulari) i realitza de forma immediata els canvis a la vista del navegador.
 
 
     \subsection{Conclusió}

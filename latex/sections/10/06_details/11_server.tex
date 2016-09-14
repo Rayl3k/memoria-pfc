@@ -1,7 +1,7 @@
 \subsection{El fitxer app.js: Funcionament del servidor}
 
     \paragraph{}
-    El fitxer \emph{app.json}, s'encarrega de configurar el servidor i gestionar les peticions HTTP, HTTPS i AJAX provinents del client. És un dels fitxers principals de l'aplicació i probablement un dels més interessants.
+    El fitxer \emph{app.json} s'encarrega de configurar el servidor i gestionar les peticions HTTP, HTTPS i AJAX, provinents del client. És un dels fitxers principals de l'aplicació i probablement un dels més interessants.
 
     El fitxer es divideix en diferents seccions:
 
@@ -21,7 +21,7 @@
     \paragraph{}
     En aquesta secció es declarà la utilització dels diferents complements i la creació de l'aplicació mitjançant el framework Express.
 
-    També es creen instàncies dels objectes amb funcions de conveniència em\-mas\-ca\-ra\-des en els fitxers \emph{projectProposals.js}, \emph{pageTitles.js} i \emph{countryParameters.js}.
+    També es creen instàncies dels objectes amb funcions de conveniència, em\-mas\-ca\-ra\-des en els fitxers \emph{projectProposals.js}, \emph{pageTitles.js} i \emph{countryParameters.js}.
 
     \begin{lstlisting}[style=rawOwn,caption={Declaració de variables en el servidor}]
 var express = require(`express'),
@@ -66,9 +66,9 @@ app.use(`/images', express.static(path.join(__dirname, `images')));
     \subsubsection{Configuració dels complements}
 
     \paragraph{}
-    En aquest apartat es configuren dos complements. L'encarregat de gestionar les galetes (\emph{cookie-session}) i l'encarregat d'interpretar els paràmetres enviats al servidor des del client (\emph{body-parser}).
+    En aquest apartat, es configuren dos complements. L'encarregat de gestionar les galetes (\emph{cookie-session}) i l'encarregat d'interpretar els paràmetres enviats al servidor, des del client (\emph{body-parser}).
 
-    El complement \emph{cookie-session} no cal configurar-lo gaire, ja que els paràmetres per defecte ja marquen les galetes a crear com a segures (transmesa si és possible a través de https) i amb el paràmetre httpOnly activat (no modificable pel client). Per tant, només hem d'indicar-ne el nom i un parell de claus amb les quals vulguem firmar i xifrar el contingut d'aquestes.
+    El complement \emph{cookie-session} no cal configurar-lo gaire, ja que els paràmetres per defecte marquen les galetes a crear com a segures (transmesa si és possible a través de https) i amb el paràmetre httpOnly activat (no modificable pel client). Per tant, només hem d'indicar-ne el nom i un parell de claus amb les quals vulguem firmar i xifrar, el contingut d'aquestes.
 
     \begin{lstlisting}[style=rawOwn,caption={Configuració del complement \emph{cookie-session}}]
 app.use(cookieSession({
@@ -90,7 +90,7 @@ app.use(bodyParser.json());
     \paragraph{}
     Aquesta secció del fitxer s'encarrega de decidir i configurar, els fitxers HTML que han de ser retornats segons les peticions realitzades pels usuaris.
 
-    La resposta a totes les peticions GET dels clients són solucionades de forma similar. Primer es capturen, després es recullen tots els paràmetres necessaris per emplenar els paràmetres amb Mustache i finalment, s'envia el HTML processat cap al client.
+    La resposta a totes les peticions GET dels clients són solucionades de forma similar. Primer, es capturen, després es recullen tots els paràmetres necessaris, per emplenar els paràmetres amb Mustache i finalment, s'envia el HTML processat cap al client.
 
     \begin{lstlisting}[style=rawOwn,caption={Respota del servidor davant la petició del recurs `/'}]
 app.get(`/', function(req, res){
@@ -110,9 +110,9 @@ app.get(`/', function(req, res){
 });
     \end{lstlisting}
 
-    El codi anterior representa la resposta a la petició d'accés a la pàgina inicial de l'aplicació (/).
+    El codi anterior, representa la resposta a la petició d'accés a la pàgina inicial de l'aplicació (/), per part del servidor.
 
-    Un cop es captura la petició GET, denotada per l'URL `/',  es demana a l'objecte Javascript \emph{pageTitlesIns}, carregat a l'inici del servidor, els paràmetres a utilitzar per pintar el fitxer \emph{pageTitle.html} de la pàgina inicial de l'aplicació. Seguidament, es demana si l’usuari es troba identificat amb FamilySearch, mitjançant la funció \emph{isLogged(req)}, que servirà per decidir si cal mostrar o no el botó de desconnexió a la barra de navegació i un cop es reben tots aquests paràmetres, es processa el fitxer, \emph{index.html} amb els paràmetres desitjats i s'envia al client.
+    Un cop es captura la petició GET, denotada per l'URL `/',  es demana a l'objecte Javascript \emph{pageTitlesIns}, carregat a l'inici del servidor, els paràmetres a utilitzar per pintar el fitxer \emph{pageTitle.html}, de la pàgina inicial de l'aplicació. Seguidament, es demana si l’usuari es troba identificat amb FamilySearch, mitjançant la funció \emph{isLogged(req)}, que servirà per decidir si cal mostrar o no, el botó de desconnexió a la barra de navegació i un cop es reben tots aquests paràmetres, es processa el fitxer \emph{index.html} amb els paràmetres desitjats i s'envia al client.
 
     Altres peticions GET més complexes, com per exemple, la de pintar els detalls d'una proposta de projecte específica, funcionen de forma similar, però carregant més paràmetres a part dels de l'objecte \emph{pageTitleIns}. Aquest cas, conté una ex\-cep\-cio\-na\-li\-tat més i és que es captura part de l'URL (\emph{:project}), tal com s'indica en el següent bloc de codi, per utilitzar-la com a paràmetre.
 
@@ -128,11 +128,11 @@ app.get(`/proposals/:project', function(req, res) {
     \subsubsection{Processament de peticions POST}
 
     \paragraph{}
-    Les dues úniques peticions POST que l'aplicació està preparada per acceptar i respondre, són les crides AJAX que serveixen per indicar al servidor que l'usuari s'ha identificat o desconnectat de l'API de FamilySearch.
+    Les dues úniques peticions POST que l'aplicació està preparada per acceptar i respondre, són les crides AJAX que serveixen per indicar al servidor que l'usuari s'ha identificat o desconnectat, de l'API de FamilySearch.
 
     Quan es rep una d'aquestes peticions, s'actualitza la galeta de sessió amb el token retornat per l'API de FamilySearch o se n'esborra el contingut, segons la petició tractada. Un cop processada la informació, s'envia un paràmetre \emph{redirect} cap al navegador, que indica a la capa del controlador a quina pàgina ha de redirigir a l'usuari.
 
-    És mostra a continuació, com a exemple, el processament de la petició POST d'identificació, en la que es configura la galeta \emph{req.session.logged} amb el valor del token de FamilySearch.
+    És mostra a continuació, com a exemple, el processament de la petició POST d'identificació, en la que es configura la galeta \emph{req.session.logged}, amb el valor del token de FamilySearch.
 
     \begin{lstlisting}[style=rawOwn,caption={Resposta a la petició AJAX d'identificació}]
 app.post(`/token/login', function(req, res) {
@@ -145,9 +145,9 @@ app.post(`/token/login', function(req, res) {
     \subsubsection{Validació d'identificació}
 
     \paragraph{}
-    La validació d'identificació és una funció que s'utilitza per comprovar si un usuari disposa dels permisos suficients per visitar les pàgines d'exemples implementats.
+    La validació d'identificació és una funció que s'utilitza per comprovar, si un usuari disposa dels permisos suficients, per visitar les pàgines d'exemples implementats.
 
-    Quan el servidor rep la petició de mostrar la pàgina d'exemples o un exemple en concret, realitza una crida a aquesta funció, que resoldrà si la petició ha de ser processada o no. Aquesta funció (\emph{isAuthenticated}), s'insereix com a \emph{middleware} a la capçalera de les peticions de la forma seguent:
+    Quan el servidor rep la petició de mostrar la pàgina d'exemples o un exemple en concret, realitza una crida a aquesta funció, que resoldrà si la petició ha de ser processada o no. Aquesta funció (\emph{isAuthenticated}), s'insereix com a \emph{middleware}, a la capçalera de les peticions, de la forma seguent:
 
     \begin{lstlisting}[style=rawOwn,caption={Inserció de \emph{middleware} en una petició del client}]
 app.get(`/examples', isAuthenticated, function(req, res) { ... });
@@ -163,7 +163,7 @@ function isAuthenticated(req, res, next) {
     \end{lstlisting}
 
     \paragraph{}
-    Al mateix temps, existeix també la funció \emph{isLogged(req)}, que s’utilitza en les crides d’accés a cada pàgina del domini web per comprovar si l’usuari es troba identificat o no amb FamilySearch i retorna un paràmetre que serà utilitzat per decidir si cal mostrar o no, el botó de desconnexió a la barra de navegació.
+    Al mateix temps, existeix també la funció \emph{isLogged(req)}, que s’utilitza en les crides d’accés a cada pàgina del domini web, per comprovar si l’usuari es troba identificat o no amb FamilySearch i retorna un paràmetre, que serà utilitzat per decidir si cal mostrar o no, el botó de desconnexió a la barra de navegació.
 
     \begin{lstlisting}[style=rawOwn,caption={Funció per decidir si cal mostrar el botó de desconnexió}]
 function isLogged(req) {

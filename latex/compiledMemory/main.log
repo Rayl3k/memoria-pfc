@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.9)  14 SEP 2016 00:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.9)  14 SEP 2016 13:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2304,11 +2304,6 @@ File: images/10/03_applicationWorkingFlow.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/10/03_applicationWorkingFlow.jpg used on input line 9.
 (pdftex.def)             Requested size: 579.97124pt x 194.52824pt.
  [155] [156 <./images/10/03_applicationWorkingFlow.jpg>] [157]) (./sections/10/06_implDetails.tex (./sections/10/06_details/01_intro.tex) (./sections/10/06_details/02_mustache1.tex
-Overfull \hbox (9.59015pt too wide) in paragraph at lines 4--5
-\T1/cmr/m/n/10.95 l'aplicació web segueixen la mateixa es-truc-tura, tal com s'ha ex-posat en l'apartat []10.3.1[]. 
- []
-
-
 Underfull \vbox (badness 5578) has occurred while \output is active []
 
  [158]) (./sections/10/06_details/03_header.tex [159]) (./sections/10/06_details/04_navbar.tex) (./sections/10/06_details/05_pageTitle.tex
@@ -2316,12 +2311,7 @@ Overfull \hbox (2.2269pt too wide) in paragraph at lines 4--5
  [][] \T1/cmr/m/n/10.95 El fitxer \T1/cmr/m/it/10.95 pageTi-tle.html \T1/cmr/m/n/10.95 re-sulta un dels fitx-ers HTML més in-ter-es-sants de l'aplicació.
  []
 
-[160] [161]) (./sections/10/06_details/06_javascripts.tex
-Overfull \hbox (1.76677pt too wide) in paragraph at lines 8--9
-[]\T1/cmr/m/n/10.95 El fitxer car-rega els com-ple-ments jQuery, SDK de Fam-il-y-Search i fitx-ers Javascript
- []
-
-) (./sections/10/06_details/07_index.tex
+[160] [161]) (./sections/10/06_details/06_javascripts.tex) (./sections/10/06_details/07_index.tex
 Underfull \vbox (badness 2057) has occurred while \output is active []
 
  [162] [163]) (./sections/10/06_details/08_background.tex) (./sections/10/06_details/09_thumbnail.tex
@@ -2330,7 +2320,7 @@ Overfull \hbox (17.72496pt too wide) in paragraph at lines 1--1
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4229) has occurred while \output is active []
 
  [164]) (./sections/10/06_details/10_package.tex [165]) (./sections/10/06_details/11_server.tex [166
 
@@ -2725,7 +2715,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  33464 strings out of 493013
  601158 string characters out of 6136994
- 1184269 words of memory out of 5000000
+ 1184271 words of memory out of 5000000
  34030 multiletter control sequences out of 15000+600000
  28530 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2826,7 +2816,7 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist,
 
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfit0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2016/texmf-dist/fon
 ts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on C:\Users\Porras\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.pdf (247 pages, 5573274 bytes).
+Output written on C:\Users\Porras\Documents\GitHub\memoria-pfc\latex\compiledMemory/main.pdf (247 pages, 5573467 bytes).
 PDF statistics:
  3842 PDF objects out of 4296 (max. 8388607)
  3464 compressed objects within 35 object streams

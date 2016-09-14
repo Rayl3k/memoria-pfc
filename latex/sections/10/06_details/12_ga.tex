@@ -1,11 +1,11 @@
 \subsection{El fitxer gaTagging.js: Enviant esdeveniments}
 
     \paragraph{}
-    Aquest fitxer s'encarrega de configurar els esdeveniments generals que seran en\-vi\-ats a Google Analytics, però l'aspecte més interessant que conté, és la funció genèrica que s'invoca per enviar esdeveniments des de qualsevol punt de l'aplicació.
+    Aquest fitxer s'encarrega de configurar els esdeveniments generals, que seran en\-vi\-ats a Google Analytics, però l'aspecte més interessant que conté és la funció genèrica, que s'invoca per enviar esdeveniments des de qualsevol punt de l'aplicació.
 
-    Els esdeveniments de Google Analytics estan formats per quatre paràmetres: \emph{categoria}, \emph{acció}, \emph{etiqueta} i \emph{valor}, on els paràmetres etiqueta i valor són opcionals. El sistema plantejat, ofereix la possibilitat que el paràmetre, \emph{categoria}, sigui omplert automàticament amb el path de la pàgina, que dispara l'esdeveniment, si aquest no és especificat.
+    Els esdeveniments de Google Analytics estan formats per quatre paràmetres: \emph{categoria}, \emph{acció}, \emph{etiqueta} i \emph{valor}, on els paràmetres etiqueta i valor són opcionals. El sistema plantejat, ofereix la possibilitat que el paràmetre \emph{categoria}, sigui omplert automàticament amb el path de la pàgina, que dispara l'esdeveniment, si aquest no és especificat.
 
-    En el bloc de codi que es mostra a continuació, es poden observar dues funcions. La funció, \emph{getCategory}, és l'encarregada d'emplenar el camp \emph{categoria} amb la pàgina i la funció, \emph{sendEvent}, és la funció que s'invoca, de forma centralitzada, per disparar tots els esdeveniments i cridar a la funció \emph{getCategory}, en cas de necessitat.
+    En el bloc de codi que es mostra a continuació, es poden observar dues funcions. La funció, \emph{getCategory} és l'encarregada d'emplenar el camp \emph{categoria} amb la pàgina i la funció, \emph{sendEvent} és la funció que s'invoca, de forma centralitzada, per disparar tots els esdeveniments i cridar a la funció \emph{getCategory}, en cas de necessitat.
 
     \begin{lstlisting}[style=rawOwn,caption={Funcions que controlen l'enviament d'esdeveniments a GA}]
 function getCategory() {
