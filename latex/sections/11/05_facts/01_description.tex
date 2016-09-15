@@ -1,11 +1,11 @@
 \subsection{Descripció de la funcionalitat}
 
 \paragraph{}
-La funcionalitat evolució temporal d'esdeveniments, permet als usuaris explorar el nombre d'instàncies de naixements, casaments i defuncions, enregistrades a les bases de dades de FamilySearch, per un país, al llarg d'un període d'onze anys.
+La funcionalitat evolució temporal d'esdeveniments, permet als usuaris explorar el nombre d'instàncies de naixements, casaments i defuncions, trobades a les bases de dades de FamilySearch, per un país concret, al llarg d'un període d'onze anys.
 
-Aquesta funcionalitat és probablement la més simple de les tres implementades, ja que reutilitza molta part del codi de les funcionalitats anteriors. No obstant això, és també una de les més interessants de cara a les diferents utilitzacions que si li poden donar.
+Aquesta funcionalitat és probablement la més simple de les tres implementades, ja que reutilitza molta part del codi de les funcionalitats anteriors. No obstant això, resulta també una de les més interessants, de cara a les diferents utilitzacions que si li poden donar.
 
-De la mateixa forma que l'evolució geogràfica d'un cognom, utilitza la funció de conveniència del SDK, \emph{getResultsCount()}, per millorar l’eficiència en l’obtenció de resultats i per tant, no entrarem a enumerar els seus avantatge una altre vegada.
+De la mateixa forma que la funcionalitat evolució geogràfica d'un cognom, aquest exemple també utilitza la funció de conveniència del SDK, \emph{getResultsCount()}, per millorar l’eficiència en l’obtenció de resultats. En aquest cas, no entrarem a enumerar els seus avantatge una altre vegada.
 
 La funcionalitat, llançarà un total d’onze crides al SDK, una per cada any de l’interval a considerar.
 
@@ -17,4 +17,4 @@ L'evolució temporal d'esdeveniments, permet a l'usuari configurar els següents
     \item \textbf{Any central:} Any central, del període d’onze anys, pel que es realitzarà la cerca. La funcionalitat genera l’interval +/- 5 anys, respecta l'any introduït. Per exemple, si introduïm l'any 1942, el rang d'anys utilitzat serà 1937-1947, ambdós inclosos.
 \end{itemize}
 
-Un cop el SDK retorna els resultats per totes les consultes enviades, es pinta un gràfic de línies que mostra l'evolució del nombre d'instàncies de \emph{esdeveniment}, trobades al llarg del període seleccionat.
+Un cop el SDK retorna els resultats per totes les consultes enviades, es pinta un gràfic de línies que mostra l'evolució del nombre d'instàncies del \emph{esdeveniment}, trobades al llarg del període seleccionat.
